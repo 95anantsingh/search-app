@@ -1,0 +1,115 @@
+{
+    "python.testing.pytestArgs": [
+        "tests",
+        "-rA"
+    ],
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnboundVariable": "none",
+    },
+    "pylint.args": [
+        // "--max-line-length=80",
+        "--disable=C0413",
+        "--disable=C0111",
+        "--disable=W0719"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "todo-tree.general.debug": true,
+    "todo-tree.general.showActivityBarBadge": true,
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.general.statusBar": "tags",
+    "todo-tree.general.statusBarClickBehaviour": "reveal",
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.tree.groupedByTag": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "FIX",
+        "FIXME",
+        "FIXIT",
+        "HACK",
+        "TODO",
+        "[ ]",
+        "PENDING",
+        "NOTE",
+        "DONE",
+        "[x]",
+        "COMPLETED",
+    ],
+    "todo-tree.general.tagGroups": {
+        "BUG": [
+            "FIXME",
+            "FIXIT",
+            "FIX",
+            "BUG"
+        ],
+        "DONE": [
+            "DONE",
+            "[x]",
+            "COMPLETED"
+        ],
+        "TODO": [
+            "TODO",
+            "[ ]",
+            "PENDING"
+        ]
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "tag",
+        "rulerLane": "right",
+        "rulerOpacity": 90
+    },
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "background": "#ee1100",
+            "foreground": "#ffffff",
+            "icon": "bug",
+            "iconColour": "#ee1100",
+            "type": "line"
+        },
+        "HACK": {
+            "background": "#e85900",
+            "foreground": "#ffffff",
+            "icon": "tools",
+            "iconColour": "#e85900",
+            "type": "line"
+        },
+        "TODO": {
+            "background": "#088cea",
+            "foreground": "#ffffff",
+            "icon": "note",
+            "iconColour": "#088cea",
+            "type": "line"
+        },
+        "DONE": {
+            "background": "#00802bcc",
+            "foreground": "#ffffff",
+            "icon": "check",
+            "iconColour": "#00802b",
+            "type": "line"
+        },
+        "NOTE": {
+            "background": "#8563ff",
+            "foreground": "#ffffff",
+            "icon": "list-unordered",
+            "iconColour": "#8563ff",
+            "type": "line"
+        }
+    },
+    "todo-tree.tree.scanMode": "workspace only",
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "editor.renderControlCharacters": true,
+    "editor.formatOnSave": true,
+    "autoDocstring.docstringFormat": "sphinx",
+    "autoDocstring.includeName": true,
+    "autoDocstring.guessTypes": true,
+    // "editor.rulers": [
+    //     80,
+    //     120
+    // ],
+}
