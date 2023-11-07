@@ -1,0 +1,8 @@
+faiss-cpu
+sentence-transformers
+pandas
+ipykernel
+ipywidgets
+streamlit
+sqlalchemy
+rank-bm25
