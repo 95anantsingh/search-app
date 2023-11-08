@@ -47,7 +47,7 @@ def main() -> None:
     st.set_page_config(
         page_title="Analysis",
         page_icon="📝",
-        layout="wide",
+        layout="centered",
         initial_sidebar_state="expanded",
     )
 

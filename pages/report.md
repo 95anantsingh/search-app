@@ -4,6 +4,7 @@
 </div>
 
 ## Outline
+
 1. [Project Overview](#1-project-overview)
 1. [Problem Statement](#2-problem-statement)
 1. [Approach](#3-approach)
@@ -14,8 +15,8 @@
 
 <br>
 
-
 ## 1. Project Overview
+
 The goal of this project was to build a tool that enables users to intelligently search for offers using text input. The tool is designed to enhance user experience within the Fetch app by providing relevant offers based on the user's search queries.
 
 I approached the project with a strong emphasis on ensuring ease of deployment and scalability as key priorities. In this analysis report, I will detail the approach taken to address the problem, the data used, the preprocessing steps, the models and similarity scoring methods employed, the tool's deployment, and the results achieved.
@@ -68,13 +69,11 @@ The tool offers keyword-based search using the following techniques:
 
     where $TF(t,d)$ is the term frequency of term $t$ in document $d$, $|D|$ is the total number of documents in the collection, and $|\{d \in D:t \in d\}|$ is the number of documents containing the term $t$.
 
-
 - **BM25 (Best Matching 25)**: BM25 is a probabilistic retrieval model that takes into account factors such as term frequency, document length, and collection statistics. It is effective for keyword-based searches and information retrieval.
 
     $$score(D, Q) = \sum_{t \in Q} idf(t) \frac{tf(t, D) \cdot (k_1+1)}{tf(t,D) + k_1 \cdot (1 - b + b \cdot \frac{|D|}{\text{avgdl}})}$$
 
     where $Q$ is the query, $tf(t, D)$ is the term frequency of term $t$ in document $D$, $k_1$ and $b$ are free parameters, and $\text{avgdl}$ is the average document length.
-
 
 #### 3.2.2 Semantic Search
 
@@ -116,7 +115,6 @@ Hybrid search combines BM25 keyword-based search with neural models for enhanced
 
     $$\text{Min-Max Scaling} = \frac{Score - \min(Scores)}{\max(Scores) - \min(Scores)}$$
 
-
 ### 3.3 Scoring
 
 To measure the similarity between user input and offers, I employed two metrics:
@@ -128,7 +126,7 @@ To measure the similarity between user input and offers, I employed two metrics:
     $$\text{Dot Product (A, B)} = \ A \cdot B$$
 
 1. **Cosine Similarity**:
-    - Cosine similarity is a commonly used metric for measuring the similarity between two vectors, and it is particularly effective for text data. It calculates the cosine of the angle between the vectors in a high-dimensional space.
+    <!-- - Cosine similarity is a commonly used metric for measuring the similarity between two vectors, and it is particularly effective for text data. It calculates the cosine of the angle between the vectors in a high-dimensional space. -->
     - Cosine similarity values range from -1 (completely dissimilar) to 1 (completely similar), with 0 indicating orthogonality (no similarity). It's a widely adopted metric for comparing the direction of vectors, making it well-suited for text similarity.
 
     $$\text{Cosine Similarity (A, B)} = \frac{A \cdot B}{\sqrt{A^2} \cdot \sqrt{B^2}}$$
@@ -147,12 +145,12 @@ In order to enhance the user experience and streamline the search results, three
 
 3. **Cluster**: Utilizing K-means clustering, I categorized the results into distinct clusters. For this implementation, two clusters were used, and the top cluster, which contains the most relevant results, was chosen to display to the user. This method helps users quickly identify the most relevant set of offers within the dataset.
 
-
 ### 3.5 Vector Store
 
 Different vector storage techniques were employed for various search approaches:
 
 #### Keyword-Based Search
+
 For the keyword-based search, I utilized the following techniques:
 
 - **TF-IDF**: Vectors representing the data were stored as .npz files, and the vectorizer was serialized and stored as a pickle file.
@@ -160,12 +158,12 @@ For the keyword-based search, I utilized the following techniques:
 - **BM25**: Similar to TF-IDF, the BM25 vectors were stored as pickle files.
 
 #### Semantic Search
+
 For semantic search, I employed a different approach:
 
 - **FAISS**: I implemented semantic search using the FAISS library from Facebook. FAISS is a highly efficient library for similarity search and clustering of dense vectors. It is particularly useful when dealing with high-dimensional data, such as embeddings generated from deep learning models. However, further details about the implementation can be provided as needed.
 
 These vector storage techniques were chosen based on the specific requirements of the search method and the nature of the data, ensuring efficient and accurate retrieval of relevant information.
-
 
 ### 3.6 Preprocessing
 
@@ -179,20 +177,20 @@ Data preprocessing played a pivotal role in cleaning and organizing the datasets
 
 Text preprocessing was applied to the target variable based on the specific search algorithm or model employed. Two primary approaches were considered:
 
-
-##### 3.6.2.1 Keyword-Based Search:
+##### 3.6.2.1 Keyword-Based Search
 
 - **Tokenization**: For keyword-based search, the text underwent tokenization to convert it into individual words and phrases. The following steps were followed for tokenization:
 
-    - Special Character Removal: The input text is processed using a regular expression (re.sub) to substitute any characters that are not alphabets (a-z, A-Z) or digits (0-9) with a space. This step effectively removes special characters, punctuation, and symbols, leaving only letters and numbers.
+  - Special Character Removal: The input text is processed using a regular expression (re.sub) to substitute any characters that are not alphabets (a-z, A-Z) or digits (0-9) with a space. This step effectively removes special characters, punctuation, and symbols, leaving only letters and numbers.
 
-    - Tokenization: The cleaned text is tokenized into individual words and phrases using the word_tokenize function. This step splits the text into a list of tokens, where each token represents a word or phrase.
+  - Tokenization: The cleaned text is tokenized into individual words and phrases using the word_tokenize function. This step splits the text into a list of tokens, where each token represents a word or phrase.
 
-    - Stemming: Stemming is applied to each token to reduce words to their root or base form. The PorterStemmer is used for this purpose. For example, words like "running" and "ran" might both be stemmed to "run."
+  - Stemming: Stemming is applied to each token to reduce words to their root or base form. The PorterStemmer is used for this purpose. For example, words like "running" and "ran" might both be stemmed to "run."
 
-    - Stop Word Removal: Common English stop words, such as "the," "and," "is," etc., are removed from the list of tokens. This step helps eliminate words that typically do not carry significant meaning in text analysis.
+  - Stop Word Removal: Common English stop words, such as "the," "and," "is," etc., are removed from the list of tokens. This step helps eliminate words that typically do not carry significant meaning in text analysis.
 
-    - Code:
+  - Code:
+
     ```python
     def tokenize(self, text: str):
         text = re.sub(r"[^a-zA-Z0-9\s]", " ", text)
@@ -203,8 +201,7 @@ Text preprocessing was applied to the target variable based on the specific sear
         return tokens
     ```
 
-
-##### 3.6.1.2 Semantic Search:
+##### 3.6.1.2 Semantic Search
 
 - **Tokenization**: For semantic search, the target variable was tokenized using a model-specific tokenizer. The exact steps and tokenization strategy depended on the specific NLP model chosen for the task. This process is model-specific and may involve techniques like sentence tokenization and embedding-based approaches.
 
@@ -227,13 +224,13 @@ The evaluation of the tool's performance was conducted using the NDCG (Normalize
 $$NDCG@20 = \frac{1}{Z} \sum_{i=1}^{20} \frac{2^{rel_i} - 1}{\log_2(i+1)}$$
 
 Where:
+
 - $NDCG@k$ is the NDCG score at a specific rank $k$.
 - $rel_i$ is the relevance score of the item at rank $i$.
 - $Z$ is a normalization factor to ensure values are between 0 and 1.
 - $\log_2$ is the base-2 logarithm.
 
 The NDCG metric takes into account the position of relevant results in the ranked list and assigns higher scores to relevant results appearing at the top of the list. This means that results highly relevant to a query receive higher scores, contributing to a more accurate assessment of the tool's performance.
-
 
 ## 4. App
 
@@ -257,10 +254,9 @@ The Streamlit app offers several important features that facilitate the user's s
 
 - **Filtering Strategy**: Users can select from different filtering strategies, such as top-k, threshold, and cluster, to control the number and type of results displayed. These filtering options help users fine-tune their search results to align with their preferences.
 
-
 ## 5. Results
-In this section, I present the results of my analysis, including performance metrics and examples of successful searches.
 
+In this section, I present the results of my analysis, including performance metrics and examples of successful searches.
 
 ### 5.1 Keyword-Based Search
 
@@ -281,6 +277,7 @@ In this section, I present the results of my analysis, including performance met
 <br>
 
 ### 5.2 Symantic Search
+
 I evaluated different models for semantic search and their corresponding similarity scores are shown below.
 
 | Model                         | Dot Product   | Cosine Similarity |
@@ -298,6 +295,7 @@ I evaluated different models for semantic search and their corresponding similar
 <br>
 
 ### 5.3 Hybrid Search
+
 I evaluated the results of Hybrid Search by combining neural models with the BM25 model. The best-performing model was **msmarco-distilbert-base-tas-b**.
 
 | Mean Type          | Norm Type    | Score Type           | Score   |
@@ -343,6 +341,7 @@ To address this limitation, I started experimenting with language models, as the
 <br>
 
 ### 6.1 Conclusions
+
 After extensive experimentation and evaluation, the following conclusions were drawn:
 
 - Neural retrievers combined with BM25 demonstrate the best overall performance.
@@ -352,13 +351,13 @@ After extensive experimentation and evaluation, the following conclusions were d
 - Normalizing the scores had a detrimental effect on performance, indicating that certain models inherently possess different weights or importance.
 - The choice of scoring type proved crucial, with some models performing optimally with the scoring method they were initially trained on.
 
-
 <br>
 
 ## 7. Improvement Scope
+
 While the tool demonstrates strong performance, there are areas for improvement:
 
--  **Reranking**: The incorporation of a reranking model after the retrieval model could further refine the relevance of search results.
+- **Reranking**: The incorporation of a reranking model after the retrieval model could further refine the relevance of search results.
 
 - **Fine-tuning**: Fine-tuning the retrieval model presents an opportunity to improve performance. The tool can become more adept at providing highly relevant search results.
 
