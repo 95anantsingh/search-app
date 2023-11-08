@@ -1,18 +1,25 @@
-# Analysis Report
-
-<hr>
+<div align="center">
+    <div style="font-size:3rem; font-weight:600">Report</div>
+    <div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 2rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div>
+</div>
 
 ## Outline
 1. [Project Overview](#1-project-overview)
+1. [Problem Statement](#2-problem-statement)
+1. [Approach](#3-approach)
+1. [App](#4-app)
+1. [Results](#5-results)
+1. [Discussion](#6-discussion)
+1. [Improvement Scope](#7-improvement-scope)
 
-<hr>
+<br>
 
 ## 1. Project Overview
 The goal of this project was to build a tool that enables users to intelligently search for offers using text input. The tool is designed to enhance user experience within the Fetch app by providing relevant offers based on the user's search queries.
 
 I approached the project with a strong emphasis on ensuring ease of deployment and scalability as key priorities. In this analysis report, I will detail the approach taken to address the problem, the data used, the preprocessing steps, the models and similarity scoring methods employed, the tool's deployment, and the results achieved.
 
-<hr>
+<br>
 
 ## 2. Problem Statement
 
@@ -28,27 +35,27 @@ The primary objective of this project is to develop a text-based search tool tha
 
 The success of this project is contingent on the tool's ability to accurately identify and retrieve relevant offers, brands, and retailers based on user text input. Additionally, the similarity scores provided should assist users in quickly assessing the relevance of each returned offer.
 
-<hr>
+<br>
 
 ## 3. Approach
 
 In this section, I will outline my approach to solving the problem of enabling users to intelligently search for offers via text input, considering categories, brands, and retailers.
 
-### Data
+### 3.1 Data
 
 For this task, I had access to three essential datasets:
 
-1. **brand_category.csv**: This dataset consists of a mapping of brands to their respective categories, along with the number of receipts associated with each brand and category. In total, we were provided with 9,907 brand-category relationships.
+1. **brand_category.csv**: This dataset consists of a mapping of brands to their respective categories, along with the number of receipts associated with each brand and category. In total, I was provided with 9,907 brand-category relationships.
 
 2. **categories.csv**: This dataset provides information about categories and their relationships to super categories. There were 119 category-super category relationships provided.
 
-3. **offer_retailer.csv**: This dataset contains information about various offers, including details about the associated brands and retailers. In total, we had access to 385 offers in this dataset.
+3. **offer_retailer.csv**: This dataset contains information about various offers, including details about the associated brands and retailers. In total, I had access to 385 offers in this dataset.
 
-### Model and Algorithm
+### 3.2 Model and Algorithm
 
 Different search methods and models were tested to achieve highest possible performance. The tool employs three distinct search methods to enhance the user's search experience:
 
-#### 1. Keyword-Based Search
+#### 3.2.1 Keyword-Based Search
 
 The tool offers keyword-based search using the following techniques:
 
@@ -56,7 +63,7 @@ The tool offers keyword-based search using the following techniques:
 
 - **BM25 (Best Matching 25)**: BM25 is a probabilistic retrieval model that takes into account factors such as term frequency, document length, and collection statistics. It is effective for keyword-based searches and information retrieval.
 
-#### 2. Semantic Search
+#### 3.2.2 Semantic Search
 
 Semantic search is supported through the utilization of various pre-trained models:
 
@@ -78,7 +85,7 @@ Semantic search is supported through the utilization of various pre-trained mode
 
 - **msmarco-distilbert-base-tas-b**: Specializing in textual entailment and semantic similarity, this model is ideal for precise matching of user queries to relevant offers.
 
-#### 3. Hybrid Search
+#### 3.2.3 Hybrid Search
 
 Hybrid search combines BM25 keyword-based search with neural models for enhanced performance. It involves combining scores from both approaches using different strategies:
 
@@ -87,7 +94,7 @@ Hybrid search combines BM25 keyword-based search with neural models for enhanced
 - **Normalization**: Individual model scores are first normalized as they may be on different scales, and then they are combined using L2 Norm and Min-Max Scaling.
 
 
-### Scoring
+### 3.3 Scoring
 
 To measure the similarity between user input and offers, I employed two metrics:
 
@@ -103,7 +110,7 @@ Both of these similarity metrics were used to evaluate the resemblance between t
 
 However, it's important to note that for BM25, these scoring metrics do not apply, as BM25 employs its own scoring mechanism. In the case of TF-IDF (Term Frequency-Inverse Document Frequency), I have used the Dot Product as the scoring metric to evaluate relevance.
 
-### Filter Strategy
+### 3.4 Filter Strategy
 
 In order to enhance the user experience and streamline the search results, three distinct result filtering strategies were implemented:
 
@@ -114,39 +121,39 @@ In order to enhance the user experience and streamline the search results, three
 3. **Cluster**: Utilizing K-means clustering, I categorized the results into distinct clusters. For this implementation, two clusters were used, and the top cluster, which contains the most relevant results, was chosen to display to the user. This method helps users quickly identify the most relevant set of offers within the dataset.
 
 
-### Vector Store
+### 3.5 Vector Store
 
 Different vector storage techniques were employed for various search approaches:
 
 #### Keyword-Based Search
-For the keyword-based search, we utilized the following techniques:
+For the keyword-based search, I utilized the following techniques:
 
 - **TF-IDF**: Vectors representing the data were stored as .npz files, and the vectorizer was serialized and stored as a pickle file.
 
 - **BM25**: Similar to TF-IDF, the BM25 vectors were stored as pickle files.
 
 #### Semantic Search
-For semantic search, we employed a different approach:
+For semantic search, I employed a different approach:
 
-- **FAISS**: We implemented semantic search using the FAISS library from Facebook. FAISS is a highly efficient library for similarity search and clustering of dense vectors. It is particularly useful when dealing with high-dimensional data, such as embeddings generated from deep learning models. However, further details about the implementation can be provided as needed.
+- **FAISS**: I implemented semantic search using the FAISS library from Facebook. FAISS is a highly efficient library for similarity search and clustering of dense vectors. It is particularly useful when dealing with high-dimensional data, such as embeddings generated from deep learning models. However, further details about the implementation can be provided as needed.
 
 These vector storage techniques were chosen based on the specific requirements of the search method and the nature of the data, ensuring efficient and accurate retrieval of relevant information.
 
 
-### Preprocessing
+### 3.6 Preprocessing
 
 Data preprocessing played a pivotal role in cleaning and organizing the datasets for effective analysis and modeling. The following steps were taken to preprocess the data:
 
-#### Data Preprocessing
+#### 3.6.1 Data Preprocessing
 
-- **Data Integration**: We merged the three datasets provided into a unified dataset to simplify subsequent analysis. This integrated dataset includes information related to offers, retailers, brands, categories, super categories, and a target variable used for modeling. The target variable was constructed by combining data from columns such as Offer, Retailer, Brand, Categories, and Super Categories. To ensure efficient data retrieval, this dataset was stored in a SQLite database. It's worth noting that for scalability, an alternative to SQLite, such as MySQL, can be seamlessly integrated by updating the database connection URL in the code.
+- **Data Integration**: I merged the three datasets provided into a unified dataset to simplify subsequent analysis. This integrated dataset includes information related to offers, retailers, brands, categories, super categories, and a target variable used for modeling. The target variable was constructed by combining data from columns such as Offer, Retailer, Brand, Categories, and Super Categories. To ensure efficient data retrieval, this dataset was stored in a SQLite database. It's worth noting that for scalability, an alternative to SQLite, such as MySQL, can be seamlessly integrated by updating the database connection URL in the code.
 
-#### Text Preprocessing
+#### 3.6.2 Text Preprocessing
 
 Text preprocessing was applied to the target variable based on the specific search algorithm or model employed. Two primary approaches were considered:
 
 
-##### Keyword-Based Search:
+##### 3.6.2.1 Keyword-Based Search:
 
 - **Tokenization**: For keyword-based search, the text underwent tokenization to convert it into individual words and phrases. The following steps were followed for tokenization:
 
@@ -170,17 +177,15 @@ Text preprocessing was applied to the target variable based on the specific sear
     ```
 
 
-##### Semantic Search:
+##### 3.6.1.2 Semantic Search:
 
 - **Tokenization**: For semantic search, the target variable was tokenized using a model-specific tokenizer. The exact steps and tokenization strategy depended on the specific NLP model chosen for the task. This process is model-specific and may involve techniques like sentence tokenization and embedding-based approaches.
 
-<hr>
+<br>
 
-#### Evaluation
+### 3.7 Evaluation
 
-## Evaluation
-
-### Synthetic Data Generation
+#### 3.7.1 Synthetic Data Generation
 
 To assess the performance of the tool, a set of synthetic queries was generated for evaluation purposes. The process of synthetic data generation involved creating a collection of retailers, brands, categories, and super categories. This set served as the foundation for generating natural language queries.
 
@@ -188,18 +193,18 @@ The generation of synthetic queries was executed using OpenAI's GPT-3.5 Turbo mo
 
 A total of 3,333 synthetic queries were created, comprising a diverse range of terms, categories, and brands to evaluate the tool's effectiveness and accuracy.
 
-### Metric
+#### 3.7.2 Metric
 
 The evaluation of the tool's performance was conducted using the NDCG (Normalized Discounted Cumulative Gain) metric. NDCG is a metric commonly used to assess the quality of ranked search results, especially in information retrieval tasks. It provides a measure of how well the tool's ranking aligns with the relevance of the search results. Only Top 20 scores were considered to calculate the scores.
 
 The NDCG metric takes into account the position of relevant results in the ranked list and assigns higher scores to relevant results appearing at the top of the list. This means that results highly relevant to a query receive higher scores, contributing to a more accurate assessment of the tool's performance.
 
 
-## 4. Tool Deployment
+## 4. App
 
-For the deployment of our tool, we developed a user-friendly web application using the Streamlit framework. This application provides an accessible interface for users to interact with the search functionality and retrieve relevant offers based on their text queries. The Streamlit app is designed to enhance the user experience and ensure that users can easily access the features and results of the tool.
+For the deployment of the app, I developed a user-friendly web application using the Streamlit framework. This application provides an accessible interface for users to interact with the search functionality and retrieve relevant offers based on their text queries. The Streamlit app is designed to enhance the user experience and ensure that users can easily access the features and results of the tool.
 
-### Key Features of the App
+### 4.1 Key Features of the App
 
 The Streamlit app offers several important features that facilitate the user's search experience:
 
@@ -219,15 +224,29 @@ The Streamlit app offers several important features that facilitate the user's s
 
 
 ## 5. Results
-Present the results of your analysis, including performance metrics and examples of successful searches. If you have any visualizations or tables, include them here.
+In this section, I present the results of my analysis, including performance metrics and examples of successful searches.
 
-### Keyword-Based Search
 
-#### TFIDF
+### 5.1 Keyword-Based Search
 
-#### BM25
+#### 5.1.1 TFIDF
 
-### Symantic Search
+| Model                         | Dot Product   |
+|-------------------------------|---------------|
+| TF-IDF                        | 0.9114        |
+
+<br>
+
+#### 5.1.2 BM25
+
+| Model                         | Score   |
+|-------------------------------|---------------|
+| BM25                          | 0.9027        |
+
+<br>
+
+### 5.2 Symantic Search
+I evaluated different models for semantic search and their corresponding similarity scores are shown below.
 
 | Model                         | Dot Product   | Cosine Similarity |
 |-------------------------------|---------------|-------------------|
@@ -243,12 +262,12 @@ Present the results of your analysis, including performance metrics and examples
 
 <br>
 
-### Hybrid Search
-Results were evaluted for all neural models with BM25 model. The best model was **msmarco-distilbert-base-tas-b**.
+### 5.3 Hybrid Search
+I evaluated the results of Hybrid Search by combining neural models with the BM25 model. The best-performing model was **msmarco-distilbert-base-tas-b**.
 
 | Mean Type          | Norm Type    | Score Type           | Score   |
-|-------------------|--------------|----------------------|---------|
-| Arithmetic         | None         | Dot Product          | **0.9444**  |
+|--------------------|--------------|----------------------|---------|
+| **Arithmetic**     | **None**     | **Dot Product**      | **0.9444**  |
 | Arithmetic         | None         | Cosine Similarity    | 0.9384  |
 | Arithmetic         | L2           | Dot Product          | 0.9397  |
 | Arithmetic         | L2           | Cosine Similarity    | 0.9384  |
@@ -267,38 +286,52 @@ Results were evaluted for all neural models with BM25 model. The best model was 
 | Harmonic           | Min-Max      | Dot Product          | 0.9127  |
 | Harmonic           | Min-Max      | Cosine Similarity    | 0.9054  |
 
-
-<hr>
+<br>
 
 ## 6. Discussion
-Discuss the strengths and weaknesses of your approach. Mention any challenges you encountered during the project and how you overcame them. Discuss the trade-offs you considered when designing the tool.
 
-<hr>
+I began by conducting thorough research on the Search and Retrieval problem. I initially implemented the TF-IDF model and subsequently progressed to the more advanced BM25 model. However, these models have inherent limitations as they primarily rely on keywords and may not fully capture the nuances of natural language. For example -
 
-## 7. Conclusion
-Summarize the key findings and the impact of your work. Discuss how well the tool meets the acceptance criteria.
+<br>
 
-<hr>
+![typo](images/typo.png)
 
-## 8. Future Work
-Suggest possible improvements or future work that could enhance the tool's capabilities or address limitations.
+<br>
 
-<hr>
+To address this limitation, I started experimenting with language models, as they excel in understanding semantics. Both search methods, keyword-based and semantic, offer unique strengths, prompting the exploration of a solution that combines their capabilities.
 
-## 9. Repository and Deployment Links
-Provide links to your GitHub repository containing the code and any hosted version of your tool (if applicable).
+<br>
 
-<hr>
+![typo](images/correct.png)
+![Alt text](image.png)
 
-## 10. Running the Tool Locally (if applicable)
-If your tool can be run locally, provide instructions on how to set it up and use it. Include any dependencies and configurations required.
+<br>
 
-<hr>
+### 6.1 Conclusions
+After extensive experimentation and evaluation, the following conclusions were drawn:
 
-## 11. Acknowledgments
-If you used external libraries, datasets, or other resources, acknowledge them here.
+- Neural retrievers combined with BM25 demonstrate the best overall performance.
+- When a query consists solely of keywords, BM25 and TF-IDF tend to outperform neural retrievers.
+- Queries that contain natural language and potentially include typos are better served by neural retrievers over BM25 and TF-IDF.
+- The optimal combination method for the search models was found to be arithmetic, which yielded the best results.
+- Normalizing the scores had a detrimental effect on performance, indicating that certain models inherently possess different weights or importance.
+- The choice of scoring type proved crucial, with some models performing optimally with the scoring method they were initially trained on.
 
-<hr>
 
-## 12. References
-List any references, research papers, or articles that you found useful during the project.
+
+<br>
+
+## 7. Improvement Scope
+While the tool demonstrates strong performance, there are areas for improvement:
+
+-  **Reranking**: The incorporation of a reranking model after the retrieval model could further refine the relevance of search results.
+
+- **Fine-tuning**: Fine-tuning the retrieval model presents an opportunity to improve performance. The tool can become more adept at providing highly relevant search results.
+
+- **Query Database Expansion**: Expanding the query database with a more extensive collection of synthetic or real queries can be instrumental in fine-tuning the models. A diverse set of queries provides the model with a broader understanding of user intent and can result in more accurate and context-aware search outcomes.
+
+- **Role Labeling and Advanced NLP**: Exploring advanced NLP techniques, such as semantic role labeling, offers the potential to enhance the tool's comprehension of user queries. By identifying the roles and relationships of words within a query, the tool can better understand the user's intent and deliver more precise results.
+
+- **API Deployment**: Implementing FastAPI-style modules to swiftly establish an API for the search functionality. The codebase has been structured to facilitate API development, providing users with a flexible and accessible means of integrating the search tool into their applications.
+
+- **Database and Scalability**: Exploring alternative databases or data storage solutions is crucial for ensuring scalability. Adapting the tool to handle larger volumes of data efficiently is essential for accommodating growing user demands and data requirements.

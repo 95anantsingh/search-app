@@ -142,7 +142,9 @@ def main():
     ####################
     # Main Content
     ####################
-    st.header("Offer Search", divider="blue")
+
+    st.markdown('<div align="center"><div style="font-size:3rem; font-weight:600">Offer Search App</div><div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 2rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div></div>',unsafe_allow_html=True)
+
     query = st.text_input(
         "Search", placeholder="Type to search offers", label_visibility="collapsed"
     )
@@ -198,10 +200,5 @@ def main():
             else:
                 st.error("No resuls found")
 
-
 if __name__ == "__main__":
-    # import nltk
-
-    # nltk.download("punkt")
-    # nltk.download("stopwords")
     main()

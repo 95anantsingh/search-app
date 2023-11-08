@@ -1,6 +1,9 @@
 <div align="center">
+    <div style="font-size:3rem; font-weight:600">Offer Search App</div>
+    <div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 0.7rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div>
+</div>
 
-# <b>Search App</b>
+<div align="center">
 
 [![LICENSE](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/95anantsingh/NYU-SuperGAN/blob/integrated/LICENSE) [![PYTHON](https://img.shields.io/badge/python-v3.10-yellow.svg)]() [![PYTORCH](https://img.shields.io/badge/PyTorch-v2.1.0-red.svg)](https://pytorch.org/)
 
@@ -8,20 +11,17 @@
 
 <br>
 
-## :wrench: Dependencies and Setup
-
-### 📃 Dependencies
+## 📃 Dependencies
 - [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Python = 3.10
 - [PyTorch = 2.1.0](https://pytorch.org/)
 - More in [requirements.txt](requirements.txt)
 
-<br>
-
 > Ideal setup requires a Graphic Card
 
+<br>
 
-### ⚙ Installation
+## 🛠 Installation
 
 1. Clone repo
 
@@ -44,7 +44,7 @@
 
 <br>
 
-## :zap: Run App
+## ⚡ Run App
 
 
 ```bash
@@ -55,12 +55,12 @@ streamlit run 🔍_Search.py
 
 Now search for offers with options on the left to see results.
 
-![Demo](pages/demo.gif)
+![Demo](pages/images/demo.gif)
 
 
 <br>
 
-## :file_folder: Project Structure
+## 📁 Project Structure
 
 | Folder Name                   | Description                            |
 |----------------------         |----------------------------------------|
@@ -101,12 +101,12 @@ Now search for offers with options on the left to see results.
 
 <br>
 
-## :blue_book: Report
+## 📘 Report
 
 Project report can be found [here](pages/report.md) or you can find it in the app as well.
+
 <br>
 
-
-## :e-mail: Contact
+## 📧 Contact
 
 If you have any question, please email `anant.singh@nyu.edu`
