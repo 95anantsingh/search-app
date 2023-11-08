@@ -14,6 +14,7 @@
 
 <br>
 
+
 ## 1. Project Overview
 The goal of this project was to build a tool that enables users to intelligently search for offers using text input. The tool is designed to enhance user experience within the Fetch app by providing relevant offers based on the user's search queries.
 
@@ -61,7 +62,19 @@ The tool offers keyword-based search using the following techniques:
 
 - **TF-IDF (Term Frequency-Inverse Document Frequency)**: This method assesses the relevance of a keyword within an offer by considering its frequency within the offer text and its rarity across all offers. It's a traditional and widely-used information retrieval technique.
 
+    $$IDF(t,D) = log\frac{|D|}{|\{d \in D:t \in d\}|}$$
+
+    $$TF\text{-}IDF(t,d,D) = TF(t,d) \cdot IDF(t,D)$$
+
+    where $TF(t,d)$ is the term frequency of term $t$ in document $d$, $|D|$ is the total number of documents in the collection, and $|\{d \in D:t \in d\}|$ is the number of documents containing the term $t$.
+
+
 - **BM25 (Best Matching 25)**: BM25 is a probabilistic retrieval model that takes into account factors such as term frequency, document length, and collection statistics. It is effective for keyword-based searches and information retrieval.
+
+    $$score(D, Q) = \sum_{t \in Q} idf(t) \frac{tf(t, D) \cdot (k_1+1)}{tf(t,D) + k_1 \cdot (1 - b + b \cdot \frac{|D|}{\text{avgdl}})}$$
+
+    where $Q$ is the query, $tf(t, D)$ is the term frequency of term $t$ in document $D$, $k_1$ and $b$ are free parameters, and $\text{avgdl}$ is the average document length.
+
 
 #### 3.2.2 Semantic Search
 
@@ -91,7 +104,17 @@ Hybrid search combines BM25 keyword-based search with neural models for enhanced
 
 - **Combination Strategies**: Scores from both models are combined using arithmetical mean, geometric mean, and harmonic mean.
 
+    $$\text{Arithmetic Mean} = \frac{BM25Score + NeuralScore}{2}$$
+
+    $$\text{Geometric Mean} = \sqrt[2]{(BM25Score \cdot NeuralScore)}$$
+
+    $$\text{Harmonic Mean} = \frac{2}{\frac{1}{BM25Score} + \frac{1}{NeuralScore}}$$
+
 - **Normalization**: Individual model scores are first normalized as they may be on different scales, and then they are combined using L2 Norm and Min-Max Scaling.
+
+    $$\text{L2 Norm} = \sqrt{Score^2}$$
+
+    $$\text{Min-Max Scaling} = \frac{Score - \min(Scores)}{\max(Scores) - \min(Scores)}$$
 
 
 ### 3.3 Scoring
@@ -102,9 +125,13 @@ To measure the similarity between user input and offers, I employed two metrics:
     - The dot product is a straightforward metric that measures the similarity between two vectors by taking the sum of the products of their corresponding elements. In our case, these vectors represent the text embeddings of user input and offers.
     - Higher dot product values indicate greater similarity, as it quantifies the extent to which the vectors point in the same direction.
 
+    $$\text{Dot Product (A, B)} = \ A \cdot B$$
+
 1. **Cosine Similarity**:
     - Cosine similarity is a commonly used metric for measuring the similarity between two vectors, and it is particularly effective for text data. It calculates the cosine of the angle between the vectors in a high-dimensional space.
     - Cosine similarity values range from -1 (completely dissimilar) to 1 (completely similar), with 0 indicating orthogonality (no similarity). It's a widely adopted metric for comparing the direction of vectors, making it well-suited for text similarity.
+
+    $$\text{Cosine Similarity (A, B)} = \frac{A \cdot B}{\sqrt{A^2} \cdot \sqrt{B^2}}$$
 
 Both of these similarity metrics were used to evaluate the resemblance between the user's input and the offers. The higher the similarity score, the more relevant the offer is to the user's query.
 
@@ -196,6 +223,14 @@ A total of 3,333 synthetic queries were created, comprising a diverse range of t
 #### 3.7.2 Metric
 
 The evaluation of the tool's performance was conducted using the NDCG (Normalized Discounted Cumulative Gain) metric. NDCG is a metric commonly used to assess the quality of ranked search results, especially in information retrieval tasks. It provides a measure of how well the tool's ranking aligns with the relevance of the search results. Only Top 20 scores were considered to calculate the scores.
+
+$$NDCG@20 = \frac{1}{Z} \sum_{i=1}^{20} \frac{2^{rel_i} - 1}{\log_2(i+1)}$$
+
+Where:
+- $NDCG@k$ is the NDCG score at a specific rank $k$.
+- $rel_i$ is the relevance score of the item at rank $i$.
+- $Z$ is a normalization factor to ensure values are between 0 and 1.
+- $\log_2$ is the base-2 logarithm.
 
 The NDCG metric takes into account the position of relevant results in the ranked list and assigns higher scores to relevant results appearing at the top of the list. This means that results highly relevant to a query receive higher scores, contributing to a more accurate assessment of the tool's performance.
 
@@ -302,9 +337,9 @@ To address this limitation, I started experimenting with language models, as the
 
 <br>
 
-![typo](images/correct.png)
-![Alt text](image.png)
+![correct](images/correct.png)
 
+<br>
 <br>
 
 ### 6.1 Conclusions
@@ -316,7 +351,6 @@ After extensive experimentation and evaluation, the following conclusions were d
 - The optimal combination method for the search models was found to be arithmetic, which yielded the best results.
 - Normalizing the scores had a detrimental effect on performance, indicating that certain models inherently possess different weights or importance.
 - The choice of scoring type proved crucial, with some models performing optimally with the scoring method they were initially trained on.
-
 
 
 <br>

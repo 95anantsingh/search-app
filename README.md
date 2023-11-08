@@ -15,7 +15,7 @@
 - [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Python = 3.10
 - [PyTorch = 2.1.0](https://pytorch.org/)
-- More in [requirements.txt](requirements.txt)
+- More in [requirements.txt](https://github.com/95anantsingh/search-app/blob/main/requirements.txt)
 
 > Ideal setup requires a Graphic Card
 
@@ -27,7 +27,6 @@
 
     ```bash
     git clone https://github.com/95anantsingh/search-app.git
-    cd NYU-SuperGAN
     ```
 
 1. Create conda environment
@@ -57,6 +56,11 @@ Now search for offers with options on the left to see results.
 
 ![Demo](pages/images/demo.gif)
 
+<br>
+
+## 📘 Report
+
+Project report can be found [here](https://github.com/95anantsingh/search-app/blob/main/pages/report.md) or you can find it in the app as well.
 
 <br>
 
@@ -97,13 +101,6 @@ Now search for offers with options on the left to see results.
 | env.yml                       | Environment configuration file         |
 | README.md                     | Repository README file                 |
 | requirements.txt              | Python package requirements             |
-
-
-<br>
-
-## 📘 Report
-
-Project report can be found [here](pages/report.md) or you can find it in the app as well.
 
 <br>
 
