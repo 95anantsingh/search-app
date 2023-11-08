@@ -121,7 +121,7 @@ def main():
                     thresh = st.slider(
                         "Value",
                         min_value=0.0,
-                        max_value=1.0,
+                        max_value=4.0,
                         value=0.55,
                         step=0.01,
                         label_visibility="collapsed",
