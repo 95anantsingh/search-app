@@ -12,11 +12,10 @@ from .offers_db import OfferDBSession
 
 
 class BM25Search(BaseSearch):
-
     def __init__(
         self,
         session: OfferDBSession | None = None,
-        cache: str = "models/bm25",
+        cache: str = "vectors/bm25",
     ) -> None:
         self._session = session if session else OfferDBSession()
         self.model_cache = os.path.join(cache, "model.pickle")

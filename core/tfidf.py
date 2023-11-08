@@ -17,7 +17,7 @@ class TFIDFSearch(BaseSearch):
     def __init__(
         self,
         session: OfferDBSession | None = None,
-        cache: str = "models/tfidf",
+        cache: str = "vectors/tfidf",
     ) -> None:
         self._session = session if session else OfferDBSession()
         self.matrix_cache = os.path.join(cache, "matrix.npz")

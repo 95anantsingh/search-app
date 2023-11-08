@@ -49,28 +49,33 @@ class HybridSearch(BaseSearch):
         neural_scores.rename(columns={"SCORE": "NEURAL_SCORE"}, inplace=True)
         scores = bm25_scores.merge(neural_scores, on="index", how="left")
 
-        if norm_type:
-            match norm_type:
-                case "L2":
-                    scores["BM25_SCORE"] = l2_norm(
-                        scores[["BM25_SCORE"]], norm="l2", axis=0
-                    )
-                    scores["NEURAL_SCORE"] = l2_norm(
-                        scores[["NEURAL_SCORE"]], norm="l2", axis=0
-                    )
-                case "Min-Max":
-                    scaler = MinMaxScaler()
-                    scores["BM25_SCORE"] = scaler.fit_transform(scores[["BM25_SCORE"]])
-                    scores["NEURAL_SCORE"] = scaler.fit_transform(
-                        scores[["NEURAL_SCORE"]]
-                    )
+
+        match norm_type:
+            case "L2":
+                scores["BM25_SCORE"] = l2_norm(
+                    scores[["BM25_SCORE"]], norm="l2", axis=0
+                )
+                scores["NEURAL_SCORE"] = l2_norm(
+                    scores[["NEURAL_SCORE"]], norm="l2", axis=0
+                )
+            case "Min-Max":
+                scaler = MinMaxScaler()
+                scores["BM25_SCORE"] = scaler.fit_transform(scores[["BM25_SCORE"]])
+                scores["NEURAL_SCORE"] = scaler.fit_transform(
+                    scores[["NEURAL_SCORE"]]
+                )
+
 
         match mean_type:
             case "Arithmetic":
                 scores["SCORE"] = (scores["BM25_SCORE"] + scores["NEURAL_SCORE"]) / 2
             case "Geometric":
+                if not norm_type or norm_type=='L2':
+                    scores['NEURAL_SCORE'] = scores['NEURAL_SCORE'].clip(lower=0)
                 scores["SCORE"] = gmean(scores[["BM25_SCORE", "NEURAL_SCORE"]], axis=1)
             case "Harmonic":
+                if not norm_type or norm_type=='L2':
+                    scores['NEURAL_SCORE'] = scores['NEURAL_SCORE'].clip(lower=0)
                 scores["SCORE"] = hmean(scores[["BM25_SCORE", "NEURAL_SCORE"]], axis=1)
 
         results = DataFrame.from_dict({"SCORE": scores["SCORE"]})

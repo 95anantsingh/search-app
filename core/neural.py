@@ -8,17 +8,23 @@ from .base_search import BaseSearch
 from .offers_db import OfferDBSession
 
 
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+if torch.backends.mps.is_available():
+    DEVICE = torch.device("mps")
+elif torch.cuda.is_available():
+    DEVICE = torch.device("cuda")
+else:
+    DEVICE = torch.device("cpu")
+
 RETRIVAL_MODELS = [
+    "msmarco-distilbert-base-tas-b",
+    "msmarco-distilbert-base-v4",
+    "msmarco-MiniLM-L-6-v3",
+    "msmarco-MiniLM-L-12-v3",
     "BAAI/bge-base-en-v1.5",
     "thenlper/gte-large",
     "llmrails/ember-v1",
     "thenlper/gte-base",
     "all-distilroberta-v1",
-    "msmarco-distilbert-base-v4",
-    "msmarco-MiniLM-L-6-v3",
-    "msmarco-MiniLM-L-12-v3",
-    "msmarco-distilbert-base-tas-b",
 ]
 
 SCORE_TYPES = ["Dot Product", "Cosine Similarity"]
@@ -30,7 +36,7 @@ class NeuralSearch(BaseSearch):
         model: str = RETRIVAL_MODELS[0],
         score_type: str = SCORE_TYPES[0],
         session: OfferDBSession | None = None,
-        cache: str = "models/neural",
+        cache: str = "vectors/neural",
     ) -> None:
         self.cache = cache
         self._session = session if session else OfferDBSession()
@@ -67,7 +73,7 @@ class NeuralSearch(BaseSearch):
     def create_index(self):
         targets = self.session.get_targets()
         embeddings = self.model.encode(targets)
-        if self.score_type == 'Cosine Similarity':
+        if self.score_type == "Cosine Similarity":
             faiss.normalize_L2(embeddings)
         index = faiss.IndexFlatL2(embeddings.shape[1])
         index.metric_type = faiss.METRIC_INNER_PRODUCT
@@ -80,7 +86,7 @@ class NeuralSearch(BaseSearch):
     def get_scores(self, query: str) -> DataFrame:
         # Calculate the embedding
         embedding = self.model.encode(query.lower()).reshape(1, -1)
-        if self.score_type == 'Cosine Similarity':
+        if self.score_type == "Cosine Similarity":
             faiss.normalize_L2(embedding)
         # Calculate similarity between user input and each offer
         scores, indices = self.index.search(embedding, self.index.ntotal)
