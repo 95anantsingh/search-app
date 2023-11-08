@@ -31,6 +31,29 @@ SCORE_TYPES = ["Dot Product", "Cosine Similarity"]
 
 
 class NeuralSearch(BaseSearch):
+    """
+    A class for implementing neural search using pre-trained sentence embeddings.
+
+    Args:
+    - model (str, optional): The name or identifier of the retrieval model to use. Defaults to the first model in RETRIVAL_MODELS.
+    - score_type (str, optional): The type of similarity scoring to use. Defaults to "Dot Product".
+    - session (OfferDBSession, optional): An optional OfferDBSession for database interaction. Defaults to None, creating a new session if not provided.
+    - cache (str, optional): The path to the cache directory for storing retrieval indices. Defaults to "vectors/neural".
+
+    Attributes:
+    - cache (str): The path to the cache directory.
+    - session (OfferDBSession): The database session for offer data.
+    - retrieval_index_cache (str | None): The path to the retrieval index cache file, or None if not created yet.
+    - index: The retrieval index created for similarity search.
+    - model: The pre-trained sentence embedding model for encoding text.
+    - score_type (str): The type of similarity scoring being used.
+
+    Methods:
+    - load(model: str, score_type: str) -> None: Load the retrieval model and set the score type.
+    - create_index() -> faiss.Index: Create the retrieval index from embeddings.
+    - get_scores(query: str) -> DataFrame: Get similarity scores for offers based on the provided query.
+    """
+
     def __init__(
         self,
         model: str = RETRIVAL_MODELS[0],
@@ -38,6 +61,15 @@ class NeuralSearch(BaseSearch):
         session: OfferDBSession | None = None,
         cache: str = "vectors/neural",
     ) -> None:
+        """
+        Initialize a NeuralSearch instance with the specified parameters.
+
+        Args:
+        - model (str, optional): The name or identifier of the retrieval model to use. Defaults to the first model in RETRIVAL_MODELS.
+        - score_type (str, optional): The type of similarity scoring to use. Defaults to "Dot Product".
+        - session (OfferDBSession, optional): An optional OfferDBSession for database interaction. Defaults to None, creating a new session if not provided.
+        - cache (str, optional): The path to the cache directory for storing retrieval indices. Defaults to "vectors/neural".
+        """
         self.cache = cache
         self._session = session if session else OfferDBSession()
         self.retrieval_index_cache = None
@@ -49,13 +81,32 @@ class NeuralSearch(BaseSearch):
 
     @property
     def session(self) -> OfferDBSession:
+        """
+        Get the database session for offer data.
+
+        Returns:
+        OfferDBSession: The database session for offer data.
+        """
         return self._session
 
     @session.setter
     def session(self, value: OfferDBSession) -> None:
+        """
+        Set the database session for offer data.
+
+        Args:
+        - value (OfferDBSession): The database session to set.
+        """
         self._session = value
 
     def load(self, model: str, score_type: str) -> None:
+        """
+        Load the retrieval model and set the score type.
+
+        Args:
+        - model (str): The name or identifier of the retrieval model to use.
+        - score_type (str): The type of similarity scoring to use.
+        """
         model = model if model else RETRIVAL_MODELS[0]
         self.score_type = score_type if score_type else SCORE_TYPES[0]
         self.retrieval_index_cache = os.path.join(
@@ -70,7 +121,13 @@ class NeuralSearch(BaseSearch):
         else:
             self.index = self.create_index()
 
-    def create_index(self):
+    def create_index(self) -> faiss.IndexFlatL2:
+        """
+        Create the retrieval index from embeddings.
+
+        Returns:
+        faiss.IndexFlatL2: The created retrieval index.
+        """
         targets = self.session.get_targets()
         embeddings = self.model.encode(targets)
         if self.score_type == "Cosine Similarity":
@@ -84,6 +141,15 @@ class NeuralSearch(BaseSearch):
         return index
 
     def get_scores(self, query: str) -> DataFrame:
+        """
+        Get similarity scores for offers based on the provided query.
+
+        Args:
+        - query (str): The query string to match against offers.
+
+        Returns:
+        DataFrame: A DataFrame containing similarity scores for offers.
+        """
         # Calculate the embedding
         embedding = self.model.encode(query.lower()).reshape(1, -1)
         if self.score_type == "Cosine Similarity":

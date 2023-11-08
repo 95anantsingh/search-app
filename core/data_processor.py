@@ -5,18 +5,20 @@ from sqlalchemy import create_engine
 
 
 def create_db(brands: str, categories: str, offers: str, output: str) -> None:
-    """merge_data Create a SQLite database from csv files
+    """
+    Create a database from CSV files with brand, category, and offer data.
 
-    :param brands: Path to the brand_category.csv file
-    :type brands: str
-    :param categories: Path to the categories.csv file
-    :type categories: str
-    :param offers: Path to the offer_retailer.csv file
-    :type offers: str
-    :param output: Path to the output SQLite database file
-    :type output: str
-    :return: returns None
-    :rtype: None
+    Args:
+    - brands (str): Path to the CSV file containing brand and category data.
+    - categories (str): Path to the CSV file containing category mapping data.
+    - offers (str): Path to the CSV file containing offer and retailer data.
+    - output (str): Path to the SQLite database file to be created.
+
+    This function loads data from the provided CSV files, aggregates and combines information,
+    and stores it in an SQLite database. The resulting database table includes columns for
+    'BRAND', 'RETAILER', 'CATEGORIES', 'SUPER_CATEGORIES', and 'TARGET', where 'TARGET' is a
+    string that combines various information for each offer. The database is created at the
+    specified output location.
     """
 
     # Load the datasets

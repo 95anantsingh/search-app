@@ -28,8 +28,6 @@ def main():
     # Options
     ####################
     with st.sidebar:
-        # st.title("Options")
-
         search_modes = ["TF-IDF", "BM25", "Neural", ":rainbow[**Hybrid**] :zap:"]
 
         search_mode_container = st.container()
@@ -99,7 +97,6 @@ def main():
         filter_strategy_container = st.container()
         with filter_strategy_container:
             st.header("Filter Startegy", divider="blue")
-            # f_strat = st.radio("Filter Startegy", filter_modes, label_visibility="collapsed", horizontal=True)
 
             strategy_inputs = st.container()
             with strategy_inputs:
@@ -143,7 +140,10 @@ def main():
     # Main Content
     ####################
 
-    st.markdown('<div align="center"><div style="font-size:3rem; font-weight:600">Offer Search App</div><div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 2rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div></div>',unsafe_allow_html=True)
+    st.markdown(
+        '<div align="center"><div style="font-size:3rem; font-weight:600">Offer Search App</div><div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 2rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div></div>',
+        unsafe_allow_html=True,
+    )
 
     query = st.text_input(
         "Search", placeholder="Type to search offers", label_visibility="collapsed"
@@ -199,6 +199,7 @@ def main():
                 st.success(f"Found {result.shape[0]} results !")
             else:
                 st.error("No resuls found")
+
 
 if __name__ == "__main__":
     main()
