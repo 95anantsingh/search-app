@@ -73,11 +73,11 @@ class OfferDBSession:
 
     def get_rows(
         self,
-        indices: list[int],
+        indices: list[int] | None = None,
         as_dict: bool = False,
     ) -> list[list[Any]]:
-        result = (
-            self.session.query(
+
+        query = self.session.query(
                 OffersTable.index,
                 OffersTable.OFFER,
                 OffersTable.RETAILER,
@@ -85,9 +85,10 @@ class OfferDBSession:
                 OffersTable.CATEGORIES,
                 OffersTable.SUPER_CATEGORIES,
             )
-            .filter(OffersTable.index.in_(indices))
-            .all()
-        )
+        if indices:
+            query = query.filter(OffersTable.index.in_(indices))
+
+        result = query.all()
 
         if as_dict:
             result = [row._asdict() for row in result]

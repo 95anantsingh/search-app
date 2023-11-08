@@ -11,7 +11,10 @@ def main()-> None:
         layout="wide",
         initial_sidebar_state="expanded",
     )
-    st.title("Analysis")
+
+    with open('./pages/analysis.md', 'r', encoding='utf8') as file:
+        page = file.read()
+    st.markdown(page)
 
 
 if __name__ == "__main__":

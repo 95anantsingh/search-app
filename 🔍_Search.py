@@ -10,12 +10,6 @@ from core import (
     SCORE_TYPES,
 )
 
-####################
-# Set opensearch domain
-# domain_name = os.environ["opensearch_domain"]
-# lambda_embed_arn = os.environ["lambda_embed_arn"]
-# lambda_query_arn = os.environ["lambda_query_arn"]
-
 
 def main():
     """App runner"""
@@ -160,9 +154,9 @@ def main():
             case "BM25":
                 searcher = BM25Search()
             case "Neural":
-                searcher = NeuralSearch(model=model)
+                searcher = NeuralSearch(model=model, score_type=score_type)
             case ":rainbow[**Hybrid**] :zap:":
-                searcher = HybridSearch(model=model)
+                searcher = HybridSearch(model=model, score_type=score_type)
 
         placeholder = st.empty()
         placeholder.success("", icon="✔")
@@ -184,9 +178,7 @@ def main():
             result = searcher.search(
                 query=query.strip(),
                 mean_type=mean_type,
-                normalize=normalize,
                 norm_type=norm_type,
-                score_type=score_type,
                 top_k=top_k,
                 threshold=thresh,
                 dis_threshold=min_dis,
@@ -208,7 +200,8 @@ def main():
 
 
 if __name__ == "__main__":
-    import nltk
-    nltk.download('punkt')
-    nltk.download('stopwords')
+    # import nltk
+
+    # nltk.download("punkt")
+    # nltk.download("stopwords")
     main()

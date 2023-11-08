@@ -12,6 +12,7 @@ from .offers_db import OfferDBSession
 
 
 class BM25Search(BaseSearch):
+
     def __init__(
         self,
         session: OfferDBSession | None = None,

@@ -79,7 +79,7 @@ class BaseSearch:
 
         # Pull data from Database
         data = DataFrame(
-            self.session.get_rows(indices=results.index.to_list(), as_dict=True)
+            self.session.get_rows(indices=results.index.to_list())
         )
         columns = [
             "index",
@@ -106,9 +106,7 @@ class BaseSearch:
         self,
         query: str,
         mean_type: str | None = None,
-        normalize:bool | None = None,
         norm_type: str | None = None,
-        score_type: str | None = None,
         top_k=50,
         threshold=0.05,
         dis_threshold=0.35,

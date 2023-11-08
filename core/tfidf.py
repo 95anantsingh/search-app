@@ -5,7 +5,7 @@ from pandas import DataFrame
 from pickle import dump, load
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity, linear_kernel
 from scipy.sparse import save_npz, load_npz, csr_matrix
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -69,7 +69,8 @@ class TFIDFSearch(BaseSearch):
         vector = self.vectorizer.transform([query])
 
         # Calculate similarity between user input and each offer
-        scores = cosine_similarity(vector, self.matrix)
+        # scores = cosine_similarity(vector, self.matrix)
+        scores = linear_kernel(vector, self.matrix)
 
         results = DataFrame.from_dict({"SCORE": scores[0]})
         results = results.sort_values(by="SCORE", ascending=False)

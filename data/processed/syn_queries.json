@@ -1,0 +1,5153 @@
+[
+    {
+        "index": 0,
+        "term": "5 GUM",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on 5 gum?",
+            "5 gum offers near me",
+            "Best deals on 5 gum",
+            "5 gum coupons and promotions",
+            "Looking for 5 gum sales",
+            "5 gum discounts online",
+            "5 gum deals of the day",
+            "5 gum special offers",
+            "5 gum bargains",
+            "5 gum sale items"
+        ]
+    },
+    {
+        "index": 1,
+        "term": "ACME",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Acme products",
+            "acm",
+            "Looking for discounts on Acme merchandise",
+            "acme deals near me",
+            "acme products on sale",
+            "acme discount codes",
+            "acme promo codes",
+            "acme special offers",
+            "acme coupons",
+            "Best deals on acme items"
+        ]
+    },
+    {
+        "index": 2,
+        "term": "AIDELLS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Aidells sausages",
+            "aidels",
+            "Where can I find discounts on Aidells products?",
+            "aidels sausages",
+            "Best deals on Aidells meats",
+            "aidell",
+            "Show me the promotions for Aidells deli meats",
+            "aidel",
+            "Looking for Aidells coupons",
+            "aidells sausages"
+        ]
+    },
+    {
+        "index": 3,
+        "term": "ALAMOS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Alamos wines",
+            "alamos wine deals",
+            "Best discounts on alamos bottles",
+            "alamos winery promotions",
+            "Looking for alamos wine discounts",
+            "alamos vineyard offers",
+            "alamos winemaking specials",
+            "alamos wine sale",
+            "alamos brand discounts",
+            "alamos wine coupons"
+        ]
+    },
+    {
+        "index": 4,
+        "term": "ALBERTSONS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at Albertsons",
+            "Show me deals and discounts at Albertsons",
+            "albertson",
+            "Looking for promotions at Albertsons",
+            "Best deals at albertsons",
+            "albersons",
+            "Where can I find coupons for Albertsons?",
+            "albertsosn",
+            "Special offers at Albertsons",
+            "albertsonz"
+        ]
+    },
+    {
+        "index": 5,
+        "term": "ALEVE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Aleve pain relievers?",
+            "alev",
+            "Best offers on Aleve tablets",
+            "aleve coupon codes",
+            "Where to buy Aleve at a discounted price?",
+            "aleve pain relief deals",
+            "aleve sale",
+            "Cheapest Aleve products available",
+            "aleve discounts",
+            "Where can I get Aleve for less?"
+        ]
+    },
+    {
+        "index": 6,
+        "term": "ALFAROS",
+        "type": "brand",
+        "queries": [
+            "Where can I find the latest offers on alfaros products?",
+            "alfaros deals near me",
+            "Best discounts on alfaros items",
+            "alfaros coupons and promotions",
+            "Looking for alfaros sales",
+            "alfaros products on sale",
+            "Where to buy alfaros at a discounted price?",
+            "alfaros discounts and deals",
+            "Best prices for alfaros merchandise",
+            "alfaros offers and promotions"
+        ]
+    },
+    {
+        "index": 7,
+        "term": "ANDRE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Andre clothing",
+            "Show me discounts on Andre shoes",
+            "Looking for deals on Andre accessories",
+            "andre brand offers",
+            "Find the best prices on Andre products",
+            "Looking for Andre brand discounts",
+            "Show me the latest deals on Andre merchandise",
+            "Looking for Andre brand sales",
+            "Find the best deals on Andre items",
+            "Looking for discounts on andre brand"
+        ]
+    },
+    {
+        "index": 8,
+        "term": "ANNIES HOMEGROWN",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Annie's Homegrown products",
+            "annies homegrown deals",
+            "Show me discounts on Annie's Homegrown snacks",
+            "Looking for promotions on Annie's Homegrown organic food",
+            "annies homegrown coupons",
+            "Where can I find Annie's Homegrown products on sale?",
+            "annies homegrown sale",
+            "Looking for deals on Annie's Homegrown mac and cheese",
+            "annies homegrown discounts",
+            "Show me the best prices on Annie's Homegrown cereal"
+        ]
+    },
+    {
+        "index": 9,
+        "term": "ANNIES HOMEGROWN GROCERY",
+        "type": "brand",
+        "queries": [
+            "Find offers for Annie's Homegrown grocery",
+            "Best deals on Annie's Homegrown groceries",
+            "Annie's Homegrown grocery discounts",
+            "Offers for Annie's Homegrown groceries near me",
+            "Annie's Homegrown grocery coupons",
+            "Annie's Homegrown grocery sale",
+            "Annie's Homegrown grocery deals of the day",
+            "Annie's Homegrown grocery promotions",
+            "Annie's Homegrown grocery specials",
+            "Annie's Homegrown grocery offers"
+        ]
+    },
+    {
+        "index": 10,
+        "term": "ARBER",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on arber clothing",
+            "arber brand discounts and promotions",
+            "Looking for arber products on sale",
+            "arber deals and discounts",
+            "arber clothing sale",
+            "arber brand offers",
+            "arber clothing discounts",
+            "arber brand promotions",
+            "arber products on sale",
+            "Looking for arber brand deals"
+        ]
+    },
+    {
+        "index": 11,
+        "term": "ARBOS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Arbos products",
+            "arbos deals and discounts",
+            "Looking for Arbos brand promotions",
+            "Best prices for arbos items",
+            "arbos sale and special offers",
+            "arbos products on sale",
+            "Where can I find arbos discounts",
+            "arbos brand deals",
+            "arbos offers and promotions",
+            "Looking for arbos brand discounts"
+        ]
+    },
+    {
+        "index": 12,
+        "term": "ARNOLD BROWNBERRY OROWEAT",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Arnold Brownberry Oroweat bread?",
+            "Show me the latest offers on Arnold Brownberry Oroweat products",
+            "Arnold Brownberry Oroweat deals near me",
+            "Looking for coupons for Arnold Brownberry Oroweat bread",
+            "Best prices for Arnold Brownberry Oroweat bread",
+            "Arnold Brownberry Oroweat bread sale this week",
+            "Arnold Brownberry Oroweat bread discounts online",
+            "Arnold Brownberry Oroweat bread offers and promotions",
+            "Arnold Brownberry Oroweat bread deals of the day",
+            "Arnold Brownberry Oroweat bread coupons"
+        ]
+    },
+    {
+        "index": 13,
+        "term": "ASTEPRO",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Astepro allergy medication",
+            "astepro nasal spray deals",
+            "Looking for discounts on Astepro nasal spray",
+            "astepro allergy relief promotions",
+            "Best prices for Astepro allergy medication",
+            "astepro allergy medicine discounts",
+            "Where can I find Astepro nasal spray on sale?",
+            "astepro allergy relief offers",
+            "Looking for deals on astepro nasal spray",
+            "astepro allergy medication promotions"
+        ]
+    },
+    {
+        "index": 14,
+        "term": "BACK TO THE ROOTS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Back to the Roots products",
+            "back to the rots",
+            "Where can I find discounts on Back to the Roots items?",
+            "back to the root",
+            "Best deals on Back to the Roots merchandise",
+            "back to the roots sale",
+            "Looking for Back to the Roots promotions",
+            "back to the rooots",
+            "Where can I buy Back to the Roots products at a discount?",
+            "back to the rooots"
+        ]
+    },
+    {
+        "index": 15,
+        "term": "BAI",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on bai drinks",
+            "Show me discounts on bai products",
+            "bai energy drink deals",
+            "Looking for bai coupons",
+            "Best prices on bai beverages",
+            "bai drink promotions near me",
+            "bai drink sale this week",
+            "Where can I buy bai products on sale",
+            "bai drink discounts and deals",
+            "Looking for bai drink specials"
+        ]
+    },
+    {
+        "index": 16,
+        "term": "BALL PARK FRANK",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Ball Park Franks?",
+            "ball park franks sale near me",
+            "Best deals on Ball Park Franks",
+            "ball park franks coupons",
+            "Where to buy Ball Park Franks?",
+            "ball park franks offers",
+            "Discounted Ball Park Franks",
+            "ball park franks deals",
+            "Ball Park Franks discounts",
+            "ball park franks promotions"
+        ]
+    },
+    {
+        "index": 17,
+        "term": "BALL PARK POP UPS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Ball Park Pop Ups?",
+            "ballpark pop ups offers near me",
+            "Best deals on Ball Park Pop Ups",
+            "ball park pop ups coupons",
+            "ball park pop ups sale",
+            "ball park pop ups promotions",
+            "ball park pop ups discounts",
+            "Looking for Ball Park Pop Ups deals",
+            "ball park pop ups special offers",
+            "ball park pop ups deals and discounts"
+        ]
+    },
+    {
+        "index": 18,
+        "term": "BARILLA",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Barilla pasta",
+            "barila",
+            "Where can I find discounts on Barilla products?",
+            "barillla",
+            "Show me the best deals on Barilla sauces",
+            "barill",
+            "Looking for Barilla coupons",
+            "barillaa",
+            "Where can I buy Barilla pasta at a discounted price?",
+            "barilal"
+        ]
+    },
+    {
+        "index": 19,
+        "term": "BAYS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Bays products",
+            "bays deals and discounts",
+            "Looking for bays brand promotions",
+            "Best prices for bays items",
+            "bays brand sales and offers",
+            "basy products on sale",
+            "bays brand discounts",
+            "bays brand special deals",
+            "bays brand coupons and savings",
+            "bays brand limited time offers"
+        ]
+    },
+    {
+        "index": 20,
+        "term": "BEECHNUT",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Beechnut baby food",
+            "beechnut baby food deals",
+            "Best discounts on Beechnut products",
+            "beechnut baby food sale",
+            "Looking for Beechnut coupons",
+            "beechnut baby food discounts",
+            "Where can I find Beechnut products on sale",
+            "beechnut baby food offers",
+            "Show me the best deals on Beechnut baby food",
+            "beech nut baby food"
+        ]
+    },
+    {
+        "index": 21,
+        "term": "BEN AND JERRYS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Ben and Jerry's ice cream",
+            "ben and jerry's discounts and promotions",
+            "Looking for deals on Ben & Jerry's desserts",
+            "ben and jerrys sale near me",
+            "Best prices for Ben and Jerry's products",
+            "ben & jerry's coupons and deals",
+            "ben and jerry's special offers",
+            "ben and jerrys ice cream deals",
+            "ben and jerrys promotions",
+            "ben and jerrys discounts"
+        ]
+    },
+    {
+        "index": 22,
+        "term": "BEYOND MEAT",
+        "type": "brand",
+        "queries": [
+            "Where can I find the best deals on Beyond Meat products?",
+            "beyond meet offers near me",
+            "Beyond Meat discounts and promotions",
+            "beyond meatt",
+            "What are the current deals on Beyond Meat?",
+            "beyond meet coupons",
+            "Where can I buy Beyond Meat at a discounted price?",
+            "beyond mea",
+            "Are there any special offers on Beyond Meat?",
+            "beyond meet sale"
+        ]
+    },
+    {
+        "index": 23,
+        "term": "BIMBO",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Bimbo bread",
+            "bimboo",
+            "Where can I get discounts on Bimbo products?",
+            "bimob",
+            "Show me deals on Bimbo snacks",
+            "bimboo bread",
+            "Looking for Bimbo promotions",
+            "bimno",
+            "Best prices for Bimbo bakery items",
+            "bimboo products"
+        ]
+    },
+    {
+        "index": 24,
+        "term": "BIO OIL",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Bio Oil?",
+            "bio oil offers near me",
+            "Best deals on bio oil products",
+            "bio oil sale online",
+            "bio oill",
+            "bio oil discount codes",
+            "bio oil promotions",
+            "bio oil deals and discounts",
+            "bio oil coupons",
+            "bio oil price comparison"
+        ]
+    },
+    {
+        "index": 25,
+        "term": "BJS WHOLESALE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at BJ's Wholesale",
+            "Show me deals and discounts at BJ's Wholesale",
+            "What are the current promotions at BJ's Wholesale?",
+            "Find the best deals on BJ's Wholesale products",
+            "bj's wholesale",
+            "Looking for discounts at BJ's Wholesale",
+            "Show me the top offers at BJ's Wholesale",
+            "bj wholesale",
+            "What are the current sales at BJ's Wholesale?",
+            "Find the best prices at BJ's Wholesale"
+        ]
+    },
+    {
+        "index": 26,
+        "term": "BLUE APRON",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Blue Apron meal kits",
+            "blue apron discount codes",
+            "Looking for Blue Apron promo deals",
+            "Best deals on Blue Apron subscription",
+            "blue apron coupon codes",
+            "blue apron meal kit offers",
+            "blue apron free trial",
+            "blue apron special offers",
+            "blue apron meal delivery discounts",
+            "blue apron deals and promotions"
+        ]
+    },
+    {
+        "index": 27,
+        "term": "BREYERS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Breyers ice cream",
+            "breyer ice cream deals near me",
+            "Looking for discounts on Breyers frozen desserts",
+            "bryers ice cream sale this week",
+            "Best prices on Breyers gelato",
+            "breyers ice cream coupons",
+            "breyers ice cream flavors and promotions",
+            "bryers ice cream discounts online",
+            "Where can I find Breyers ice cream on sale?",
+            "breyers ice cream offers and promotions"
+        ]
+    },
+    {
+        "index": 28,
+        "term": "BRITA",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Brita water filters?",
+            "britta water bottles on sale",
+            "Best deals for Brita pitchers",
+            "brita water filter coupon code",
+            "brita water filter offers near me",
+            "brita water filter discounts online",
+            "brita water filter sale at Walmart",
+            "brita water filter deals on Amazon",
+            "brita water filter price comparison",
+            "brita water filter promo code"
+        ]
+    },
+    {
+        "index": 29,
+        "term": "BROWNIE BRITTLE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Brownie Brittle?",
+            "brownie brittle offers near me",
+            "Best deals for Brownie Brittle",
+            "brownie birttle coupons",
+            "Where to buy Brownie Brittle at a discount?",
+            "brownie brittel sale",
+            "Any promotions for Brownie Brittle?",
+            "brownie brittlw deals online",
+            "Looking for Brownie Brittle discounts",
+            "brownie brittlr discounts"
+        ]
+    },
+    {
+        "index": 30,
+        "term": "BUBBIES",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for bubbies ice cream",
+            "bubies ice cream deals near me",
+            "bubbies ice cream discounts",
+            "bubies ice cream coupons",
+            "Show me the best deals on bubbies products",
+            "bubbies ice cream sale",
+            "bubbies ice cream promotions",
+            "bubbies ice cream special offers",
+            "bubbies ice cream vouchers",
+            "bubbies ice cream price reductions"
+        ]
+    },
+    {
+        "index": 31,
+        "term": "BUGLES",
+        "type": "brand",
+        "queries": [
+            "Where can I find bugles snacks on sale?",
+            "bugles chips discounts near me",
+            "Best deals for bugles corn snacks",
+            "bugles brand offers and promotions",
+            "bugles snacks coupons",
+            "bugles chips price comparison",
+            "bugles snacks deals online",
+            "bugles brand discounts and sales",
+            "Where to buy bugles chips at a discount?",
+            "bugles snacks special offers"
+        ]
+    },
+    {
+        "index": 32,
+        "term": "BURGER KING",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at Burger King",
+            "burger king deals near me",
+            "burger king coupons and discounts",
+            "Show me the best deals on burgers at Burger King",
+            "burger king promotions this week",
+            "burger king menu specials",
+            "burger king vouchers and savings",
+            "burger king near me",
+            "burger king app offers",
+            "burger king limited time offers"
+        ]
+    },
+    {
+        "index": 33,
+        "term": "BURTS BEES",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Burts Bees skincare products?",
+            "burts bees lip balm sale",
+            "Looking for Burts Bees baby products on sale",
+            "burts bees makeup offers",
+            "Best deals on Burts Bees natural beauty products",
+            "burts bees skincare discounts",
+            "burts bees lip balm deals",
+            "Where can I buy Burts Bees products at a discounted price?",
+            "burts bees baby products sale",
+            "Offers on Burts Bees cosmetics"
+        ]
+    },
+    {
+        "index": 34,
+        "term": "BUTTERBALL",
+        "type": "brand",
+        "queries": [
+            "Where can I find the best deals on Butterball turkeys?",
+            "butterbal",
+            "What are the current promotions for Butterball products?",
+            "butterball turkey sale",
+            "Are there any discounts on Butterball deli meats?",
+            "butterball turkies",
+            "How can I save money on Butterball ground turkey?",
+            "butterball turkey coupons",
+            "What stores carry Butterball products?",
+            "butterball turkeys"
+        ]
+    },
+    {
+        "index": 35,
+        "term": "CAMERON'S COFFEE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Cameron's Coffee?",
+            "camerons coffee sale",
+            "Best deals on cameron's coffee beans",
+            "cameron's coffee offers near me",
+            "camerons coffee discount code",
+            "cameron's coffee coupons",
+            "camerons coffee promotion",
+            "Where to buy cameron's coffee at a discount?",
+            "camerons coffee deals of the day",
+            "cameron's coffee sale this week"
+        ]
+    },
+    {
+        "index": 36,
+        "term": "CASEYS GENERAL STORE",
+        "type": "brand",
+        "queries": [
+            "Find the nearest Casey's General Store location",
+            "What are the current promotions at Casey's General Store?",
+            "Casey's General Store deals near me",
+            "Casey's General Store coupons and discounts",
+            "Casey's General Store menu options",
+            "Casey's General Store fuel prices",
+            "Casey's General Store gift cards",
+            "Casey's General Store online ordering",
+            "Casey's General Store bakery items",
+            "Casey's General Store pizza specials"
+        ]
+    },
+    {
+        "index": 37,
+        "term": "CESAR",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Cesar dog food",
+            "cesar dog food discounts",
+            "Best deals for Cesar pet food",
+            "cesar dog food sale",
+            "Ceser dog food coupons",
+            "Cesar dog food promotions",
+            "Cesarr dog food deals",
+            "Cesar dog food special offers",
+            "Cesar dog food bargains",
+            "Ceser dog food savings"
+        ]
+    },
+    {
+        "index": 38,
+        "term": "CHEERIOS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Cheerios cereal?",
+            "cheerio",
+            "Best deals on Cheerios in my area",
+            "cheerioes",
+            "Cheerios coupons and promotions",
+            "cheerioz",
+            "Cheerios sale near me",
+            "cheeriose",
+            "Cheerios offers and discounts",
+            "cheerioas"
+        ]
+    },
+    {
+        "index": 39,
+        "term": "CHEWY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Chewy pet food",
+            "chewwy",
+            "Where can I find discounts on Chewy products?",
+            "chwey",
+            "Show me the best deals for Chewy cat toys",
+            "chewie",
+            "Looking for Chewy coupon codes",
+            "cheewy",
+            "What are the current promotions on Chewy dog treats?",
+            "chewy deals"
+        ]
+    },
+    {
+        "index": 40,
+        "term": "CHOSEN FOODS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Chosen Foods products?",
+            "Best deals on Chosen Foods cooking oils",
+            "Chosn Foods coupon codes",
+            "Chosen Foods avocado oil sale",
+            "Chosen Foods brand offers",
+            "Chosen Foods products on sale",
+            "Chosen Foods discounts and promotions",
+            "Chosen Foods olive oil deals",
+            "Chosen Foods deals near me",
+            "Chosen Foods discounts online"
+        ]
+    },
+    {
+        "index": 41,
+        "term": "COLGATE TOOTHBRUSHES",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Colgate toothbrushes?",
+            "colgate toothbrush sale near me",
+            "Best deals on colgate toothbrushes",
+            "colgate toothbrushes offers",
+            "colgate toothbrushes discounts",
+            "Where to buy colgate toothbrushes?",
+            "colgate toothbrushes deals online",
+            "colgate toothbrushes coupons",
+            "colgate toothbrushes promotions",
+            "colgate toothbrushes price comparison"
+        ]
+    },
+    {
+        "index": 42,
+        "term": "COOKED PERFECT",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Cooked Perfect products",
+            "cooked perfct",
+            "Where can I find discounts on Cooked Perfect items?",
+            "cooked prfect",
+            "Best deals on Cooked Perfect brand",
+            "cooked perfect sale",
+            "Looking for Cooked Perfect promotions",
+            "cooked perect",
+            "Any coupons available for Cooked Perfect?",
+            "cooked perfet"
+        ]
+    },
+    {
+        "index": 43,
+        "term": "COORS LIGHT",
+        "type": "brand",
+        "queries": [
+            "Where can I find the best deals on Coors Light beer?",
+            "coors lite",
+            "What are the current promotions for Coors Light?",
+            "coors ligh",
+            "Which stores have discounts on Coors Light?",
+            "coors ligt",
+            "Are there any special offers on Coors Light?",
+            "coors lighr",
+            "How can I get a discount on Coors Light?",
+            "coors lighy"
+        ]
+    },
+    {
+        "index": 44,
+        "term": "CORE HYDRATION",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Core Hydration water?",
+            "core hydration offers near me",
+            "core hydration coupon codes",
+            "Best deals on Core Hydration drinks",
+            "core hydrtion",
+            "core hydration sale",
+            "core hydration promo codes",
+            "core hydration discounts",
+            "core hydration deals of the day",
+            "core hydration near me"
+        ]
+    },
+    {
+        "index": 45,
+        "term": "COSTCO",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at Costco",
+            "costco deals near me",
+            "Show me the discounts at costco",
+            "costco sale this week",
+            "costco coupons and promotions",
+            "costco special offers",
+            "costco membership benefits",
+            "costco online deals",
+            "costco warehouse savings",
+            "costco clearance items"
+        ]
+    },
+    {
+        "index": 46,
+        "term": "COUNTRY CROCK PLANT BUTTER",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Country Crock Plant Butter?",
+            "country crock plant butter sale near me",
+            "Best deals on Country Crock Plant Butter",
+            "country crock plant butter coupons",
+            "country crock plant butter offers",
+            "Looking for Country Crock Plant Butter promotions",
+            "country crock plant butter discounts",
+            "country crock plant butter deals online",
+            "country crock plant butter special offers",
+            "country crock plant butter price comparison"
+        ]
+    },
+    {
+        "index": 47,
+        "term": "CREATIVITY STREET",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Creativity Street art supplies",
+            "creativity street deals and discounts",
+            "Where can I buy Creativity Street products at a discount?",
+            "Looking for sales on Creativity Street craft materials",
+            "creativiti street",
+            "Best prices for Creativity Street supplies",
+            "creativity street promo codes",
+            "Where to find Creativity Street products on sale?",
+            "creativity streat",
+            "Are there any special offers on Creativity Street items?"
+        ]
+    },
+    {
+        "index": 48,
+        "term": "CRUNCHMASTER",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Crunchmaster snacks",
+            "crunch master deals near me",
+            "Looking for discounts on Crunchmaster crackers",
+            "crunchmaster coupons",
+            "Best prices on Crunchmaster gluten-free snacks",
+            "crunchmaster sale this week",
+            "crunchmaster chips on sale",
+            "crunchmater snacks for cheap",
+            "crunchmaster promo codes",
+            "crunchmster"
+        ]
+    },
+    {
+        "index": 49,
+        "term": "CVS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at CVS",
+            "Show me deals and discounts at CVS",
+            "cvs coupons and promotions",
+            "Best deals on CVS products",
+            "cvs sale this week",
+            "cvs pharmacy discounts",
+            "cvs weekly ad specials",
+            "cvs deals near me",
+            "cvs promo codes and savings",
+            "cvs discount card benefits"
+        ]
+    },
+    {
+        "index": 50,
+        "term": "DEGREE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Degree deodorant",
+            "degree deodrant deals",
+            "Show me discounts on Degree products",
+            "degre deodorant sale",
+            "Best deals on Degree antiperspirant",
+            "degre antiperspirant offers",
+            "Looking for promotions on Degree deodorant",
+            "degre deodrant discounts",
+            "Where can I find deals on Degree products?",
+            "degree antiperspirant sale"
+        ]
+    },
+    {
+        "index": 51,
+        "term": "DICKEYS BARBECUE PIT",
+        "type": "brand",
+        "queries": [
+            "Find dickeys barbecue pit near me",
+            "dickeys barbecue pit menu options",
+            "Best dickeys barbecue pit deals",
+            "dickeys barbecue pit catering services",
+            "dickeys barbecue pit allergen information",
+            "dickeys barbecue pit hours of operation",
+            "dickeys barbecue pit online ordering",
+            "dickeys barbecue pit franchise opportunities",
+            "dickeys barbecue pit reviews and ratings",
+            "dickeys barbecue pit gift cards"
+        ]
+    },
+    {
+        "index": 52,
+        "term": "DIXON",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Dixon electronics",
+            "dixson",
+            "Best deals on Dixon appliances",
+            "dixxon",
+            "Where can I find discounts on Dixon tools",
+            "dixn",
+            "Show me the top deals on Dixon audio equipment",
+            "dixen",
+            "Looking for sales on Dixon musical instruments",
+            "dixxon"
+        ]
+    },
+    {
+        "index": 53,
+        "term": "DOVE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Dove soap?",
+            "dove shampoo offers near me",
+            "Best deals on dove beauty products",
+            "dove deodorant sale",
+            "dove body wash discounts",
+            "dove soap deals online",
+            "dove skincare products on sale",
+            "dove hair care offers",
+            "dove beauty bar discounts",
+            "dove products with free shipping"
+        ]
+    },
+    {
+        "index": 54,
+        "term": "DOVE CHOCOLATE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Dove chocolate?",
+            "Best deals for Dove chocolate",
+            "dove choclate offers near me",
+            "Looking for Dove chocolate promotions",
+            "dove choclate sale",
+            "Dove choclate discounts",
+            "dove choclate coupons",
+            "dove choclate deals online",
+            "dove choclate sale this week",
+            "dove choclate special offers"
+        ]
+    },
+    {
+        "index": 55,
+        "term": "DR PEPPER",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Dr Pepper soda?",
+            "dr pepper offers near me",
+            "dr pepper coupons",
+            "Looking for deals on dr pepper drinks",
+            "dr pepper sale this week",
+            "dr pepper promotions",
+            "dr pepper discounts online",
+            "dr pepper deals and discounts",
+            "dr pepper special offers",
+            "dr pepper bargains"
+        ]
+    },
+    {
+        "index": 56,
+        "term": "DUREX",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Durex condoms?",
+            "durexx",
+            "Best offers on Durex lubricants",
+            "dureex",
+            "Any deals on Durex pleasure gels?",
+            "durec",
+            "Where to buy Durex products at a discounted price?",
+            "durexx",
+            "Looking for Durex condoms on sale",
+            "dureex"
+        ]
+    },
+    {
+        "index": 57,
+        "term": "EGGLIFE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on egglife products",
+            "egglife deals and discounts",
+            "Best prices for egglife items",
+            "egglife promotions near me",
+            "egglife coupons and savings",
+            "Looking for egglife sales",
+            "egglife products on sale",
+            "egglife discounts and deals",
+            "egglife offers and promotions",
+            "egglife bargains and savings"
+        ]
+    },
+    {
+        "index": 58,
+        "term": "EMMYS POP UP",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Emmys Pop Up",
+            "emmys pop-up deals near me",
+            "emmys pop up discount codes",
+            "Looking for Emmys Pop Up promotions",
+            "emmys popup sale",
+            "emmys pop up coupons",
+            "emmys pop-up special offers",
+            "emmys pop up best deals",
+            "emmys pop up typo",
+            "emmys pop-up limited time offers"
+        ]
+    },
+    {
+        "index": 59,
+        "term": "ENTENMANNS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Entenmann's pastries?",
+            "entenmans bakery near me",
+            "Best deals on Entenmann's donuts",
+            "entenmanns cakes for sale",
+            "Entenmann's coupons and promotions",
+            "entenmanns bakery outlet locations",
+            "Looking for Entenmann's baked goods",
+            "entenmans muffins on sale",
+            "Entenmann's products on special offer",
+            "entenmanns bakery online"
+        ]
+    },
+    {
+        "index": 60,
+        "term": "ENVY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Envy perfumes",
+            "envy brand discounts",
+            "Looking for deals on Envy clothing",
+            "envy products sale",
+            "envy brand promotions",
+            "envy brand deals",
+            "envy brand offers",
+            "envy brand sales",
+            "envy brand discounts",
+            "envy brand coupons"
+        ]
+    },
+    {
+        "index": 61,
+        "term": "EVOLVE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on evolve products",
+            "evolve deals and discounts",
+            "Looking for evolve brand promotions",
+            "evolve brand sales near me",
+            "evolve products on sale",
+            "evolve brand discounts online",
+            "Best deals on evolve items",
+            "evolve brand special offers",
+            "evolve brand coupons and deals",
+            "evolve brand discounts and promotions"
+        ]
+    },
+    {
+        "index": 62,
+        "term": "EXTRA",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Extra chewing gum",
+            "Show me discounts on Extra brand products",
+            "Looking for deals on Extra gum",
+            "Any promotions on Extra brand items?",
+            "Find me the best prices on Extra products",
+            "Looking for discounts on Extra chewing gum",
+            "Show me the latest deals on Extra brand",
+            "Any offers on Extra gum?",
+            "Find me the best deals on Extra brand items",
+            "Looking for promotions on Extra chewing gum"
+        ]
+    },
+    {
+        "index": 63,
+        "term": "FARMER BOYS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers from Farmer Boys",
+            "Show me deals and discounts for Farmer Boys",
+            "Looking for promotions at Farmer Boys",
+            "Any special offers available at Farmer Boys?",
+            "Find the best deals on Farmer Boys menu items",
+            "Looking for coupons for Farmer Boys",
+            "Show me the nearest Farmer Boys locations with offers",
+            "Any discounts on Farmer Boys burgers?",
+            "Looking for Farmer Boys promotions near me",
+            "Find the latest deals at Farmer Boys restaurant"
+        ]
+    },
+    {
+        "index": 64,
+        "term": "FLONASE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Flonase nasal spray?",
+            "flonase coupons",
+            "Best deals on flonase allergy relief",
+            "flonaze",
+            "Where to buy flonase at a discounted price?",
+            "flonase offers near me",
+            "flonase discount codes",
+            "flonase allergy medicine deals",
+            "flonase sale",
+            "flonase nasal spray discounts"
+        ]
+    },
+    {
+        "index": 65,
+        "term": "FRESH STEP",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Fresh Step cat litter",
+            "freshstep",
+            "Looking for discounts on Fresh Step litter",
+            "fresh step cat litter deals",
+            "fresh step cat litter sale",
+            "fresh step cat litter coupons",
+            "Where can I buy Fresh Step cat litter on sale?",
+            "fresh step cat litter discounts",
+            "fresh step cat litter promotions",
+            "fresh step cat litter special offers"
+        ]
+    },
+    {
+        "index": 66,
+        "term": "FRESH THYME MARKET",
+        "type": "brand",
+        "queries": [
+            "Find fresh thyme market weekly specials",
+            "fresh thyme market near me",
+            "fresh thyme market online shopping",
+            "fresh thyme market hours of operation",
+            "fresh thyme market locations",
+            "fresh thyme market organic produce",
+            "fresh thyme market gluten-free products",
+            "fresh thyme market deli specials",
+            "fresh thyme market vitamins and supplements",
+            "fresh thyme market bakery items"
+        ]
+    },
+    {
+        "index": 67,
+        "term": "FRUTERO",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on frutero products",
+            "frutero deals and discounts",
+            "Best frutero deals near me",
+            "frutero products on sale",
+            "frutero promo codes",
+            "frutero coupons and savings",
+            "frutero brand discounts",
+            "frutero special offers",
+            "frutero bargains",
+            "frutero sales and promotions"
+        ]
+    },
+    {
+        "index": 68,
+        "term": "GATORADE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Gatorade drinks?",
+            "gatorde",
+            "Best offers on Gatorade sports drinks",
+            "gatorade coupons",
+            "Where to buy Gatorade at a discounted price?",
+            "gatorade sale",
+            "Deals on Gatorade energy drinks",
+            "gatorade discounts",
+            "Looking for Gatorade promotions",
+            "gatorade deals"
+        ]
+    },
+    {
+        "index": 69,
+        "term": "GEORGES FARMERS MARKET",
+        "type": "brand",
+        "queries": [
+            "Find offers at George's Farmers Market",
+            "george's farmers market deals",
+            "Best deals at George's Farmers Market",
+            "georges farmers market discounts",
+            "George's Farmers Market promotions",
+            "georges farmers market coupons",
+            "George's Farmers Market special offers",
+            "georges farmers market sales",
+            "George's Farmers Market bargains",
+            "georges farmers market vouchers"
+        ]
+    },
+    {
+        "index": 70,
+        "term": "GILLETTE VENUS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Gillette Venus razors?",
+            "gillete venus offers",
+            "Best deals on Gillette Venus shaving products",
+            "gillette venus sale",
+            "Where can I buy Gillette Venus razors at a discounted price?",
+            "gillette venus discounts",
+            "Looking for promotions on Gillette Venus shaving accessories",
+            "gillette venus deals",
+            "Where can I find Gillette Venus products on sale?",
+            "gillette venus promotions"
+        ]
+    },
+    {
+        "index": 71,
+        "term": "GLAD",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Glad trash bags",
+            "glad trash bags sale",
+            "Looking for discounts on Glad products",
+            "glad garbage bags deals",
+            "Best deals on glad kitchen supplies",
+            "glad trash bags coupons",
+            "glad trash bags offers",
+            "glad trash bags discounts",
+            "glad trash bags promotions",
+            "glad trash bags special deals"
+        ]
+    },
+    {
+        "index": 72,
+        "term": "GOOD HUMOR",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Good Humor ice cream",
+            "good humer",
+            "Where can I get discounts on Good Humor products?",
+            "good humo",
+            "Show me deals on Good Humor frozen treats",
+            "good humur",
+            "Best prices for Good Humor desserts",
+            "good humir",
+            "Any promotions on Good Humor ice cream bars?",
+            "good humoor"
+        ]
+    },
+    {
+        "index": 73,
+        "term": "GORTONS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Gortons seafood",
+            "gorton",
+            "Best deals on Gortons frozen fish",
+            "Gortons fish sticks sale",
+            "Looking for discounts on Gortons products",
+            "gortons fish",
+            "Where can I find Gortons seafood on sale?",
+            "Gortons fish fillets deals",
+            "gortons fishsticks",
+            "Show me the best prices for Gortons frozen seafood"
+        ]
+    },
+    {
+        "index": 74,
+        "term": "GOYA",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Goya products",
+            "goya deals and discounts",
+            "Looking for Goya brand promotions",
+            "goyya products on sale",
+            "Best prices for Goya items",
+            "goya brand discounts",
+            "goya coupons and savings",
+            "goya brand special offers",
+            "goya products at discounted prices",
+            "goyaa brand deals"
+        ]
+    },
+    {
+        "index": 75,
+        "term": "HAAGEN DAZS",
+        "type": "brand",
+        "queries": [
+            "Find the nearest Haagen Dazs ice cream shop",
+            "haagen dasz flavors available",
+            "haagen dazs coupon codes",
+            "haagen dazs nutritional information",
+            "haagen dazs limited edition flavors",
+            "haagen dazs ice cream price comparison",
+            "haagen dazs dairy free options",
+            "hagen dazs",
+            "haagen dazs new releases",
+            "haagen dazs store locator"
+        ]
+    },
+    {
+        "index": 76,
+        "term": "HELLMANNS BEST FOODS",
+        "type": "brand",
+        "queries": [
+            "Where can I find the best deals on Hellmann's Best Foods products?",
+            "hellmans best foods offers near me",
+            "Looking for discounts on Hellmann's Best Foods items",
+            "hellmans best foods coupons",
+            "Best prices for Hellmann's Best Foods products",
+            "hellmans best foods sale",
+            "hellmans best foods promotions",
+            "hellmans best foods discounts",
+            "hellmans best foods deals of the day",
+            "hellmans best foods special offers"
+        ]
+    },
+    {
+        "index": 77,
+        "term": "HIDDEN VALLEY RANCH",
+        "type": "brand",
+        "queries": [
+            "Where can I find Hidden Valley Ranch dressing on sale?",
+            "hidden valley ranch coupons",
+            "Best deals on Hidden Valley Ranch products",
+            "hidden valley ranch dip recipe",
+            "hidden valley ranch seasoning mix offers",
+            "hidden valley ranch salad dressing discounts",
+            "hidden valley ranch dressing ingredients",
+            "hidden valley ranch dressing near me",
+            "hidden valley ranch dressing alternatives",
+            "hidden valley ranch dressing expiration date"
+        ]
+    },
+    {
+        "index": 78,
+        "term": "JACK LINKS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Jack Links beef jerky?",
+            "jack link beef jerky sale",
+            "Looking for deals on Jack Links snacks",
+            "jack links jerky coupon code",
+            "Best prices for Jack Links beef jerky",
+            "jack links beef jerky offers",
+            "jack links beef jerky discount",
+            "jack links beef jerky promo",
+            "jack links beef jerky deals near me",
+            "jack links beef jerky specials"
+        ]
+    },
+    {
+        "index": 79,
+        "term": "KFC",
+        "type": "brand",
+        "queries": [
+            "Find the nearest KFC restaurant",
+            "What are the latest KFC promotions?",
+            "kcf menu",
+            "Show me KFC delivery options",
+            "kfc coupons and discounts",
+            "kfv",
+            "Best deals on KFC chicken buckets",
+            "kfc near me",
+            "kfc locations",
+            "kfc offers and deals"
+        ]
+    },
+    {
+        "index": 80,
+        "term": "KLONDIKE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Klondike ice cream bars",
+            "klondike icecream deals near me",
+            "Looking for discounts on Klondike frozen treats",
+            "klondike ice cream coupons",
+            "Best prices for Klondike bars",
+            "klondike ice cream sale this week",
+            "klondike icecream promotions",
+            "klondike ice cream discounts",
+            "klondike ice cream offers",
+            "klondike icecream specials"
+        ]
+    },
+    {
+        "index": 81,
+        "term": "KODIAK CAKES FLAPJACK & WAFFLE MIX",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Kodiak Cakes flapjack & waffle mix?",
+            "Best deals on Kodiak Cakes flapjack & waffle mix",
+            "Kodiak Cakes flapjack & waffle mix offers near me",
+            "Kodiak Cakes flapjack & waffle mix sale",
+            "Discounted Kodiak Cakes flapjack & waffle mix online",
+            "Kodiak Cakes flapjack & waffle mix coupons",
+            "Kodiak Cakes flapjack & waffle mix deals of the day",
+            "Kodiak Cakes flapjack & waffle mix promotions",
+            "Kodiak Cakes flapjack & waffle mix discounts",
+            "Kodiak Cakes flapjack & waffle mix bargains"
+        ]
+    },
+    {
+        "index": 82,
+        "term": "KRADLE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on kradle products",
+            "kradle deals and discounts",
+            "Best prices for kradle items",
+            "Where can I buy kradle products online?",
+            "kradel products on sale",
+            "kradle promo codes and coupons",
+            "Looking for kradle brand deals",
+            "kradl products at discounted prices",
+            "kradle offers and promotions",
+            "kradl brand discounts"
+        ]
+    },
+    {
+        "index": 83,
+        "term": "LIFESAVERS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Lifesavers candies",
+            "lifesaver deals near me",
+            "Looking for discounts on Lifesavers mints",
+            "lifesavers coupons",
+            "Best prices for Lifesavers gummies",
+            "lifesaver candy sale",
+            "lifesavers products on sale",
+            "lifesavers discounts online",
+            "lifesavers candy deals",
+            "lifesavers promotions"
+        ]
+    },
+    {
+        "index": 84,
+        "term": "LOREAL PARIS COSMETICS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on L'Oreal Paris cosmetics?",
+            "loreal paris cosmetics sale",
+            "Best deals on L'Oreal Paris makeup products",
+            "loreal parsi cosmetics",
+            "Where can I buy L'Oreal Paris cosmetics at a discounted price?",
+            "loreal paris cosmetic offers",
+            "L'Oreal Paris cosmetics discounts",
+            "loreal paris cosmetcs",
+            "Any promotions on L'Oreal Paris makeup?",
+            "loreal paris cosmetix"
+        ]
+    },
+    {
+        "index": 85,
+        "term": "LOREAL PARIS HAIR COLOR",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on L'Oreal Paris hair color?",
+            "loreal paris hair color sale",
+            "Best deals on L'Oreal Paris hair dye",
+            "loreal paris hair color coupons",
+            "loreal paris hair color offers near me",
+            "loreal paris hair color discounts",
+            "loreal paris hair color deals online",
+            "loreal paris hair color promotions",
+            "loreal paris hair color special offers",
+            "loreal paris hair color price comparison"
+        ]
+    },
+    {
+        "index": 86,
+        "term": "M&MS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on M&Ms candies?",
+            "m&ms coupons and promotions",
+            "Best deals on m&ms chocolate",
+            "m&ms sale near me",
+            "m&ms bulk buy offers",
+            "mnm's discounts and deals",
+            "Where to buy m&ms at a discounted price?",
+            "m&ms special offers and promotions",
+            "m&ms discount codes",
+            "m&ms deals of the day"
+        ]
+    },
+    {
+        "index": 87,
+        "term": "MAGNUM ICE CREAM",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Magnum ice cream?",
+            "magum ice cream offers near me",
+            "Best deals for magnum ice cream",
+            "magnum ice cream sale this week",
+            "magnum ice cream coupons",
+            "magnum ice cream flavors and prices",
+            "magnum ice cream promotions",
+            "magnum ice cream discounts online",
+            "magnum ice cream deals of the day",
+            "magnum ice cream special offers"
+        ]
+    },
+    {
+        "index": 88,
+        "term": "MARINELA",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Marinela snacks",
+            "marinella products on sale",
+            "Looking for discounts on Marinela bakery items",
+            "marinela cookies deals",
+            "Best deals on marinela cakes",
+            "marinela snacks sale",
+            "marinela donuts discounts",
+            "marinela bread offers",
+            "marinela brand promotions",
+            "marinela pastries deals"
+        ]
+    },
+    {
+        "index": 89,
+        "term": "MCALISTERS DELI",
+        "type": "brand",
+        "queries": [
+            "Find the nearest McAlister's Deli location",
+            "What are the popular menu items at McAlister's Deli?",
+            "mcalisters deli coupons and discounts",
+            "mcalisters deli catering options",
+            "Best sandwiches at McAlister's Deli",
+            "mcalisters deli gluten-free options",
+            "mcalisters deli nutritional information",
+            "mcalisters deli online ordering",
+            "mcalisters deli rewards program",
+            "mcalisters deli holiday hours"
+        ]
+    },
+    {
+        "index": 90,
+        "term": "MICHAEL ANGELO'S",
+        "type": "brand",
+        "queries": [
+            "Where can I find the latest offers for Michael Angelo's frozen meals?",
+            "michael angelos",
+            "Best deals on Michael Angelo's pasta dishes",
+            "michael angelo's",
+            "Any discounts available for Michael Angelo's ready-to-eat meals?",
+            "michael angelos",
+            "Where to buy Michael Angelo's frozen pizzas at a discounted price?",
+            "michael angelo's",
+            "Are there any promotions for Michael Angelo's Italian cuisine?",
+            "michael angelos"
+        ]
+    },
+    {
+        "index": 91,
+        "term": "MOUNTAIN DEW",
+        "type": "brand",
+        "queries": [
+            "Where can I find the latest offers on Mountain Dew?",
+            "mountain dew deals near me",
+            "Show me discounts on Mountain Dew drinks",
+            "mountain dew sale this week",
+            "Looking for Mountain Dew promotions",
+            "mountain dew coupons",
+            "mountain dew discounts online",
+            "mountain dew special offers",
+            "mountain dew price drops",
+            "mountain dew bargains"
+        ]
+    },
+    {
+        "index": 92,
+        "term": "NATUCHIPS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Natuchips snacks",
+            "natuchps",
+            "Where can I get discounts on Natuchips products?",
+            "natuchips deals near me",
+            "natuchips sale",
+            "natuchips coupon codes",
+            "natuchips promotions",
+            "natuchips discounts",
+            "natuchips special offers",
+            "natuchips best price"
+        ]
+    },
+    {
+        "index": 93,
+        "term": "NATURE VALLEY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Nature Valley granola bars",
+            "nature vally",
+            "Where can I get discounts on Nature Valley snacks?",
+            "nature vally granola bars",
+            "Show me deals on Nature Valley products",
+            "nature vally snacks",
+            "Best prices for Nature Valley cereal bars",
+            "nature vally cereal bars",
+            "Any promotions on Nature Valley protein bars?",
+            "nature vally protein bars"
+        ]
+    },
+    {
+        "index": 94,
+        "term": "NEKTER",
+        "type": "brand",
+        "queries": [
+            "Find nekter juice bar near me",
+            "nekter juice cleanse offers",
+            "Best deals on nekter smoothies",
+            "nekter promo codes",
+            "nekter acai bowl discounts",
+            "nekter loyalty program benefits",
+            "nekter menu options",
+            "nekter delivery services",
+            "nekter gift card availability",
+            "nekter franchise opportunities"
+        ]
+    },
+    {
+        "index": 95,
+        "term": "ORBIT",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Orbit chewing gum",
+            "orbit gum deals near me",
+            "Looking for discounts on Orbit products",
+            "Best prices for Orbit mints",
+            "orbit gum sale",
+            "Offers on Orbit sugar-free gum",
+            "orbit gum coupons",
+            "Looking for Orbit brand promotions",
+            "orbit chewing gum discounts",
+            "orbit gum special offers"
+        ]
+    },
+    {
+        "index": 96,
+        "term": "OXICLEAN",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Oxiclean products?",
+            "oxyclean",
+            "Best deals on OxiClean stain removers",
+            "Oxiclean coupons and promotions",
+            "Where to buy Oxiclean laundry detergent?",
+            "Oxiclean offers near me",
+            "Oxiclean alternative products",
+            "Oxiclean sale this week",
+            "Oxiclean vs other laundry detergents",
+            "Oxiclean stain remover reviews"
+        ]
+    },
+    {
+        "index": 97,
+        "term": "PAVILIONS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Pavilions groceries",
+            "pavillions",
+            "Where can I find discounts on Pavilions products?",
+            "pavilions near me",
+            "Best deals on pavilions snacks",
+            "pavilions supermarket",
+            "Show me the weekly specials at Pavilions",
+            "pavilions store locator",
+            "pavilions online shopping",
+            "Looking for pavilions coupons"
+        ]
+    },
+    {
+        "index": 98,
+        "term": "PEPSI",
+        "type": "brand",
+        "queries": [
+            "Where can I find the latest offers on Pepsi products?",
+            "pepsi deals near me",
+            "Best discounts on pepsi beverages",
+            "pepsi coupons and promotions",
+            "pepsi sale this week",
+            "pepsi discounts for students",
+            "pepsi special offers for summer",
+            "pepsi typo",
+            "pepsi discount codes",
+            "pepsi limited time offers"
+        ]
+    },
+    {
+        "index": 99,
+        "term": "PERFECT KETO",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Perfect Keto products?",
+            "perfect keto coupon codes",
+            "Best deals on Perfect Keto supplements",
+            "perfect keto promo offers",
+            "Where to buy Perfect Keto snacks?",
+            "perfect keto discount codes",
+            "Perfect Keto sale items",
+            "perfect keto discount offers",
+            "Where can I find Perfect Keto deals?",
+            "perfect keto discount coupons"
+        ]
+    },
+    {
+        "index": 100,
+        "term": "PERSIL",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Persil laundry detergent?",
+            "persill",
+            "Best offers for Persil laundry products",
+            "persil detergent sale",
+            "Where to buy Persil at a discounted price?",
+            "persiil",
+            "Persil laundry detergent deals",
+            "persil discount",
+            "Looking for Persil laundry detergent on sale",
+            "persill detergent"
+        ]
+    },
+    {
+        "index": 101,
+        "term": "PROMISED LAND DAIRY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Promised Land Dairy products",
+            "promised land dairy deals near me",
+            "Looking for discounts on Promised Land Dairy items",
+            "promised land dairy promotions and discounts",
+            "promised land dairy coupons",
+            "promised land dairy sale",
+            "promised land dairy special offers",
+            "promised land dairy discounts",
+            "promised land dairy best deals",
+            "promised land dairy typo"
+        ]
+    },
+    {
+        "index": 102,
+        "term": "PUREX",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Purex laundry detergent",
+            "purex deals near me",
+            "Looking for discounts on Purex products",
+            "purex detergent sale",
+            "Best prices on Purex laundry supplies",
+            "purex coupons and promotions",
+            "purex laundry soap discounts",
+            "purex detergent offers",
+            "purex sale this week",
+            "purex products on sale"
+        ]
+    },
+    {
+        "index": 103,
+        "term": "QUEEN V",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Queen V products?",
+            "queen v products sale",
+            "Looking for Queen V deals and promotions",
+            "queen v offers near me",
+            "Best prices on Queen V items",
+            "queen v discount codes",
+            "Where to buy Queen V products at a discount?",
+            "queen v sale",
+            "Looking for Queen V coupons",
+            "queen v products on sale"
+        ]
+    },
+    {
+        "index": 104,
+        "term": "RANDALLS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Randalls groceries",
+            "randal",
+            "Show me discounts on Randalls products",
+            "randals",
+            "Where can I find Randalls weekly ads?",
+            "randall's",
+            "Best deals on Randalls household items",
+            "randell",
+            "Looking for Randalls coupons",
+            "randell's"
+        ]
+    },
+    {
+        "index": 105,
+        "term": "RAO'S",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Rao's pasta sauce",
+            "raos",
+            "Looking for discounts on Rao's products",
+            "rao's pasta",
+            "Where can I find deals on Rao's marinara sauce",
+            "rao's sauce",
+            "Best prices on Rao's pasta",
+            "rao's products",
+            "Show me the top deals on Rao's Italian food",
+            "rao's italian"
+        ]
+    },
+    {
+        "index": 106,
+        "term": "RATIO",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Ratio products",
+            "Show me discounts on Ratio items",
+            "ratio brand deals",
+            "Looking for sales on ratio merchandise",
+            "Any promotions on Ratio products?",
+            "Find the best prices for ratio items",
+            "ratio brand discounts",
+            "Looking for deals on ratio merchandise",
+            "Any sales on Ratio products?",
+            "Find the lowest prices for ratio items"
+        ]
+    },
+    {
+        "index": 107,
+        "term": "RED GOLD",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Red Gold canned tomatoes?",
+            "redgold",
+            "Best offers on Red Gold ketchup",
+            "redgld",
+            "Any deals on Red Gold tomato sauce?",
+            "redgol",
+            "Where to buy Red Gold salsa at a discount?",
+            "redgoldd",
+            "Red Gold pasta sauce promotions",
+            "redgolld"
+        ]
+    },
+    {
+        "index": 108,
+        "term": "RUSTIK OVEN",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Rustik Oven bread?",
+            "rustik oven coupon codes",
+            "Best deals on Rustik Oven products",
+            "rustik oven sale near me",
+            "rustik oven bread offers",
+            "rustik oven promo codes",
+            "Discounted Rustik Oven items",
+            "rustik oven bread deals",
+            "rustik oven discounts",
+            "rustik oven bread coupons"
+        ]
+    },
+    {
+        "index": 109,
+        "term": "SAFEWAY",
+        "type": "brand",
+        "queries": [
+            "Find Safeway grocery store near me",
+            "Safeway weekly specials",
+            "Safeway online shopping",
+            "Safeway coupon codes",
+            "Safeway delivery options",
+            "safway",
+            "Safeway bakery items",
+            "Safeway pharmacy hours",
+            "Safeway customer service contact",
+            "safewy"
+        ]
+    },
+    {
+        "index": 110,
+        "term": "SAMS CLUB",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at Sam's Club",
+            "samsclub",
+            "Best deals on Sam's Club membership",
+            "sams clb",
+            "Where can I find discounts at Sam's Club?",
+            "sams club",
+            "Sam's Club promotions and discounts",
+            "sams clu",
+            "Show me the current deals at Sam's Club",
+            "samsclub"
+        ]
+    },
+    {
+        "index": 111,
+        "term": "SARA LEE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Sara Lee products",
+            "sara lee discounts and promotions",
+            "Best deals for Sara Lee bakery items",
+            "sara lee sale near me",
+            "Looking for Sara Lee coupons",
+            "sara lee bakery specials",
+            "sara lee bread deals",
+            "sara lee products on sale",
+            "sara lee bakery outlet discounts",
+            "sara lee bakery outlet near me"
+        ]
+    },
+    {
+        "index": 112,
+        "term": "SARA LEE ARTESANO",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Sara Lee Artesano bread?",
+            "sara lee artisano",
+            "Best deals on Sara Lee Artesano bread",
+            "sara lee artesano offers near me",
+            "sara lee artesano bread sale",
+            "sara lee artesano bread coupons",
+            "sara lee artesano bread promotions",
+            "sara lee artesano bread discounts",
+            "sara lee artesano bread deals online",
+            "sara lee artesano bread price comparison"
+        ]
+    },
+    {
+        "index": 113,
+        "term": "SARGENTO",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Sargento cheese",
+            "sargento cheese deals",
+            "Best discounts on Sargento products",
+            "sargento cheese sale",
+            "Where can I find Sargento coupons?",
+            "sargento cheese promotions",
+            "Show me Sargento cheese specials",
+            "sargento cheese discounts",
+            "Looking for Sargento cheese deals",
+            "sargento cheese offers"
+        ]
+    },
+    {
+        "index": 114,
+        "term": "SHAWS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Shaws products",
+            "shwas",
+            "Where can I find discounts on shaws groceries?",
+            "shawz",
+            "Best deals on shaws clothing",
+            "shwos",
+            "Any promotions on shaws household items?",
+            "shaws",
+            "shwas offers near me",
+            "shaws"
+        ]
+    },
+    {
+        "index": 115,
+        "term": "SIMPLY ORGANIC",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Simply Organic products",
+            "simply oganic deals near me",
+            "Best discounts on simply organic spices",
+            "simply organic coupon codes",
+            "simply organix products on sale",
+            "simply organic sale this week",
+            "simply organik offers online",
+            "simply organic discounts and promotions",
+            "simply organic brand deals",
+            "simply oragnic"
+        ]
+    },
+    {
+        "index": 116,
+        "term": "SIMPLY SPIKED",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Simply Spiked products",
+            "Show me deals on Simply Spiked beverages",
+            "simply spikd",
+            "Looking for discounts on Simply Spiked merchandise",
+            "Where can I find Simply Spiked promotions?",
+            "simply spiked",
+            "Best deals on Simply Spiked drinks",
+            "simply spikde",
+            "Offers on Simply Spiked alcoholic beverages",
+            "Looking for Simply Spiked coupons"
+        ]
+    },
+    {
+        "index": 117,
+        "term": "SIO BEAUTY",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Sio Beauty products?",
+            "sio beuty offers near me",
+            "Best deals on Sio Beauty skincare",
+            "sio beuaty promo codes",
+            "Where can I buy Sio Beauty products?",
+            "sio beuty skincare sale",
+            "Sio Beauty discounts and promotions",
+            "sio beuaty skincare deals",
+            "Are there any coupons for Sio Beauty?",
+            "sio beuty skincare discounts"
+        ]
+    },
+    {
+        "index": 118,
+        "term": "SIR KENSINGTONS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Sir Kensington's condiments?",
+            "sir kensingtons",
+            "What are the latest offers on Sir Kensington's products?",
+            "sir kensington",
+            "Show me the best deals on Sir Kensington's mayonnaise",
+            "sir kensingtons",
+            "Are there any promotions on Sir Kensington's ketchup?",
+            "sir kensington",
+            "Where can I buy Sir Kensington's products at a discounted price?",
+            "sir kensingtons"
+        ]
+    },
+    {
+        "index": 119,
+        "term": "SKITTLES",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Skittles candy?",
+            "skittles",
+            "Looking for Skittles offers near me",
+            "skittles candy sale",
+            "Best deals on Skittles",
+            "skittles candy discounts",
+            "Where can I buy Skittles at a discounted price?",
+            "skitles",
+            "skittles candy deals",
+            "skittles candy offers"
+        ]
+    },
+    {
+        "index": 120,
+        "term": "SNICKERS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Snickers candy bars?",
+            "snikkers",
+            "Best offers on Snickers chocolate",
+            "snickerss",
+            "Where to buy Snickers at a discounted price?",
+            "snikcers",
+            "Deals on Snickers candy",
+            "snikkers candy",
+            "Snickers promotions and discounts",
+            "snikers"
+        ]
+    },
+    {
+        "index": 121,
+        "term": "SNUGGLE",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Snuggle fabric softener",
+            "snugle",
+            "Where can I find discounts on Snuggle products?",
+            "snuggles",
+            "Show me deals on Snuggle laundry detergent",
+            "snugle brand",
+            "Best prices for Snuggle dryer sheets",
+            "snugle fabric softener",
+            "Looking for Snuggle coupons",
+            "snugles"
+        ]
+    },
+    {
+        "index": 122,
+        "term": "SOL CERVEZA",
+        "type": "brand",
+        "queries": [
+            "Where can I find the best deals on Sol cerveza?",
+            "sol cerveza offers near me",
+            "Looking for discounts on Sol cerveza",
+            "sol cerveza promotions",
+            "Best prices for Sol cerveza",
+            "sol cerveza sale",
+            "sol cerveza discounts",
+            "sol cerveza deals",
+            "Looking for Sol cerveza special offers",
+            "sol cervaza"
+        ]
+    },
+    {
+        "index": 123,
+        "term": "SQUIRREL",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Squirrel products",
+            "squirrl",
+            "Where can I find discounts on Squirrel merchandise?",
+            "squirrell",
+            "Best deals on Squirrel items",
+            "squirle",
+            "Show me the top promotions for Squirrel brand",
+            "squirrells",
+            "Any sales on Squirrel products?",
+            "squiral"
+        ]
+    },
+    {
+        "index": 124,
+        "term": "STAR MARKET",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at Star Market",
+            "star market deals near me",
+            "star market discounts and promotions",
+            "star market coupons",
+            "star market weekly specials",
+            "star market sales and savings",
+            "star market online offers",
+            "star market best deals",
+            "star market discount codes",
+            "star market promotions"
+        ]
+    },
+    {
+        "index": 125,
+        "term": "STARBURST",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Starburst candies?",
+            "starbust",
+            "What are the current promotions for Starburst?",
+            "starburt",
+            "Show me the best deals on Starburst sweets",
+            "starbusts",
+            "Where can I buy Starburst products at a discounted price?",
+            "starbust candy",
+            "Are there any coupons available for Starburst?",
+            "starburt candy"
+        ]
+    },
+    {
+        "index": 126,
+        "term": "STARRY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Starry products",
+            "stary deals near me",
+            "Best discounts on Starry merchandise",
+            "starry products on sale",
+            "stary brand promotions",
+            "Where can I find Starry deals?",
+            "starry offers and discounts",
+            "stary brand sales",
+            "starry deals of the day",
+            "stary brand coupons"
+        ]
+    },
+    {
+        "index": 127,
+        "term": "STUBBORN SODA",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Stubborn Soda",
+            "stuborn soda deals near me",
+            "stubborn soda discounts and promotions",
+            "stubborn soda coupons",
+            "Looking for Stubborn Soda sales",
+            "stubborn soda sale in my area",
+            "Best prices on Stubborn Soda",
+            "stubborn soda special offers",
+            "stubborn soda bargains",
+            "stubborn soda promo codes"
+        ]
+    },
+    {
+        "index": 128,
+        "term": "SUBWAY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at Subway",
+            "subay deals near me",
+            "Subway coupons and discounts",
+            "subwya promotions in my area",
+            "Best deals on sandwiches at Subway",
+            "subway vouchers and savings",
+            "subway sub of the day specials",
+            "subwau discounts for students",
+            "subway sandwich combo deals",
+            "subway near me"
+        ]
+    },
+    {
+        "index": 129,
+        "term": "SUPER COFFEE",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Super Coffee products?",
+            "super coffe",
+            "Best deals on Super Coffee drinks",
+            "super cofee",
+            "Any promotions on Super Coffee beverages?",
+            "super koffee",
+            "Where to buy Super Coffee at a discounted price?",
+            "super coofee",
+            "Are there any coupons for Super Coffee?",
+            "supper coffee"
+        ]
+    },
+    {
+        "index": 130,
+        "term": "TALENTI",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Talenti gelato",
+            "talenty",
+            "Where can I find discounts on Talenti ice cream?",
+            "talenti deals near me",
+            "Looking for Talenti coupons",
+            "talentii",
+            "Best prices for Talenti frozen desserts",
+            "talenti promotions",
+            "Where can I buy Talenti products on sale?",
+            "talenti ice cream sale"
+        ]
+    },
+    {
+        "index": 131,
+        "term": "TGI FRIDAYS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for TGI Fridays",
+            "Best deals on TGI Fridays menu items",
+            "tgi fridys",
+            "Where can I find TGI Fridays discounts?",
+            "tgi fridays happy hour specials",
+            "tgi fridays near me",
+            "tgi fridays coupons",
+            "tgi fridays promotions",
+            "tgi fridays menu prices",
+            "tgi fridays gift cards"
+        ]
+    },
+    {
+        "index": 132,
+        "term": "THOMAS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Thomas toys",
+            "thomsa",
+            "Where can I get discounts on Thomas train sets?",
+            "thommas",
+            "Show me the best deals on Thomas & Friends merchandise",
+            "thomass",
+            "Looking for sales on Thomas the Tank Engine products",
+            "thommas",
+            "Where can I find Thomas clothing on sale?",
+            "thomass"
+        ]
+    },
+    {
+        "index": 133,
+        "term": "TOM THUMB",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Tom Thumb products",
+            "tom thum",
+            "Where can I find discounts on Tom Thumb groceries?",
+            "tom thum offers",
+            "Best deals on Tom Thumb household items",
+            "tom thumb sale",
+            "Looking for Tom Thumb coupons",
+            "tom thum deals",
+            "Where can I get Tom Thumb discounts?",
+            "tom thumb promotions"
+        ]
+    },
+    {
+        "index": 134,
+        "term": "TOPO CHICO HARD SELTZER",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Topo Chico Hard Seltzer?",
+            "topo chico hard seltzer offers near me",
+            "Any deals on Topo Chico Hard Seltzer?",
+            "topo chico hard seltzer sale",
+            "Best prices for Topo Chico Hard Seltzer",
+            "topo chico hard seltzer promotions",
+            "topo chico hard seltzer discounts",
+            "topo chico hard seltzer deals of the day",
+            "topo chico hard seltzer special offers",
+            "topo chico hard seltzer coupons"
+        ]
+    },
+    {
+        "index": 135,
+        "term": "TOSTITOS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Tostitos chips?",
+            "tostito",
+            "Best deals on Tostitos salsa",
+            "tostitoz",
+            "Any promotions on Tostitos tortilla chips?",
+            "tostitos",
+            "Where can I buy Tostitos products on sale?",
+            "tositos",
+            "Special offers on Tostitos party snacks",
+            "tostitoss"
+        ]
+    },
+    {
+        "index": 136,
+        "term": "TRURAY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on truray products",
+            "truray discounts and deals",
+            "truray brand promotions",
+            "truray products on sale",
+            "truray best price deals",
+            "truray offers and discounts",
+            "truray deals near me",
+            "truray coupons and savings",
+            "truray brand sales",
+            "tru ray"
+        ]
+    },
+    {
+        "index": 137,
+        "term": "TWIX",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Twix chocolate bars",
+            "twix deals near me",
+            "Looking for discounts on twix candy",
+            "twix coupons and promotions",
+            "Best prices for twix snacks",
+            "twix sale this week",
+            "twix chocolate discounts",
+            "twix candy offers online",
+            "twix promotions and deals",
+            "twix chocolate bar sale"
+        ]
+    },
+    {
+        "index": 138,
+        "term": "VIZZY",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Vizzy products",
+            "vizy",
+            "Where can I find discounts on Vizzy items?",
+            "vizzi",
+            "Best deals on Vizzy merchandise",
+            "vizzy offers near me",
+            "vizy brand discounts",
+            "Looking for Vizzy promotions",
+            "vizzy sale",
+            "vizzi products on sale"
+        ]
+    },
+    {
+        "index": 139,
+        "term": "VONS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers at Vons",
+            "vons deals near me",
+            "vons discounts and promotions",
+            "Looking for vons coupons",
+            "vons weekly specials",
+            "vans grocery store sales",
+            "vons online shopping deals",
+            "vons supermarket offers",
+            "vons savings and deals",
+            "vons nearby deals"
+        ]
+    },
+    {
+        "index": 140,
+        "term": "WELCHS FRUIT SNACKS",
+        "type": "brand",
+        "queries": [
+            "Where can I find discounts on Welch's fruit snacks?",
+            "welch fruit snacks sale near me",
+            "Best deals on welchs fruit snacks",
+            "welchs fruit snacks coupons",
+            "welchs fruit snacks offers",
+            "welchs fruit snacks promotions",
+            "welchs fruit snacks bulk buy",
+            "welchs fruit snacks online deals",
+            "welchs fruit snacks discounts",
+            "welchs fruit snacks price comparison"
+        ]
+    },
+    {
+        "index": 141,
+        "term": "WESSON",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Wesson cooking oil",
+            "wessson",
+            "Looking for discounts on Wesson vegetable oil",
+            "wesosn",
+            "Where can I find deals on Wesson oil",
+            "wesonn",
+            "Best prices for Wesson cooking spray",
+            "wessoon",
+            "Any promotions on Wesson salad dressing",
+            "wessn"
+        ]
+    },
+    {
+        "index": 142,
+        "term": "WONDERWORKS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers on Wonderworks products",
+            "wonderwoks deals near me",
+            "Best discounts on wonderwroks items",
+            "wonderwirks coupons and promotions",
+            "Show me wonderwarks sales and discounts",
+            "wonderworsks products on sale",
+            "Looking for wonderwarks special offers",
+            "wonderwroks discount codes",
+            "wonderwarks clearance sale",
+            "wonderwirks promo deals"
+        ]
+    },
+    {
+        "index": 143,
+        "term": "ZAXBYS",
+        "type": "brand",
+        "queries": [
+            "Find the latest offers for Zaxby's chicken",
+            "zaxbys near me",
+            "Best deals on Zaxby's menu items",
+            "zaxby's coupons and discounts",
+            "zaxby's locations in my area",
+            "zaxby's delivery options",
+            "zaxbys menu prices",
+            "zaxbys chicken sandwich deals",
+            "zaxby's catering services",
+            "zaxby's nutritional information"
+        ]
+    },
+    {
+        "index": 144,
+        "term": "Alfredo & White Pasta Sauce",
+        "type": "category",
+        "queries": [
+            "Best deals on alfredo and white pasta sauce",
+            "Where to buy alfredo and white pasta sauce",
+            "Discounts on alfredo and white pasta sauce",
+            "Top brands of alfredo and white pasta sauce",
+            "Cheapest alfredo and white pasta sauce options",
+            "Offers on alfredo and white pasta sauce",
+            "Where can I find alfredo and white pasta sauce on sale",
+            "Best alfredo and white pasta sauce deals near me",
+            "Affordable alfredo and white pasta sauce options",
+            "Where can I get alfredo and white pasta sauce"
+        ]
+    },
+    {
+        "index": 145,
+        "term": "Bakery",
+        "type": "category",
+        "queries": [
+            "Best bakery near me",
+            "Bakery shops in my area",
+            "How to make bakery-style bread at home",
+            "Bakery items for sale",
+            "Bakery near me open now",
+            "Bakery delivery services",
+            "Bakery products for a birthday party",
+            "Bakery items with gluten-free options",
+            "Bakery deals and discounts",
+            "Bakery equipment for sale"
+        ]
+    },
+    {
+        "index": 146,
+        "term": "Bath & Body",
+        "type": "category",
+        "queries": [
+            "Best deals on bath & body products",
+            "Where to buy bath and body items online",
+            "Discounts on bath and body essentials",
+            "Top-rated bath and body products for sale",
+            "Affordable bath and body care products",
+            "Bath and body gift sets on sale",
+            "Where can I find bath and body products near me?",
+            "Cheap bath and body supplies",
+            "Bath and body products with free shipping",
+            "Deals on bath and body accessories"
+        ]
+    },
+    {
+        "index": 147,
+        "term": "Beer",
+        "type": "category",
+        "queries": [
+            "Best beer offers near me",
+            "Cheap beer deals in my area",
+            "Craft beer discounts online",
+            "Where can I find beer on sale?",
+            "Top-rated breweries in my city",
+            "Beer promotions and specials",
+            "Beer coupons and vouchers",
+            "Beer tasting events near me",
+            "Beer delivery services in my area",
+            "Beer brands and varieties"
+        ]
+    },
+    {
+        "index": 148,
+        "term": "Bread",
+        "type": "category",
+        "queries": [
+            "Best deals on bread",
+            "Where to buy fresh bread",
+            "Discounts on bread products",
+            "Bread offers near me",
+            "Cheap bread options",
+            "Bread sale this week",
+            "Bread coupons and promotions",
+            "Bread specials in my area",
+            "Bread discounts and deals",
+            "Bread bargains"
+        ]
+    },
+    {
+        "index": 149,
+        "term": "Candy",
+        "type": "category",
+        "queries": [
+            "Best candy deals near me",
+            "Where can I find discounted candy?",
+            "Top-rated candy shops in my area",
+            "Candy coupons and promotions",
+            "Cheap candy options for parties",
+            "Candy sales and discounts",
+            "Where to buy candy in bulk",
+            "Candy stores with online delivery",
+            "Affordable candy options for kids",
+            "Candy offers and specials"
+        ]
+    },
+    {
+        "index": 150,
+        "term": "Carbonated Soft Drinks",
+        "type": "category",
+        "queries": [
+            "Best deals on carbonated soft drinks",
+            "Where to buy carbonated soft drinks",
+            "Discounts on carbonated soft drinks",
+            "Carbonated soda offers",
+            "Cheapest carbonated soft drinks",
+            "Carbonated soft drinks sale",
+            "Carbonated soft drinks near me",
+            "Carbonated soft drinks brands",
+            "Carbonated soft drinks online",
+            "Carbonated soft drinks price comparison"
+        ]
+    },
+    {
+        "index": 151,
+        "term": "Cereal, Granola, & Toaster Pastries",
+        "type": "category",
+        "queries": [
+            "Best deals on cereal, granola, and toaster pastries",
+            "Where can I find discounts on cereal, granola, and toaster pastries?",
+            "Top brands for cereal, granola, and toaster pastries",
+            "Any coupons available for cereal, granola, and toaster pastries?",
+            "Where to buy cereal, granola, and toaster pastries online?",
+            "Healthy options for cereal, granola, and toaster pastries",
+            "Cereal, granola, and toaster pastries on sale near me",
+            "Are there any new flavors of cereal, granola, and toaster pastries?",
+            "Low sugar options for cereal, granola, and toaster pastries",
+            "Cereal, granola, and toaster pastries for breakfast"
+        ]
+    },
+    {
+        "index": 152,
+        "term": "Cheese",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on cheese?",
+            "Best offers for cheese near me",
+            "Cheese discounts and promotions",
+            "Cheese sales and specials",
+            "Cheese coupons and savings",
+            "Cheeze deals in my area",
+            "Cheese offers and discounts",
+            "Cheese bargains and deals",
+            "Cheese promotions and discounts",
+            "Cheese sales and offers"
+        ]
+    },
+    {
+        "index": 153,
+        "term": "Chips",
+        "type": "category",
+        "queries": [
+            "Best deals on chips",
+            "Where to buy chips online",
+            "Chips offers near me",
+            "Discounts on potato chips",
+            "Cheapest chips for sale",
+            "Chips sale this week",
+            "Top brands of chips on sale",
+            "Potato crisps discounts",
+            "Chips coupons and promotions",
+            "Chips deals and discounts"
+        ]
+    },
+    {
+        "index": 154,
+        "term": "Coffee",
+        "type": "category",
+        "queries": [
+            "Best coffee offers near me",
+            "Discounted coffee deals",
+            "Where can I find coffee promotions?",
+            "Coffee coupons and discounts",
+            "Top rated coffee shops in my area",
+            "Coffee shop deals and specials",
+            "Cheap coffee beans for sale",
+            "Best coffee brands on sale",
+            "Coffee machines on discount",
+            "Where to buy coffee accessories"
+        ]
+    },
+    {
+        "index": 155,
+        "term": "Condiments",
+        "type": "category",
+        "queries": [
+            "Best condiments for burgers",
+            "Where to buy condiments online",
+            "How to make homemade condiments",
+            "Condiments for BBQ recipes",
+            "Spicy condiments for sandwiches",
+            "Condiments for hot dogs",
+            "Healthy condiments for salads",
+            "Condiments for vegetarian dishes",
+            "Condiments for Mexican cuisine",
+            "Condiments for Asian cooking"
+        ]
+    },
+    {
+        "index": 156,
+        "term": "Cookies",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on cookies?",
+            "Best offers for cookies near me",
+            "Discounts on cookie brands",
+            "Cookie sales and promotions",
+            "Cookie deals and discounts",
+            "Where to buy cookies at a discounted price",
+            "Any coupons available for cookies?",
+            "Looking for cookie specials",
+            "Cookie offers and savings",
+            "Where can I get cheap cookies?"
+        ]
+    },
+    {
+        "index": 157,
+        "term": "Cooking & Baking",
+        "type": "category",
+        "queries": [
+            "cooking and baking offers",
+            "baking and cooking deals",
+            "cooking & baking discounts",
+            "cooking and bakinng promotions",
+            "cooking and baking sales",
+            "cooking and baking coupons",
+            "cooking and baking specials",
+            "cooking and baking vouchers",
+            "cooking and baking bargains",
+            "cooking and baking discounts"
+        ]
+    },
+    {
+        "index": 158,
+        "term": "Crackers",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on crackers?",
+            "Best offers on crackers near me",
+            "Crackers discounts and promotions",
+            "Crackers sale in my area",
+            "Crackers coupons and savings",
+            "Crackers deals and specials",
+            "Crackers bargains and sales",
+            "Crackers offers and discounts",
+            "Crakers",
+            "Crackes"
+        ]
+    },
+    {
+        "index": 159,
+        "term": "Deli Counter",
+        "type": "category",
+        "queries": [
+            "Best deli counter near me",
+            "Deli counter offers and deals",
+            "How to find a deli counter in my area",
+            "Deli counter specials and promotions",
+            "Nearest deli counter with fresh meats",
+            "Deli counter discounts and coupons",
+            "Where can I find a deli counter with a variety of cheeses",
+            "Deli counter nearby with sliced meats",
+            "Deli counter menu options and prices",
+            "Deli counter open hours and locations"
+        ]
+    },
+    {
+        "index": 160,
+        "term": "Deodorant & Antiperspirant",
+        "type": "category",
+        "queries": [
+            "Best deodorant and antiperspirant for sensitive skin",
+            "Top rated deodorant and antiperspirant for men",
+            "Natural deodorant and antiperspirant options",
+            "Affordable deodorant and antiperspirant brands",
+            "Deodorant and antiperspirant combo products",
+            "Deodorant and antiperspirant for excessive sweating",
+            "Deodorant and antiperspirant without aluminum",
+            "Deodorant and antiperspirant for women with strong odor",
+            "Deodorant and antiperspirant for athletes",
+            "Deodorant and antiperspirant for kids"
+        ]
+    },
+    {
+        "index": 161,
+        "term": "Dips & Salsa",
+        "type": "category",
+        "queries": [
+            "Best deals on dips and salsa",
+            "Where to find discounts on dips and salsa",
+            "Top-rated dips and salsa on sale",
+            "Any promotions on dips and salsa",
+            "Cheapest dips and salsa options",
+            "Dips and salsa offers near me",
+            "Special offers on salsa and dips",
+            "Discounted dips and salsa products",
+            "Dips and salsa deals of the day",
+            "Dips and salsa coupons and discounts"
+        ]
+    },
+    {
+        "index": 162,
+        "term": "Dog Supplies",
+        "type": "category",
+        "queries": [
+            "Best deals on dog supplies",
+            "Where to buy dog supplies online",
+            "Discounts on dog supplies",
+            "Dog supplies for sale",
+            "Affordable dog supplies",
+            "Dog supplies near me",
+            "Cheap dog supplies",
+            "Dog supplies on sale",
+            "Top-rated dog supplies",
+            "Dog supplies with free shipping"
+        ]
+    },
+    {
+        "index": 163,
+        "term": "Dressings",
+        "type": "category",
+        "queries": [
+            "Where can I find dressings for salads?",
+            "Best deals on dressings for pasta?",
+            "Any discounts on dressings for sandwiches?",
+            "Where to buy dressings for vegetables?",
+            "Looking for dressings for chicken, any recommendations?",
+            "Any offers on dressings for seafood?",
+            "Where can I find dressings for wraps?",
+            "Best deals on dressings for burgers?",
+            "Looking for dressings for appetizers, any suggestions?",
+            "Any discounts on dressings for dips?"
+        ]
+    },
+    {
+        "index": 164,
+        "term": "Drink Mixes",
+        "type": "category",
+        "queries": [
+            "Best drink mixes for cocktails",
+            "Where to buy drink mixes online",
+            "How to make drink mixes at home",
+            "Top-rated drink mixes for summer parties",
+            "Are there any discounts on drink mixes?",
+            "What are the different types of drink mixes available?",
+            "Can I find organic drink mixes?",
+            "Where can I find drink mixes with natural sweeteners?",
+            "What are the popular brands of drink mixes?",
+            "Are there any low-calorie drink mixes available?"
+        ]
+    },
+    {
+        "index": 165,
+        "term": "Dry Pasta",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on dry pasta?",
+            "Best offers for dry pasta",
+            "Discounts on dry pasta",
+            "Where to buy dry pasta at a lower price?",
+            "Any promotions on dry pasta?",
+            "Dry pasta sale near me",
+            "Cheapest dry pasta options",
+            "Dry pasta deals and discounts",
+            "Where can I get dry pasta on sale?",
+            "Dry pasta offers and deals"
+        ]
+    },
+    {
+        "index": 166,
+        "term": "Eggs",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on eggs?",
+            "Best offers for eggs near me",
+            "Discounts on organic eggs",
+            "Any promotions on egg products?",
+            "Where to buy eggs on sale?",
+            "Eggs for cheap prices",
+            "Deals on eggs in my area",
+            "Any coupons for eggs?",
+            "Where can I get discounted eggs?",
+            "Offers on eggs at grocery stores"
+        ]
+    },
+    {
+        "index": 167,
+        "term": "Food Storage",
+        "type": "category",
+        "queries": [
+            "Best deals on food storage containers",
+            "Where to buy food storage containers",
+            "Food storage solutions for small spaces",
+            "How to organize food storage in the pantry",
+            "Discounts on food storage bags",
+            "Food storage containers with airtight lids",
+            "Food storage options for camping",
+            "Food storage containers for meal prep",
+            "Food storage ideas for leftovers",
+            "Food storage hacks for extending shelf life"
+        ]
+    },
+    {
+        "index": 168,
+        "term": "Frozen Appetizers",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen appetizers",
+            "Where to buy frozen appetizers",
+            "Frozen appetizers on sale",
+            "Easy frozen appetizer recipes",
+            "Top rated frozen appetizers",
+            "Frozen appetizers for parties",
+            "Quick and delicious frozen appetizers",
+            "Frozen appetizers for game night",
+            "Affordable frozen appetizers",
+            "Frozen appetizers near me"
+        ]
+    },
+    {
+        "index": 169,
+        "term": "Frozen Beef",
+        "type": "category",
+        "queries": [
+            "Where can I find frozen beef?",
+            "Best deals on frozen beef",
+            "Frozen beef offers near me",
+            "How to cook frozen beef",
+            "Frozen beef recipes",
+            "Discounts on frozen beef",
+            "Frozen beef suppliers",
+            "Frozen beef delivery options",
+            "Frozen beef storage tips",
+            "Frozen beef safety precautions"
+        ]
+    },
+    {
+        "index": 170,
+        "term": "Frozen Breads & Doughs",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen breads and doughs",
+            "Where to buy frozen breads and doughs",
+            "Frozen breads and doughs for sale",
+            "Discounts on frozen breads and doughs",
+            "Frozen breads and doughs near me",
+            "Frozen breads and doughs online",
+            "Frozen breads and doughs delivery",
+            "Frozen breads and doughs offers",
+            "Frozen breads and doughs deals",
+            "Frozen breads and doughs promotions"
+        ]
+    },
+    {
+        "index": 171,
+        "term": "Frozen Breakfast",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen breakfast items",
+            "Where to buy frozen breakfast foods",
+            "Healthy frozen breakfast options",
+            "Frozen breakfast recipes",
+            "Discounts on frozen breakfast products",
+            "Frozen breakfast items for busy mornings",
+            "Frozen breakfast aisle in grocery stores",
+            "Frozen breakfast items for weight loss",
+            "Frozen breakfast options for vegetarians",
+            "Frozen breakfast items with low sugar content"
+        ]
+    },
+    {
+        "index": 172,
+        "term": "Frozen Chicken",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen chicken",
+            "Where to buy frozen chicken online",
+            "Frozen chicken offers near me",
+            "Discounts on frozen chicken products",
+            "Frozen chicken sale this week",
+            "Frozen chicken deals and promotions",
+            "Cheap frozen chicken options",
+            "Frozen chicken discounts and coupons",
+            "Frozen chicken specials in supermarkets",
+            "Frozen chicken deals for bulk purchases"
+        ]
+    },
+    {
+        "index": 173,
+        "term": "Frozen Desserts",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen desserts",
+            "Where to find frozen desserts on sale",
+            "Top rated frozen desserts near me",
+            "Discounts on frozen desserts",
+            "Frozen desserts for parties",
+            "Frozen desserts for summer",
+            "Where can I buy frozen desserts online",
+            "Healthy frozen desserts options",
+            "Frozen desserts for kids",
+            "Frozen desserts for diabetics"
+        ]
+    },
+    {
+        "index": 174,
+        "term": "Frozen Fruits",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen fruits",
+            "Where to buy frozen fruits online",
+            "Frozen fruits on sale near me",
+            "How to store frozen fruits",
+            "Benefits of eating frozen fruits",
+            "Organic frozen fruits for smoothies",
+            "Frozen fruits for weight loss",
+            "Are frozen fruits as healthy as fresh fruits?",
+            "Frozen fruits delivery options",
+            "Discounts on frozen fruits"
+        ]
+    },
+    {
+        "index": 175,
+        "term": "Frozen Meals",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen meals",
+            "Where to find frozen meals on sale",
+            "Quick and easy frozen meal options",
+            "Healthy frozen meal options",
+            "Affordable frozen meal options",
+            "Discounts on frozen meals",
+            "Convenient frozen meal options",
+            "Frozen meal delivery services",
+            "Variety of frozen meal options",
+            "Frozen meal recommendations"
+        ]
+    },
+    {
+        "index": 176,
+        "term": "Frozen Pizza & Pizza Snacks",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen pizza",
+            "Where to buy pizza snacks",
+            "Discounts on frozen pizza",
+            "Frozen pizza brands",
+            "Cheapest frozen pizza options",
+            "Pizza snacks for sale",
+            "Frozen pizza and snacks combo offers",
+            "Frozen pizza and pizza snacks deals",
+            "Frozen pizza and pizza snacks near me",
+            "Frozen pizza and pizza snacks delivery"
+        ]
+    },
+    {
+        "index": 177,
+        "term": "Frozen Plant-Based Meat",
+        "type": "category",
+        "queries": [
+            "Where can I find frozen plant-based meat?",
+            "Best deals on frozen plant-based meat",
+            "Frozen plant-based meat options near me",
+            "How to cook frozen plant-based meat",
+            "Are there any discounts on frozen plant-based meat?",
+            "Frozen plant-based meat brands",
+            "Frozen plant-based meat recipes",
+            "Frozen plant-based meat substitutes",
+            "Frozen plant-based meat delivery services",
+            "Frozen plant-based meat nutrition facts"
+        ]
+    },
+    {
+        "index": 178,
+        "term": "Frozen Seafood",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen seafood",
+            "Where to buy frozen seafood online",
+            "Frozen seafood offers near me",
+            "Discounts on frozen seafood products",
+            "Frozen seafood sale this week",
+            "Frozen seafood deals and promotions",
+            "Affordable frozen seafood options",
+            "Frozen seafood discounts and coupons",
+            "Frozen seafood specials in my area",
+            "Frozen seafood bargains"
+        ]
+    },
+    {
+        "index": 179,
+        "term": "Frozen Turkey",
+        "type": "category",
+        "queries": [
+            "Where can I find frozen turkeys?",
+            "Best deals on frozen turkeys",
+            "Frozen turkey offers near me",
+            "Discounts on frozen turkeys",
+            "Frozen turkeys for Thanksgiving",
+            "Frozen turkeys on sale",
+            "Frozen turkeys in bulk",
+            "Frozen turkeys for Christmas dinner",
+            "Frozen turkeys with free shipping",
+            "Frozen turkeys at affordable prices"
+        ]
+    },
+    {
+        "index": 180,
+        "term": "Frozen Vegetables",
+        "type": "category",
+        "queries": [
+            "Best deals on frozen vegetables",
+            "Where to buy frozen vegetables",
+            "Frozen vegetable offers near me",
+            "Discounts on frozen veggies",
+            "Frozen vegetables on sale",
+            "Cheapest frozen vegetables",
+            "Frozen veggie deals",
+            "Frozen vegetables with discounts",
+            "Frozen vegetables at a discounted price",
+            "Frozen vegetables promotions"
+        ]
+    },
+    {
+        "index": 181,
+        "term": "Fruit & Vegetable Snacks",
+        "type": "category",
+        "queries": [
+            "Where can I find fruit and vegetable snacks?",
+            "What are some healthy fruit and veggie snacks?",
+            "Any deals on fruit and vegetable snacks?",
+            "Looking for fruit and veggie snacks near me.",
+            "Best fruit and vegetable snacks for kids.",
+            "Are there any discounts on fruit and veggie snacks?",
+            "Where can I buy fruit and vegetable snacks online?",
+            "What are some popular fruit and veggie snack brands?",
+            "Any recommendations for fruit and vegetable snacks?",
+            "Looking for fruit and veggie snacks with no added sugar."
+        ]
+    },
+    {
+        "index": 182,
+        "term": "Fruit Juices",
+        "type": "category",
+        "queries": [
+            "Best deals on fruit juices",
+            "Where to buy fruit juices online",
+            "Discounted fruit juice offers",
+            "Healthy fruit juice options",
+            "Variety of fruit juices available",
+            "Fruit juice sale near me",
+            "Organic fruit juice brands",
+            "Affordable fruit juice options",
+            "Popular fruit juice flavors",
+            "Fruit juces"
+        ]
+    },
+    {
+        "index": 183,
+        "term": "Gum",
+        "type": "category",
+        "queries": [
+            "Best deals on gum",
+            "Where to buy gum online",
+            "Discounts on chewing gum",
+            "Gum offers near me",
+            "Cheapest gum prices",
+            "Gum sales and promotions",
+            "Gum deals of the day",
+            "Gum discounts and coupons",
+            "Gum for sale at discounted prices",
+            "Where can I find gum on sale"
+        ]
+    },
+    {
+        "index": 184,
+        "term": "Hair Care",
+        "type": "category",
+        "queries": [
+            "Best hair care products",
+            "Hair care tips for damaged hair",
+            "Affordable hair care routine",
+            "Hair care products for curly hair",
+            "Hair care routine for men",
+            "Hair care products for oily scalp",
+            "Hair care routine for dry hair",
+            "Hair care products for frizzy hair",
+            "Hair care tips for long hair",
+            "Hair care products for thinning hair"
+        ]
+    },
+    {
+        "index": 185,
+        "term": "Hair Removal",
+        "type": "category",
+        "queries": [
+            "Best hair removal options",
+            "Hair removal deals near me",
+            "How to remove hair permanently",
+            "Hair removal methods for sensitive skin",
+            "Affordable hair removal services",
+            "Hair removal clinics in my area",
+            "Hair removal products for men",
+            "Laser hair removal cost",
+            "Hair removal tips and tricks",
+            "Hair removal for dark skin"
+        ]
+    },
+    {
+        "index": 186,
+        "term": "Hard Seltzers, Sodas, Waters, Lemonades & Teas",
+        "type": "category",
+        "queries": [
+            "Best deals on hard seltzers",
+            "Where to buy sodas at a discount",
+            "Cheap waters for sale",
+            "Offers on lemonades and teas",
+            "Discounted hard selters",
+            "Sodas on sale",
+            "Water deals",
+            "Lemonade and tea offers",
+            "Hard seltzer discounts",
+            "Soda sale"
+        ]
+    },
+    {
+        "index": 187,
+        "term": "Household Supplies",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on household supplies?",
+            "Best offers for household supplies",
+            "Discounts on household supplies near me",
+            "Household supplies on sale",
+            "Where to buy household supplies at a low price",
+            "Household supplies deals and promotions",
+            "Household supplies discounts and coupons",
+            "Affordable household supplies online",
+            "Household supplies bargains and savings",
+            "Where can I get household supplies for cheap?"
+        ]
+    },
+    {
+        "index": 188,
+        "term": "Jerky & Dried Meat",
+        "type": "category",
+        "queries": [
+            "Best deals on jerky and dried meat",
+            "Where to buy jerky and dried meat online",
+            "Top brands for jerky and dried meat",
+            "Discounts on jerky and dried meat",
+            "Healthy options for jerky and dried meat",
+            "Variety of flavors in jerky and dried meat",
+            "Where can I find dried meat and jerky on sale?",
+            "Best places to buy dried meat and jerky",
+            "Are there any promotions on jerky and dried meat?",
+            "Where can I find jerky and dried meat near me?"
+        ]
+    },
+    {
+        "index": 189,
+        "term": "Laundry Supplies",
+        "type": "category",
+        "queries": [
+            "Best deals on laundry supplies",
+            "Where to buy laundry supplies online",
+            "Discounts on laundry supplies",
+            "Top-rated laundry supplies",
+            "Affordable laundry supplies",
+            "Laundry supplies for sale",
+            "Laundry supplies near me",
+            "Cheap laundry supplies",
+            "Laundry supplies deals and offers",
+            "Laundry supplies discounts"
+        ]
+    },
+    {
+        "index": 190,
+        "term": "Leafy Salads",
+        "type": "category",
+        "queries": [
+            "Best leafy salads near me",
+            "Healthy leafy salads for lunch",
+            "Easy recipes for leafy salads",
+            "Where to buy leafy salads online",
+            "Leafy salads with avocado dressing",
+            "Leafy salads for weight loss",
+            "Leafy salads with grilled chicken",
+            "Leafy salads for summer",
+            "Leafy salads with balsamic vinaigrette",
+            "Leafy salads with feta cheese"
+        ]
+    },
+    {
+        "index": 191,
+        "term": "Makeup",
+        "type": "category",
+        "queries": [
+            "Best makeup deals",
+            "Where to buy makeup online",
+            "Makeup discounts and promotions",
+            "Makeup products on sale",
+            "Cheap makeup options",
+            "Makeup offers near me",
+            "Top-rated makeup brands",
+            "Makeup sale this weekend",
+            "Makeup coupons and vouchers",
+            "Discounted cosmetics"
+        ]
+    },
+    {
+        "index": 192,
+        "term": "Malt Beverages",
+        "type": "category",
+        "queries": [
+            "Best deals on malt beverages",
+            "Where to buy malt beverages online",
+            "Malt beverages near me",
+            "Discounts on malt beverages",
+            "Popular brands of malt beverages",
+            "Malt beverages for sale",
+            "Malt beverages with free shipping",
+            "Cheapest malt beverages",
+            "Malt beverages on sale this week",
+            "Malt bevereges"
+        ]
+    },
+    {
+        "index": 193,
+        "term": "Meal Replacement Beverages",
+        "type": "category",
+        "queries": [
+            "Best meal replacement beverages",
+            "Where to buy meal replacement beverages",
+            "Meal replacement beverages for weight loss",
+            "Are meal replacement beverages healthy",
+            "Cheap meal replacement beverages",
+            "Meal replacement beverages with high protein",
+            "Meal replacement beverages for breakfast",
+            "Meal replacement beverages for busy people",
+            "Meal replacement beverages for athletes",
+            "Meal replacement beverages with low sugar"
+        ]
+    },
+    {
+        "index": 194,
+        "term": "Medicines & Treatments",
+        "type": "category",
+        "queries": [
+            "Where can I find offers for medicines and treatments?",
+            "Best deals on medicines and treatments",
+            "Discounts on medicines and treatments",
+            "Any promotions on medicines and treatments?",
+            "Medicines and treatments sale",
+            "Medicines and treatments discounts",
+            "Medicines and treatments offers near me",
+            "Medicines and treatments deals online",
+            "Medicines and treatments coupons",
+            "Medicines and treatments special offers"
+        ]
+    },
+    {
+        "index": 195,
+        "term": "Milk",
+        "type": "category",
+        "queries": [
+            "Where can I find milk offers near me?",
+            "Best deals on milk in my area",
+            "Discounts on dairy milk products",
+            "Any promotions on milk this week?",
+            "Cheapest milk prices in town",
+            "Where to buy milk at a discounted price?",
+            "Any milk sales happening right now?",
+            "Milk deals and discounts in local stores",
+            "Offers on organic milk",
+            "Where can I get milk for a good price?"
+        ]
+    },
+    {
+        "index": 196,
+        "term": "Nut Butters & Jam",
+        "type": "category",
+        "queries": [
+            "Best deals on nut butters and jam",
+            "Where to buy nut butters and jam online",
+            "Discounts on nut butters and jam",
+            "Top brands for nut butters and jam",
+            "How to make homemade nut butters and jam",
+            "Nut butters and jam recipes",
+            "Organic nut butters and jam options",
+            "Varieties of nut butters and jam",
+            "Health benefits of nut butters and jam",
+            "Nut butters and jam for breakfast"
+        ]
+    },
+    {
+        "index": 197,
+        "term": "Nuts & Seeds",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on nuts and seeds?",
+            "Best offers for nuts and seeds",
+            "Discounts on nuts and seeds",
+            "Where to buy nuts and seeds at a lower price?",
+            "Any promotions on nuts and seeds?",
+            "Deals for nuts and seeds",
+            "Where can I get nuts and seeds on sale?",
+            "Offers for nuts and seeds",
+            "Any discounts on nuts and seeds?",
+            "Where can I find nuts and seeds at a discounted price?"
+        ]
+    },
+    {
+        "index": 198,
+        "term": "Oral Care",
+        "type": "category",
+        "queries": [
+            "Best deals on oral care products",
+            "Where to find discounts on oral care items",
+            "Top rated oral care products on sale",
+            "Affordable oral care options",
+            "Oral care products for sensitive teeth",
+            "Oral care deals near me",
+            "Discounted oral hygiene products",
+            "Where to buy oral care supplies",
+            "Best oral care brands",
+            "Oral care products for bad breath"
+        ]
+    },
+    {
+        "index": 199,
+        "term": "Packaged Fruit & Applesauce",
+        "type": "category",
+        "queries": [
+            "Where can I find packaged fruit?",
+            "What stores sell applesauce?",
+            "Best deals on packaged fruit and applesauce",
+            "How to make homemade applesauce?",
+            "Packaged fruit and apple sauce near me",
+            "Are there any discounts on packaged fruit?",
+            "Where can I buy applesauce in bulk?",
+            "What are the benefits of eating packaged fruit?",
+            "Is there any organic packaged fruit available?",
+            "How to store packaged fruit and applesauce?"
+        ]
+    },
+    {
+        "index": 200,
+        "term": "Packaged Meals & Sides",
+        "type": "category",
+        "queries": [
+            "Where can I find packaged meals and sides?",
+            "Best deals on packaged meals and sides",
+            "Packaged meals and sides near me",
+            "What are some popular packaged meals and sides?",
+            "Any discounts on packaged meals and sides?",
+            "Packaged meals and sides for a quick meal",
+            "Packaged meals and sides for busy individuals",
+            "Packaged meals and sides for easy cooking",
+            "Packaged meals and sides for convenient meals",
+            "Packaged meals and sides for on-the-go meals"
+        ]
+    },
+    {
+        "index": 201,
+        "term": "Packaged Meat",
+        "type": "category",
+        "queries": [
+            "Best deals on packaged meat",
+            "Where to buy packaged meat online",
+            "Packaged meat offers near me",
+            "Discounts on packaged meat products",
+            "Packaged meat sale this week",
+            "Packaged meet deals and promotions",
+            "Cheapest packaged meat options",
+            "Packaged meat bundles on sale",
+            "Packaged meat coupons and discounts",
+            "Where can I find packaged meat deals"
+        ]
+    },
+    {
+        "index": 202,
+        "term": "Packaged Seafood",
+        "type": "category",
+        "queries": [
+            "Best deals on packaged seafood",
+            "Where to buy packaged seafood online",
+            "Packaged seafood offers near me",
+            "Discounts on packaged seafood products",
+            "Packaged seafood deals and promotions",
+            "Packaged seafood sale this week",
+            "Packaged seafood coupons and discounts",
+            "Packaged seafood bundles and packages",
+            "Packaged seafood specials and savings",
+            "Packaged seafood deals for seafood lovers"
+        ]
+    },
+    {
+        "index": 203,
+        "term": "Packaged Vegetables",
+        "type": "category",
+        "queries": [
+            "Where can I find packaged vegetables?",
+            "Best deals on packaged vegetables",
+            "Packaged vegetables near me",
+            "How to cook packaged vegetables",
+            "Are there any discounts on packaged vegetables?",
+            "Packaged vegtables for sale",
+            "Packaged vegetables for meal prep",
+            "Packaged vegatables for weight loss",
+            "Packaged vegetables for quick meals",
+            "Packaged vegetables for busy people"
+        ]
+    },
+    {
+        "index": 204,
+        "term": "Pasta & Noodles",
+        "type": "category",
+        "queries": [
+            "Best deals on pasta and noodles",
+            "Where can I find discounts on pasta and noodles?",
+            "Top offers for pasta and noodles",
+            "Any coupons available for pasta and noodles?",
+            "Cheap pasta and noodles options",
+            "Pasta and noodle promotions",
+            "Deals on pasta and noodle brands",
+            "Discounted pasta and noodles near me",
+            "Specials on pasta and noodles",
+            "Pasta and noodle sale"
+        ]
+    },
+    {
+        "index": 205,
+        "term": "Pesto Sauce",
+        "type": "category",
+        "queries": [
+            "Best deals on pesto sauce",
+            "Where can I find pesto sauce on sale?",
+            "Pesto sauce discounts and promotions",
+            "Cheapest pesto sauce options",
+            "Pesto sauce offers near me",
+            "Pesto sauce coupons and deals",
+            "Pasta sauce with pesto flavor",
+            "Pesto sauce brands and prices",
+            "Pesto sauce recipe and ingredients",
+            "How to make homemade pesto sauce"
+        ]
+    },
+    {
+        "index": 206,
+        "term": "Pickled Goods",
+        "type": "category",
+        "queries": [
+            "Where can I find pickled goods near me?",
+            "Best deals on pickled goods",
+            "Pickled goods for sale online",
+            "How to make homemade pickled goods",
+            "Are there any discounts on pickled goods?",
+            "Pickled foods for picky eaters",
+            "Where can I buy pickled goods in bulk?",
+            "Pickled goods recipes and ideas",
+            "Pickled goods for a picnic",
+            "Pickled goods for a charcuterie board"
+        ]
+    },
+    {
+        "index": 207,
+        "term": "Plant-Based Meat",
+        "type": "category",
+        "queries": [
+            "Where can I find plant-based meat products?",
+            "What are some popular plant-based meat brands?",
+            "Are there any discounts on plant-based meat?",
+            "How can I cook plant-based meat?",
+            "Where can I buy plant-based meat online?",
+            "What are the benefits of eating plant-based meat?",
+            "Are there any plant-based meat recipes?",
+            "What are the ingredients in plant-based meat?",
+            "Can you recommend any plant-based meat substitutes?",
+            "Is plant-based meat healthier than regular meat?"
+        ]
+    },
+    {
+        "index": 208,
+        "term": "Prepared Meals",
+        "type": "category",
+        "queries": [
+            "Where can I find prepared meals near me?",
+            "Best places to order prepared meals online",
+            "What are some healthy prepared meal options?",
+            "Prepared meal delivery services in my area",
+            "How to make homemade prepared meals?",
+            "Prepared meals for weight loss",
+            "Prepared meals for vegetarians",
+            "Prepared meals for picky eaters",
+            "Prepared meals for busy professionals",
+            "Prepared meals for seniors"
+        ]
+    },
+    {
+        "index": 209,
+        "term": "Pudding & Gelatin",
+        "type": "category",
+        "queries": [
+            "Best deals on pudding and gelatin",
+            "Where can I find pudding and gelatin on sale?",
+            "Pudding and gelatin offers near me",
+            "Discounts on pudding and gelatin products",
+            "Pudding and gelatin promotions and discounts",
+            "Pudding and gelatin deals of the day",
+            "Pudding and gelatin coupons and vouchers",
+            "Pudding and gelatin specials and discounts",
+            "Pudding and gelatin sales and offers",
+            "Pudding and gelatin discounts and deals"
+        ]
+    },
+    {
+        "index": 210,
+        "term": "Red Pasta Sauce",
+        "type": "category",
+        "queries": [
+            "Where can I find offers for red pasta sauce?",
+            "Best deals on red pasta sauce",
+            "Discounts on red pasta sauce",
+            "Any promotions for red pasta sauce?",
+            "Red pasta sauce sale",
+            "Red pasta sauce coupons",
+            "Where to buy red pasta sauce?",
+            "Red pasta sauce deals near me",
+            "Cheapest red pasta sauce options",
+            "Red pasta sauce discounts"
+        ]
+    },
+    {
+        "index": 211,
+        "term": "Refrigerated Doughs",
+        "type": "category",
+        "queries": [
+            "Where can I find deals on refrigerated doughs?",
+            "Best offers for refrigerated doughs",
+            "Discounts on refrigerated doughs",
+            "Where to buy refrigerated doughs at a lower price?",
+            "Any promotions on refrigerated doughs?",
+            "Refrigerated doughs sale near me",
+            "Are there any coupons for refrigerated doughs?",
+            "Looking for refrigerated doughs on sale",
+            "Refrigerated doughs deals and discounts",
+            "Where can I get refrigerated doughs on a budget?"
+        ]
+    },
+    {
+        "index": 212,
+        "term": "Rice & Grains",
+        "type": "category",
+        "queries": [
+            "Best deals on rice and grains",
+            "Where to buy rice and grains online",
+            "Discounts on rice and grains",
+            "Top brands for rice and grains",
+            "Affordable options for rice and grains",
+            "Rice and grains for sale",
+            "Where can I find rice and grains",
+            "Offers on rice and grains",
+            "Rice and grains at discounted prices",
+            "Best places to buy rice and grains"
+        ]
+    },
+    {
+        "index": 213,
+        "term": "Sauces & Marinades",
+        "type": "category",
+        "queries": [
+            "Best sauces and marinades",
+            "Where to buy sauces and marinades",
+            "Sauces and marinades for grilling",
+            "How to make homemade sauces and marinades",
+            "Spicy sauces and marinades",
+            "Sauces and marinades for chicken",
+            "Sauces and marinades for seafood",
+            "Sauces and marinades with garlic",
+            "Sauces and marinades for BBQ",
+            "Sauces and marinades with a kick"
+        ]
+    },
+    {
+        "index": 214,
+        "term": "Sexual Health",
+        "type": "category",
+        "queries": [
+            "Sexual health products",
+            "How to improve sexual health",
+            "Sexual health clinics near me",
+            "Best sexual health supplements",
+            "Sexual health tests",
+            "Sexual health education",
+            "Sexual health resources",
+            "Sexual health tips and advice",
+            "Sexual health issues and solutions",
+            "Sexual health for men and women"
+        ]
+    },
+    {
+        "index": 215,
+        "term": "Skin Care",
+        "type": "category",
+        "queries": [
+            "Best skin care products for acne-prone skin",
+            "Natural skin care remedies for dry skin",
+            "How to choose the right skin care routine",
+            "Affordable skin care products for sensitive skin",
+            "Skin care tips for a healthy and glowing complexion",
+            "Skincare routine for oily skin",
+            "Effective anti-aging skin care products",
+            "Organic skincare products for a natural glow",
+            "How to treat sunburned skin",
+            "Skincare routine for men"
+        ]
+    },
+    {
+        "index": 216,
+        "term": "Snack Cakes",
+        "type": "category",
+        "queries": [
+            "Best deals on snack cakes",
+            "Where to buy snack cakes online",
+            "Snack cakes for sale near me",
+            "How to make homemade snack cakes",
+            "Snack cakes with cream filling",
+            "Discounted snack cakes",
+            "Snack cakes brands and flavors",
+            "Healthy alternatives to snack cakes",
+            "Snack cakes recipe ideas",
+            "Snack cakes delivery options"
+        ]
+    },
+    {
+        "index": 217,
+        "term": "Soup & Broth",
+        "type": "category",
+        "queries": [
+            "Best deals on soup and broth",
+            "Where to find soup and brothe on sale",
+            "Top brands of soup and broth",
+            "Discounts on soup and broth",
+            "Soup and brothe offers near me",
+            "Soup and brothe for a cold day",
+            "Healthy soup and brothe options",
+            "Soup and brothe recipes",
+            "Soup and brothe for weight loss",
+            "Affordable soup and brothe options"
+        ]
+    },
+    {
+        "index": 218,
+        "term": "Spirits",
+        "type": "category",
+        "queries": [
+            "Best deals on spirits",
+            "Where to buy spirits online",
+            "Top-rated spirits brands",
+            "Spirits for cocktails",
+            "Discounted spirits for sale",
+            "Spirts offers near me",
+            "Spriits on sale this week",
+            "Spirits deals and promotions",
+            "Spirits discounts and coupons",
+            "Spirits price comparison"
+        ]
+    },
+    {
+        "index": 219,
+        "term": "Sports Drinks",
+        "type": "category",
+        "queries": [
+            "Best sports drinks for hydration",
+            "Top rated sports drinks for athletes",
+            "Where to buy sports drinks online",
+            "Are sports drinks good for you?",
+            "Sports drinks vs. water: which is better?",
+            "How to make homemade sports drinks",
+            "Sports drinks for endurance training",
+            "Benefits of drinking sports drinks",
+            "Sports drinks for post-workout recovery",
+            "Sports drinks with electrolytes"
+        ]
+    },
+    {
+        "index": 220,
+        "term": "Tea",
+        "type": "category",
+        "queries": [
+            "Best tea offers",
+            "Where can I find discounts on tea?",
+            "Tea deals near me",
+            "Cheap tea options",
+            "Tea sale in my area",
+            "Tea offers online",
+            "Tea discounts and promotions",
+            "Tea coupons and vouchers",
+            "Tea specials and promotions",
+            "Tea bargains"
+        ]
+    },
+    {
+        "index": 221,
+        "term": "Trail Mix",
+        "type": "category",
+        "queries": [
+            "Best deals on trail mix",
+            "Where to buy trail mix online",
+            "Healthy trail mix options",
+            "Trail mix with chocolate and nuts",
+            "Discounted trail mix products",
+            "Trail mix for hiking",
+            "Varieties of trail mix available",
+            "Trail mix brands with dried fruits",
+            "Trail mix with no added sugar",
+            "Trail mix for weight loss"
+        ]
+    },
+    {
+        "index": 222,
+        "term": "Water",
+        "type": "category",
+        "queries": [
+            "Best deals on water bottles",
+            "Where to buy water filters",
+            "Discounted prices on bottled water",
+            "Water delivery services near me",
+            "How to purify water at home",
+            "Water dispenser offers",
+            "Cheap water coolers for sale",
+            "Water treatment systems for residential use",
+            "Water testing kits for sale",
+            "Where to find alkaline water"
+        ]
+    },
+    {
+        "index": 223,
+        "term": "Wine",
+        "type": "category",
+        "queries": [
+            "Best deals on wine",
+            "Where to buy wine online",
+            "Discounted wine offers",
+            "Wine tasting events near me",
+            "Red wine recommendations",
+            "White wine discounts",
+            "Organic wine options",
+            "Wine delivery services",
+            "Wine subscription boxes",
+            "Wine clubs with free shipping"
+        ]
+    },
+    {
+        "index": 224,
+        "term": "Yogurt",
+        "type": "category",
+        "queries": [
+            "Best yogurt brands",
+            "Where to buy yogurt online",
+            "Yogurt flavors and types",
+            "Yogurt health benefits",
+            "Greek yogurt vs regular yogurt",
+            "Yogurt recipes for breakfast",
+            "Yogurt for weight loss",
+            "Yogurt for lactose intolerant",
+            "Yogurt expiration date",
+            "Yogurt sale near me"
+        ]
+    },
+    {
+        "index": 225,
+        "term": "ACME",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Acme",
+            "acmee",
+            "Find discounts at Acme",
+            "acme deals near me",
+            "acme store hours",
+            "acme online shopping",
+            "acme promo codes",
+            "acme weekly specials",
+            "acme customer reviews",
+            "acme locations"
+        ]
+    },
+    {
+        "index": 226,
+        "term": "ALBERTSONS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Albertsons",
+            "Show me deals at Albertsons",
+            "Albertsons discounts and promotions",
+            "Looking for Albertsons sales",
+            "Albertsons weekly specials",
+            "Find coupons for Albertsons",
+            "Best deals at Albertsons",
+            "Albertsons near me",
+            "Albertsons online shopping",
+            "Albertsons loyalty program"
+        ]
+    },
+    {
+        "index": 227,
+        "term": "ALDI",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Aldi",
+            "aldi deals near me",
+            "Looking for discounts at Aldi",
+            "aldi weekly specials",
+            "aldi coupons and promotions",
+            "Find Aldi sales and promotions",
+            "aldi store locator",
+            "aldi online shopping",
+            "aldi nearby locations",
+            "aldi opening hours"
+        ]
+    },
+    {
+        "index": 228,
+        "term": "AMAZON",
+        "type": "retailer",
+        "queries": [
+            "Show me the best deals from Amazon",
+            "amazonn",
+            "Find discounts at Amazon",
+            "Looking for sales at amazon",
+            "Show me the latest offers from Amazon",
+            "amazn",
+            "Where can I find deals at Amazon?",
+            "Looking for discounts at amazon",
+            "Show me the top deals at Amazon",
+            "amzon"
+        ]
+    },
+    {
+        "index": 229,
+        "term": "BJS WHOLESALE",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from BJ's Wholesale",
+            "bjs wholesale deals",
+            "Find discounts at BJ's Wholesale",
+            "bjs wholesale coupons",
+            "What are the current promotions at BJ's Wholesale?",
+            "bjs wholesale sales",
+            "Looking for bargains at BJ's Wholesale",
+            "bjs wholesale special offers",
+            "Where can I find the best deals at BJ's Wholesale?",
+            "bjs wholesale discounts"
+        ]
+    },
+    {
+        "index": 230,
+        "term": "BLUE APRON",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Blue Apron",
+            "blue aprn",
+            "What are the current deals at Blue Apron?",
+            "blue aprin",
+            "Show me discounts from Blue Apron",
+            "blue aprn",
+            "Any promotions available at Blue Apron?",
+            "blue apron",
+            "Looking for Blue Apron coupons",
+            "blue apron"
+        ]
+    },
+    {
+        "index": 231,
+        "term": "BURGER KING",
+        "type": "retailer",
+        "queries": [
+            "Find the nearest Burger King restaurant",
+            "What are the current promotions at Burger King?",
+            "Burger King menu prices",
+            "Burger King near me",
+            "Burger King coupons and discounts",
+            "Burger King delivery options",
+            "Burger King kids meal options",
+            "Burger King allergen information",
+            "Burger King vegetarian options",
+            "Burger King breakfast menu"
+        ]
+    },
+    {
+        "index": 232,
+        "term": "CASEYS GENERAL STORE",
+        "type": "retailer",
+        "queries": [
+            "Find the nearest Casey's General Store",
+            "Casey's General Store coupons and discounts",
+            "Casey's General Store locations",
+            "Best deals at Casey's General Store",
+            "Casey's General Store fuel prices",
+            "Casey's General Store menu options",
+            "Casey's General Store online ordering",
+            "Casey's General Store gift cards",
+            "Casey's General Store hours of operation",
+            "Casey's General Store customer reviews"
+        ]
+    },
+    {
+        "index": 233,
+        "term": "CENTRAL MARKET",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Central Market",
+            "Show me deals at Central Market",
+            "central markett offers",
+            "Best discounts at Central Market",
+            "central market sale",
+            "Any promotions at Central Market?",
+            "central market weekly specials",
+            "Central Market coupons",
+            "central market near me",
+            "central market online shopping"
+        ]
+    },
+    {
+        "index": 234,
+        "term": "CHEWY",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Chewy",
+            "chewyy deals",
+            "Best discounts at Chewy",
+            "chwey coupons",
+            "Chewy promotions and savings",
+            "chewy.com sale",
+            "Chewy discounts on pet supplies",
+            "chewy offers and deals",
+            "Chewy promo codes",
+            "chewy.com special offers"
+        ]
+    },
+    {
+        "index": 235,
+        "term": "COSTCO",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Costco",
+            "costco deals",
+            "Find discounts at costco",
+            "costco sale",
+            "Looking for costco promotions",
+            "costco coupons",
+            "costco special offers",
+            "costco discounts",
+            "costco sales near me",
+            "costco weekly deals"
+        ]
+    },
+    {
+        "index": 236,
+        "term": "CVS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from CVS",
+            "cvs deals near me",
+            "Show me discounts at CVS",
+            "cvs pharmacy coupons",
+            "cvs weekly ad",
+            "cvs sale items",
+            "cvs promo codes",
+            "cvs store locator",
+            "cvs photo deals",
+            "cvs online shopping"
+        ]
+    },
+    {
+        "index": 237,
+        "term": "DICKEYS BARBECUE PIT",
+        "type": "retailer",
+        "queries": [
+            "Find the nearest Dickey's Barbecue Pit location",
+            "Dickey's Barbecue Pit menu options",
+            "Dickey's Barbecue Pit catering services",
+            "Dickey's Barbecue Pit promotions and discounts",
+            "Dickey's Barbecue Pit online ordering",
+            "Dickeys Barbecue Pit",
+            "Dickey's Barbeque Pit near me",
+            "Dickey's Barbecue Pit delivery options",
+            "Dickey's Barbecue Pit gift cards",
+            "Dickey's Barbecue Pit allergen information"
+        ]
+    },
+    {
+        "index": 238,
+        "term": "DILLONS FOOD STORE",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Dillons Food Store",
+            "dillons foodstore",
+            "Find discounts at Dillons Food Store",
+            "dillons food store near me",
+            "Best deals at Dillons Food Store",
+            "dillons food stpre",
+            "What promotions are available at Dillons Food Store?",
+            "dillons food store hours",
+            "Get coupons for Dillons Food Store",
+            "dillons food store locations"
+        ]
+    },
+    {
+        "index": 239,
+        "term": "DILLONS GROCERY",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Dillons Grocery",
+            "dillons grocery deals",
+            "Show me discounts at Dillons Grocery",
+            "dillons grocer",
+            "Best deals at Dillons Grocery",
+            "dillons grocery sale",
+            "Where can I find promotions at Dillons Grocery?",
+            "dillons grocry",
+            "Any special offers at Dillons Grocery?",
+            "dillons grocerry"
+        ]
+    },
+    {
+        "index": 240,
+        "term": "DOLLAR GENERAL STORE",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Dollar General Store",
+            "dollar general store deals",
+            "Show me discounts at Dollar General Store",
+            "dollar general store sale",
+            "Looking for deals at Dollar General Store",
+            "dollar general store promotions",
+            "Best offers at Dollar General Store",
+            "dollar general store coupons",
+            "Where can I find Dollar General Store discounts?",
+            "dollar general store specials"
+        ]
+    },
+    {
+        "index": 241,
+        "term": "FARMER BOYS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Farmer Boys",
+            "Show me deals from Farmer Boys",
+            "farmerboys",
+            "Looking for discounts at Farmer Boys",
+            "Best deals at Farmer Boys",
+            "farmer boys menu",
+            "farmer boys near me",
+            "farmer boys locations",
+            "farmer boys breakfast menu",
+            "farmer boys lunch specials"
+        ]
+    },
+    {
+        "index": 242,
+        "term": "FOOD4LESS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Food4Less",
+            "food4les",
+            "Show me deals at Food4Less",
+            "food for less weekly specials",
+            "food4less near me",
+            "food4less ad this week",
+            "food4less coupons",
+            "food4less online shopping",
+            "food4less hours of operation",
+            "food4less locations"
+        ]
+    },
+    {
+        "index": 243,
+        "term": "FRED MEYER",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Fred Meyer",
+            "fred meyer deals",
+            "Find discounts at Fred Meyer",
+            "fred meyer sale",
+            "Looking for promotions at Fred Meyer",
+            "fred meyer coupons",
+            "What are the current deals at Fred Meyer?",
+            "fred meyer offers",
+            "Show me the best deals from Fred Meyer",
+            "fred meyern"
+        ]
+    },
+    {
+        "index": 244,
+        "term": "FRESH THYME",
+        "type": "retailer",
+        "queries": [
+            "What are the current offers at Fresh Thyme?",
+            "fresh thyme deals",
+            "Find discounts at Fresh Thyme",
+            "fresh thyme sale",
+            "Show me the best deals from Fresh Thyme",
+            "fresh thyme coupons",
+            "Any promotions at Fresh Thyme?",
+            "fresh thyme offers",
+            "Looking for deals at Fresh Thyme",
+            "fresh thyme discounts"
+        ]
+    },
+    {
+        "index": 245,
+        "term": "FRESH THYME MARKET",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Fresh Thyme Market",
+            "fresh thyme market deals",
+            "Show me discounts at Fresh Thyme Market",
+            "fresh thyme market sale",
+            "Looking for promotions at Fresh Thyme Market",
+            "fresh thyme market coupons",
+            "Where can I find the best deals at Fresh Thyme Market?",
+            "fresh thyme market offers",
+            "Any special deals at Fresh Thyme Market?",
+            "fresh thyme market discounts"
+        ]
+    },
+    {
+        "index": 246,
+        "term": "FRYS FOOD STORE",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Fry's Food Store",
+            "Show me the best deals at Fry's Food Store",
+            "frys food store deals",
+            "Looking for discounts at Fry's Food Store",
+            "frys food store promotions",
+            "Fry's Food Store sales near me",
+            "frys food store coupons",
+            "Where can I find Fry's Food Store deals?",
+            "frys food store specials",
+            "Fry's Food Store discounts"
+        ]
+    },
+    {
+        "index": 247,
+        "term": "GALLO.COM",
+        "type": "retailer",
+        "queries": [
+            "What are the latest offers from gallo.com?",
+            "gallo.com deals and discounts",
+            "Show me the best deals on gallo.com",
+            "gallo.com promotions",
+            "Any sales happening at gallo.com?",
+            "gallo.com coupons and vouchers",
+            "Looking for gallo.com discounts",
+            "gallo.com special offers",
+            "Any deals available at gallo.com?",
+            "gallo.com sales and promotions"
+        ]
+    },
+    {
+        "index": 248,
+        "term": "GIANT FOOD",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Giant Food",
+            "Show me deals at Giant Food",
+            "giantfood",
+            "Looking for discounts at Giant Food",
+            "What are the current promotions at Giant Food?",
+            "giant fod",
+            "Best deals at Giant Food",
+            "giant foot",
+            "Any special offers at Giant Food?",
+            "giant foood"
+        ]
+    },
+    {
+        "index": 249,
+        "term": "H-E-B",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from H-E-B",
+            "h-e-b deals near me",
+            "Show me discounts at HEB",
+            "h-e-b weekly specials",
+            "Find coupons for HEB products",
+            "h-e-b store locations",
+            "Best deals at HEB grocery",
+            "h-e-b online shopping",
+            "H-E-B sales and promotions",
+            "h-e-b hours of operation"
+        ]
+    },
+    {
+        "index": 250,
+        "term": "KFC",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from KFC",
+            "kcf",
+            "Find KFC deals near me",
+            "k f c",
+            "What are the current promotions at KFC?",
+            "kcf offers",
+            "Best KFC discounts",
+            "kfc menu",
+            "kfc coupons",
+            "kfc specials"
+        ]
+    },
+    {
+        "index": 251,
+        "term": "KING SOOPERS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from King Soopers",
+            "king soopers deals near me",
+            "king soopers weekly specials",
+            "king soopers coupons",
+            "king soopers discounts",
+            "king soopers sales",
+            "king soopers promotions",
+            "king soopers offers",
+            "king soopers sale items",
+            "king soopers best deals"
+        ]
+    },
+    {
+        "index": 252,
+        "term": "KROGER",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Kroger",
+            "kroger deals near me",
+            "Find discounts at Kroger",
+            "kroger sale this week",
+            "kroger coupons",
+            "kroger weekly specials",
+            "kroger promotions",
+            "kroger discounts on groceries",
+            "kroger online deals",
+            "kroger store offers"
+        ]
+    },
+    {
+        "index": 253,
+        "term": "LOWES HOME IMPROVEMENT",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Lowes Home Improvement",
+            "lowes home improvement deals",
+            "lowes home improvement near me",
+            "Looking for discounts at Lowes Home Improvement",
+            "lowes home improvement coupons",
+            "lowes home improvement store hours",
+            "lowes home improvement online shopping",
+            "lowes home improvement appliances",
+            "lowes home improvement garden center",
+            "lowes home improvement paint sale"
+        ]
+    },
+    {
+        "index": 254,
+        "term": "MARIANOS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Mariano's",
+            "marianos weekly specials",
+            "Show me deals at Mariano's grocery store",
+            "marianos near me",
+            "Looking for discounts at Mariano's",
+            "marianos coupons and promotions",
+            "Best deals at Mariano's this week",
+            "marianos online shopping",
+            "marianos hours of operation",
+            "marinos"
+        ]
+    },
+    {
+        "index": 255,
+        "term": "MARTINS FOODS",
+        "type": "retailer",
+        "queries": [
+            "What are the current offers at Martins Foods?",
+            "martins food deals",
+            "Show me the best deals from Martins Foods",
+            "martins food sale",
+            "martins foods discounts",
+            "martins foods promotions",
+            "martins food coupons",
+            "martin foods weekly specials",
+            "martins foods near me",
+            "martins foods online shopping"
+        ]
+    },
+    {
+        "index": 256,
+        "term": "MCALISTERS DELI",
+        "type": "retailer",
+        "queries": [
+            "Find the nearest McAlister's Deli location",
+            "What are the popular menu items at McAlister's Deli?",
+            "mcalisters deli menu",
+            "Show me the latest promotions at McAllister's Deli",
+            "mcalisters deli near me",
+            "What are the opening hours of McAlister's Deli?",
+            "mcalisters deli catering options",
+            "mcalisters deli nutrition information",
+            "mcalisters deli rewards program",
+            "Are there any discounts available at McAlister's Deli?"
+        ]
+    },
+    {
+        "index": 257,
+        "term": "NEKTER JUICE BAR",
+        "type": "retailer",
+        "queries": [
+            "Find the nearest Nekter Juice Bar location",
+            "What are the current promotions at Nekter Juice Bar?",
+            "nekter juice bar menu",
+            "Show me the best smoothie options at Nekter Juice Bar",
+            "nekter juice bar near me",
+            "Are there any discounts available at Nekter Juice Bar?",
+            "nekter juice bar hours of operation",
+            "What are the popular juice cleanse options at Nekter Juice Bar?",
+            "nekter juice bar locations",
+            "nekter juice bar nutrition information"
+        ]
+    },
+    {
+        "index": 258,
+        "term": "PAVILIONS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Pavilions",
+            "pavillions",
+            "Show me deals at Pavilions",
+            "Pavilions near me",
+            "pavilions grocery store",
+            "Best discounts at Pavilions",
+            "pavilions supermarket",
+            "Pavilions weekly specials",
+            "pavilions market",
+            "Offers at Pavilions"
+        ]
+    },
+    {
+        "index": 259,
+        "term": "PET SUPPLIES PLUS",
+        "type": "retailer",
+        "queries": [
+            "Find pet supplies plus deals near me",
+            "pet supplies plus coupons",
+            "pet supplies plus store locations",
+            "pet supplies plus online shopping",
+            "pet supplies plus discounts",
+            "pet supplies plus sale items",
+            "pet supplies plus grooming services",
+            "pet supplies plus loyalty program",
+            "pet supplies plus hours of operation",
+            "pet supplies plus website"
+        ]
+    },
+    {
+        "index": 260,
+        "term": "PICK N SAVE",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Pick n Save",
+            "Pick n Save deals of the day",
+            "Show me discounts at Pick n Save",
+            "Pick n Save weekly specials",
+            "Looking for Pick n Save promotions",
+            "Pick n Save sales near me",
+            "Pick n Save coupons and discounts",
+            "Pick n Save best deals",
+            "Pick n Save offers this month",
+            "Pick n Save discounts and savings"
+        ]
+    },
+    {
+        "index": 261,
+        "term": "QFC",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from QFC",
+            "QFC deals and discounts",
+            "Show me the best deals at QFC",
+            "QFC sales and promotions",
+            "QFC coupons and savings",
+            "QFC weekly specials",
+            "QFC near me",
+            "QFC online deals",
+            "QFC discounts on groceries",
+            "QFC clearance items"
+        ]
+    },
+    {
+        "index": 262,
+        "term": "RALPHS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Ralphs",
+            "Show me the deals at Ralphs",
+            "ralphs weekly specials",
+            "Looking for discounts at Ralphs",
+            "ralphs near me",
+            "ralphs grocery store",
+            "ralphs online shopping",
+            "ralphs coupon codes",
+            "ralphs sale items",
+            "ralphs loyalty program"
+        ]
+    },
+    {
+        "index": 263,
+        "term": "RANDALLS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Randalls",
+            "randals",
+            "Show me deals from Randalls",
+            "randell's",
+            "What are the current promotions at Randalls?",
+            "randdalls",
+            "Looking for discounts at Randalls",
+            "randals",
+            "Where can I find Randalls deals?",
+            "randall's"
+        ]
+    },
+    {
+        "index": 264,
+        "term": "RANDALLS FOOD MARKETS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Randalls Food Markets",
+            "Show me deals at Randalls Food Markets",
+            "randalls food market",
+            "What are the current promotions at Randalls Food Markets?",
+            "randall's food markets",
+            "Looking for discounts at Randalls Food Markets",
+            "randalls food mart",
+            "Where can I find coupons for Randalls Food Markets?",
+            "randalls food market near me",
+            "Best deals at Randalls Food Markets"
+        ]
+    },
+    {
+        "index": 265,
+        "term": "RULER FOODS",
+        "type": "retailer",
+        "queries": [
+            "Show me the best deals from Ruler Foods",
+            "rulerfoods",
+            "Find discounts at Ruler Foods",
+            "ruler fooods",
+            "Ruler Foods offers near me",
+            "ruler fods",
+            "What are the current promotions at Ruler Foods?",
+            "ruler food",
+            "Where can I find coupons for Ruler Foods?",
+            "ruler foos"
+        ]
+    },
+    {
+        "index": 266,
+        "term": "SAFEWAY",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Safeway",
+            "safewayy",
+            "What are the current deals at Safeway?",
+            "safewway",
+            "Find Safeway promotions near me",
+            "safewaay",
+            "Are there any discounts at Safeway?",
+            "safewey",
+            "Safeway coupon codes",
+            "safewa"
+        ]
+    },
+    {
+        "index": 267,
+        "term": "SAMS CLUB",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Sam's Club",
+            "samsclub",
+            "What are the current deals at Sam's Club?",
+            "sams clb",
+            "Find discounts at Sam's Club",
+            "sams club",
+            "Show me the best offers from Sam's Club",
+            "sam's club",
+            "sams clu",
+            "What are the promotions at Sam's Club?"
+        ]
+    },
+    {
+        "index": 268,
+        "term": "SHAWS",
+        "type": "retailer",
+        "queries": [
+            "What are the current offers at Shaws?",
+            "shaws deals of the day",
+            "Find discounts at Shaws supermarket",
+            "shwos weekly specials",
+            "Show me the best deals from Shaws",
+            "shawss",
+            "shaws coupons and promotions",
+            "shaws near me",
+            "shaws online shopping",
+            "shaws store hours"
+        ]
+    },
+    {
+        "index": 269,
+        "term": "SHOP RITE",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Shop Rite",
+            "shop rite deals near me",
+            "Show me discounts at Shop Rite",
+            "shop rite sale this week",
+            "Looking for Shop Rite promotions",
+            "shop rite coupons",
+            "Best deals at Shop Rite",
+            "shop rite specials",
+            "shop rite near me",
+            "shop rite offers"
+        ]
+    },
+    {
+        "index": 270,
+        "term": "SIOBEAUTY.COM",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from siobeauty.com",
+            "siobeauty.com deals and discounts",
+            "Show me the best deals on siobeauty.com",
+            "siobeauty.com promo codes",
+            "siobeauty.com coupons and vouchers",
+            "siobeauty.com sale items",
+            "siobeauty.com special offers",
+            "siobeauty.com discounts for skincare products",
+            "siobeauty.com exclusive deals",
+            "siobeauty.com limited time offers"
+        ]
+    },
+    {
+        "index": 271,
+        "term": "SMITHS",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Smiths",
+            "smiths deals of the day",
+            "Find discounts at Smiths",
+            "smiths store near me",
+            "Best deals at smiths",
+            "smith's weekly specials",
+            "smiths online shopping",
+            "smiths coupon codes",
+            "smiths sale items",
+            "smiths promo codes"
+        ]
+    },
+    {
+        "index": 272,
+        "term": "SPROUTS FARMERS MARKET",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Sprouts Farmers Market",
+            "sprouts farmers market deals",
+            "sprouts farmers market near me",
+            "sprouts farmers market coupons",
+            "sprouts farmers market weekly specials",
+            "sprouts farmers market hours",
+            "sprouts farmers market locations",
+            "sprouts farmers market online shopping",
+            "sprouts farmers market organic products",
+            "sprouts farmers market fresh produce"
+        ]
+    },
+    {
+        "index": 273,
+        "term": "STAR MARKET",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Star Market",
+            "star market deals near me",
+            "star market coupons and discounts",
+            "Show me the best deals at Star Market",
+            "star market weekly specials",
+            "star market sales and promotions",
+            "star market online shopping",
+            "star market nearest location",
+            "star market flyer for this week",
+            "star market loyalty program"
+        ]
+    },
+    {
+        "index": 274,
+        "term": "STOP & SHOP",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from Stop & Shop",
+            "stop and shop deals",
+            "stop & shop discounts",
+            "stop and shop weekly specials",
+            "Looking for Stop & Shop promotions",
+            "stop and shop coupons",
+            "stop & shop sales near me",
+            "stop and shop online deals",
+            "stop & shop offers this week",
+            "stop and shop savings"
+        ]
+    },
+    {
+        "index": 275,
+        "term": "SUBWAY",
+        "type": "retailer",
+        "queries": [
+            "Find the nearest Subway restaurant",
+            "Subway menu and prices",
+            "Subway coupons and promotions",
+            "Subway sandwiches and wraps",
+            "Subway locations in my area",
+            "Subway catering options",
+            "Subway gift cards",
+            "Subway vegetarian options",
+            "Subway breakfast menu",
+            "Subway delivery services"
+        ]
+    },
+    {
+        "index": 276,
+        "term": "TARGET",
+        "type": "retailer",
+        "queries": [
+            "Show me the best deals from Target",
+            "targett",
+            "What are the current offers at Target?",
+            "target deals",
+            "Find discounts at Target",
+            "targett deals",
+            "Where can I find Target promotions?",
+            "target offers",
+            "Show me Target sales",
+            "targett promotions"
+        ]
+    },
+    {
+        "index": 277,
+        "term": "TGI FRIDAYS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from TGI Fridays",
+            "Show me the best deals at TGI Fridays",
+            "tgi fridys",
+            "Looking for discounts at TGI Fridays",
+            "tgi fridys offers near me",
+            "What are the current promotions at TGI Fridays?",
+            "tgi fridays happy hour specials",
+            "tgi fridays coupons",
+            "Where can I find TGI Fridays deals?",
+            "tgi fridays menu and prices"
+        ]
+    },
+    {
+        "index": 278,
+        "term": "THE GIANT CO",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from The Giant Co",
+            "Show me deals from The Giant Co",
+            "the giant coo",
+            "Best discounts at The Giant Co",
+            "the giant co deals near me",
+            "The Giant Co promotions",
+            "the gaint co",
+            "Where can I find The Giant Co sales?",
+            "the giant coo offers",
+            "The Giant Co discounts"
+        ]
+    },
+    {
+        "index": 279,
+        "term": "THE HOME DEPOT",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from The Home Depot",
+            "the home depo",
+            "Show me deals at Home Depot",
+            "home depott",
+            "Best discounts at The Home Depot",
+            "home depot offers",
+            "Looking for sales at The Home Depot",
+            "the home depott",
+            "Home Depot promotions",
+            "home depot deals"
+        ]
+    },
+    {
+        "index": 280,
+        "term": "TOM THUMB",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Tom Thumb",
+            "tom thum",
+            "Find discounts at Tom Thumb",
+            "tom thumb deals",
+            "Where can I find Tom Thumb promotions?",
+            "tom thum offers",
+            "Best deals at Tom Thumb",
+            "tom thumb sale",
+            "What are the current deals at Tom Thumb?",
+            "tom thum discounts"
+        ]
+    },
+    {
+        "index": 281,
+        "term": "UNITED SUPERMARKETS",
+        "type": "retailer",
+        "queries": [
+            "Find the latest offers from United Supermarkets",
+            "united supermarket",
+            "Show me deals at United Supermarkets",
+            "united supermarkts",
+            "Best discounts at United Supermarkets",
+            "united supermarets",
+            "What are the current promotions at United Supermarkets?",
+            "united supermarkett",
+            "Where can I find United Supermarkets deals?",
+            "united supermarkts"
+        ]
+    },
+    {
+        "index": 282,
+        "term": "VONS",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Vons",
+            "vonsn",
+            "What are the current deals at Vons?",
+            "vons deals near me",
+            "Find discounts at Vons",
+            "vons grocery store offers",
+            "Show me the weekly specials at Vons",
+            "vons supermarket promotions",
+            "Where can I find Vons coupons?",
+            "vonsn"
+        ]
+    },
+    {
+        "index": 283,
+        "term": "WALMART",
+        "type": "retailer",
+        "queries": [
+            "Show me the best deals from Walmart",
+            "walmat",
+            "Find Walmart offers near me",
+            "walmarr",
+            "What are the current promotions at Walmart?",
+            "walmrt",
+            "Walmart discounts and sales",
+            "walmqrt",
+            "Where can I find Walmart coupons?",
+            "walmatt"
+        ]
+    },
+    {
+        "index": 284,
+        "term": "WHOLE FOODS MARKET",
+        "type": "retailer",
+        "queries": [
+            "Show me the latest offers from Whole Foods Market",
+            "whole foods market deals",
+            "Find discounts at Whole Foods Market",
+            "whole foods market sale",
+            "Show me the best deals from Whole Foods",
+            "whole foods market coupons",
+            "Where can I find Whole Foods Market promotions?",
+            "whole foods market specials",
+            "What are the current offers at Whole Foods Market?",
+            "whole foods market discounts"
+        ]
+    },
+    {
+        "index": 285,
+        "term": "ZAXBYS",
+        "type": "retailer",
+        "queries": [
+            "What are the current offers at Zaxby's?",
+            "Find deals at Zaxby's",
+            "Show me the best deals from Zaxby's",
+            "zaxbys offers",
+            "Any promotions at Zaxby's?",
+            "zaxbys deals near me",
+            "zaxbys coupons",
+            "zaxby's discounts",
+            "zaxbys menu specials",
+            "zaxby's sale"
+        ]
+    },
+    {
+        "index": 286,
+        "term": "Alcohol",
+        "type": "super category",
+        "queries": [
+            "Where can I find deals on alcohol?",
+            "Best offers for alcoholic beverages",
+            "Discounts on liquor",
+            "Where to buy cheap alcohol?",
+            "Any promotions on beer and wine?",
+            "Looking for alcohol sales near me",
+            "Offers on spirits and cocktails",
+            "Any discounts on alcoholic drinks?",
+            "Where can I find cheap booze?",
+            "Best deals on alcohol in town"
+        ]
+    },
+    {
+        "index": 287,
+        "term": "Animals & Pet Supplies",
+        "type": "super category",
+        "queries": [
+            "Best deals on animals & pet supplies",
+            "Where to buy animals & pet supplies online",
+            "Discounts on pet supplies",
+            "Find pet supplies near me",
+            "Affordable animals supplies for sale",
+            "Pet supplies for cheap",
+            "Deals on pet accessories",
+            "Where can I find pet supplies on sale",
+            "Best prices on animals & pet supplies",
+            "Pet supplies discounts and offers"
+        ]
+    },
+    {
+        "index": 288,
+        "term": "Beauty",
+        "type": "super category",
+        "queries": [
+            "Best beauty products for glowing skin",
+            "How to achieve a natural beauty look",
+            "Beauty tips for oily skin",
+            "Where to find affordable beauty products",
+            "Beauty hacks for busy moms",
+            "Beauty treatments for acne-prone skin",
+            "Beauty trends for summer 2021",
+            "Beauty products for sensitive skin",
+            "Beauty routines for aging skin",
+            "Where to buy organic beauty products"
+        ]
+    },
+    {
+        "index": 289,
+        "term": "Beverages",
+        "type": "super category",
+        "queries": [
+            "Best deals on beverages",
+            "Where to find discounts on beverages",
+            "Top beverage offers near me",
+            "Cheap beverages for sale",
+            "Special offers on drinks",
+            "Beverages on sale this week",
+            "Where can I get beverages at a discount",
+            "Best prices for beverages",
+            "Beverage deals and promotions",
+            "Where to buy beverages for less"
+        ]
+    },
+    {
+        "index": 290,
+        "term": "Candy",
+        "type": "super category",
+        "queries": [
+            "Best candy deals near me",
+            "Where can I find discounted candy?",
+            "Top candy offers in my area",
+            "Cheap candy options nearby",
+            "Candy sales and promotions",
+            "Candy discounts and specials",
+            "Candy deals and coupons",
+            "Candy bargains and savings",
+            "Candy offers and discounts",
+            "Candy deals for this week"
+        ]
+    },
+    {
+        "index": 291,
+        "term": "Dairy",
+        "type": "super category",
+        "queries": [
+            "Best deals on dairy products",
+            "Where to buy dairy items",
+            "Discounts on milk and cheese",
+            "Offers on yogurt and butter",
+            "Find dairy products near me",
+            "Cheapest dairy items online",
+            "Deals on lactose-free milk",
+            "Discounted prices on dairy essentials",
+            "Specials on dairy at local grocery stores",
+            "Where can I get dairy products on sale"
+        ]
+    },
+    {
+        "index": 292,
+        "term": "Deli & Bakery",
+        "type": "super category",
+        "queries": [
+            "Best deli & bakery near me",
+            "Deli and bakery offers in my area",
+            "Top deli and bakery shops nearby",
+            "Where can I find deli and bakery items?",
+            "Deli & bakery deals and discounts",
+            "Deli and bakery specials in my city",
+            "Popular deli & bakery stores in my neighborhood",
+            "Deli and bakery menu options",
+            "Deli & bakery promotions and offers",
+            "Deli and bakery products for sale"
+        ]
+    },
+    {
+        "index": 293,
+        "term": "Frozen",
+        "type": "super category",
+        "queries": [
+            "Best deals on frozen food",
+            "Where to buy frozen meals",
+            "Discounts on frozen vegetables",
+            "Frozen food offers near me",
+            "Frozen food delivery services",
+            "Frozen food brands on sale",
+            "Frozen food coupons and promotions",
+            "Frozen food deals of the week",
+            "Frozen food specials in supermarkets",
+            "Frozen food discounts and savings"
+        ]
+    },
+    {
+        "index": 294,
+        "term": "Frozen Meat",
+        "type": "super category",
+        "queries": [
+            "Where can I find offers for frozen meat?",
+            "Best deals on frozen meat",
+            "Frozen meet offers near me",
+            "Discounts on frozen meet",
+            "Frozen meet sale",
+            "Frozen meat deals and promotions",
+            "Frozen meat discounts",
+            "Where to buy frozen meet at a discount",
+            "Frozen meat offers in my area",
+            "Frozen meet special offers"
+        ]
+    },
+    {
+        "index": 295,
+        "term": "Health & Wellness",
+        "type": "super category",
+        "queries": [
+            "Health and wellness offers",
+            "Wellness and health deals",
+            "Health and wellness discounts",
+            "Offers for health and wellness",
+            "Deals on wellness and health",
+            "Discounts for health and wellness",
+            "Health & wellness offers",
+            "Wellness & health deals",
+            "Health & wellness discounts",
+            "Offers for wellness and health"
+        ]
+    },
+    {
+        "index": 296,
+        "term": "Household Supplies",
+        "type": "super category",
+        "queries": [
+            "Best deals on household supplies",
+            "Where to buy household supplies online",
+            "Discounts on household supplies",
+            "Household supplies for sale",
+            "Affordable household supplies near me",
+            "Household supplies offers and promotions",
+            "Household supplies at discounted prices",
+            "Household supplies deals and discounts",
+            "Household supplies on sale now",
+            "Household supplies discounts and deals"
+        ]
+    },
+    {
+        "index": 297,
+        "term": "Meat & Seafood",
+        "type": "super category",
+        "queries": [
+            "Where can I find deals on meat and seafood?",
+            "Best offers for meat and seafood near me",
+            "Discounts on meat and seafood products",
+            "Any promotions on meat and seafood items?",
+            "Where to buy affordable meat and seafood?",
+            "Looking for meat and seafood specials",
+            "Any sales on meat and seafood?",
+            "Offers on seafood and meat products",
+            "Where can I get good deals on meat and seafood?",
+            "Looking for meat & seafood deals"
+        ]
+    },
+    {
+        "index": 298,
+        "term": "Pantry",
+        "type": "super category",
+        "queries": [
+            "panrty offers near me",
+            "best deals on pantry items",
+            "pantry sale this week",
+            "pantry discounts and promotions",
+            "pantry products on sale",
+            "pantry deals and coupons",
+            "pantry items at discounted prices",
+            "pantry specials and offers",
+            "pantry sales and discounts",
+            "pantry offers and deals"
+        ]
+    },
+    {
+        "index": 299,
+        "term": "Pasta & Noodles",
+        "type": "super category",
+        "queries": [
+            "Best deals on pasta and noodles",
+            "Where to find pasta and noodles on sale",
+            "Discounts on pasta and noodles",
+            "Offers for pasta and noodle products",
+            "Pasta and noodles promotions",
+            "Pasta and noodles deals near me",
+            "Cheapest pasta and noodles options",
+            "Pasta and noodles coupons",
+            "Specials on pasta and noodles",
+            "Pasta and noodle discounts"
+        ]
+    },
+    {
+        "index": 300,
+        "term": "Pasta Sauce",
+        "type": "super category",
+        "queries": [
+            "Best deals on pasta sauce",
+            "Where to buy pasta sauce online",
+            "Homemade pasta sauce recipes",
+            "How to make pasta sauce from scratch",
+            "Low-sodium pasta sauce options",
+            "Spicy pasta sauce brands",
+            "Organic pasta sauce options",
+            "Gluten-free pasta sauce brands",
+            "Pasta sauce coupons and discounts",
+            "Pasta sauce delivery services"
+        ]
+    },
+    {
+        "index": 301,
+        "term": "Snacks",
+        "type": "super category",
+        "queries": [
+            "Best deals on snacks",
+            "Where to find snacks on sale",
+            "Healthy snack options",
+            "Popular snack brands",
+            "Snacks for kids",
+            "Discounted snacks near me",
+            "Snacks for movie night",
+            "Snacks for parties",
+            "Snacks for weight loss",
+            "Gluten-free snack options"
+        ]
+    },
+    {
+        "index": 302,
+        "term": "Sports Drinks & Enhanced Waters",
+        "type": "super category",
+        "queries": [
+            "Best deals on sports drinks and enhanced waters",
+            "Where to find sports drinks and enhanced waters on sale",
+            "Top brands of sports drinks and enhanced waters",
+            "Discounted prices on sports drinks and enhanced waters",
+            "Where can I buy sports drinks and enhanced waters",
+            "Sports drinks and enhanced waters for athletes",
+            "Healthy alternatives to sports drinks and enhanced waters",
+            "Affordable options for sports drinks and enhanced waters",
+            "Popular flavors of sports drinks and enhanced waters",
+            "Sports drinks and enhanced waters for hydration"
+        ]
+    }
+]

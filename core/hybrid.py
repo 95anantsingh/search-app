@@ -3,7 +3,7 @@ from scipy.stats import gmean, hmean
 from sklearn.preprocessing import MinMaxScaler, normalize as l2_norm
 
 from .bm25 import BM25Search
-from .neural import SCORE_TYPES, NeuralSearch
+from .neural import NeuralSearch
 from .offers_db import OfferDBSession
 from .base_search import BaseSearch
 
@@ -13,12 +13,15 @@ MEAN_TYPES = ["Arithmetic", "Geometric", "Harmonic"]
 
 class HybridSearch(BaseSearch):
     def __init__(
-        self, model: str | None = None, session: OfferDBSession | None = None
+        self,
+        model: str | None = None,
+        score_type: str | None = None,
+        session: OfferDBSession | None = None,
     ) -> None:
         self._session = session if session else OfferDBSession()
         self.bm25 = BM25Search(session=session)
         self.neural = NeuralSearch(session=session)
-        self.load(model=model)
+        self.load(model=model, score_type=score_type)
 
     @property
     def session(self) -> OfferDBSession:
@@ -28,15 +31,14 @@ class HybridSearch(BaseSearch):
     def session(self, value: OfferDBSession) -> None:
         self._session = value
 
-    def load(self, model: str) -> None:
-        self.neural.load(model=model)
+    def load(self, model: str, score_type: str) -> None:
+        self.neural.load(model=model, score_type=score_type)
 
     def get_scores(
         self,
         query: str,
         mean_type=MEAN_TYPES[0],
-        normalize=True,
-        norm_type=NORM_TYPES[0]
+        norm_type: str | None = NORM_TYPES[0],
     ) -> DataFrame:
         bm25_scores = self.bm25.get_scores(query)
         bm25_scores["index"] = bm25_scores.index.values
@@ -47,18 +49,21 @@ class HybridSearch(BaseSearch):
         neural_scores.rename(columns={"SCORE": "NEURAL_SCORE"}, inplace=True)
         scores = bm25_scores.merge(neural_scores, on="index", how="left")
 
-        if normalize:
+        if norm_type:
             match norm_type:
                 case "L2":
-                    scores["BM25_SCORE"] = l2_norm(scores[["BM25_SCORE"]], norm="l2", axis=0)
+                    scores["BM25_SCORE"] = l2_norm(
+                        scores[["BM25_SCORE"]], norm="l2", axis=0
+                    )
                     scores["NEURAL_SCORE"] = l2_norm(
                         scores[["NEURAL_SCORE"]], norm="l2", axis=0
                     )
                 case "Min-Max":
                     scaler = MinMaxScaler()
-                    scores['BM25_SCORE'] = scaler.fit_transform(scores[['BM25_SCORE']])
-                    scores['NEURAL_SCORE'] = scaler.fit_transform(scores[['NEURAL_SCORE']])
-
+                    scores["BM25_SCORE"] = scaler.fit_transform(scores[["BM25_SCORE"]])
+                    scores["NEURAL_SCORE"] = scaler.fit_transform(
+                        scores[["NEURAL_SCORE"]]
+                    )
 
         match mean_type:
             case "Arithmetic":
@@ -77,9 +82,7 @@ class HybridSearch(BaseSearch):
         self,
         query: str,
         mean_type=MEAN_TYPES[0],
-        normalize=True,
-        norm_type=NORM_TYPES[0],
-        score_type=SCORE_TYPES[0],
+        norm_type:str | None =NORM_TYPES[0],
         top_k=50,
         threshold=0.05,
         dis_threshold=0.35,
@@ -87,7 +90,9 @@ class HybridSearch(BaseSearch):
         e_threshold=False,
         e_cluster=False,
     ) -> DataFrame:
-        scores = self.get_scores(query=query, mean_type=mean_type, normalize=normalize, norm_type=norm_type)
+        scores = self.get_scores(
+            query=query, mean_type=mean_type, norm_type=norm_type
+        )
 
         offers = self.get_offers(
             scores=scores,

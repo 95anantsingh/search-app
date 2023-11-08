@@ -6,3 +6,4 @@ ipywidgets
 streamlit
 sqlalchemy
 rank-bm25
+openai

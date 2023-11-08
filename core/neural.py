@@ -18,15 +18,17 @@ RETRIVAL_MODELS = [
     "msmarco-distilbert-base-v4",
     "msmarco-MiniLM-L-6-v3",
     "msmarco-MiniLM-L-12-v3",
+    "msmarco-distilbert-base-tas-b",
 ]
 
-SCORE_TYPES = ["Cosine Similarity"]
+SCORE_TYPES = ["Dot Product", "Cosine Similarity"]
 
 
 class NeuralSearch(BaseSearch):
     def __init__(
         self,
         model: str = RETRIVAL_MODELS[0],
+        score_type: str = SCORE_TYPES[0],
         session: OfferDBSession | None = None,
         cache: str = "models/neural",
     ) -> None:
@@ -35,8 +37,9 @@ class NeuralSearch(BaseSearch):
         self.retrieval_index_cache = None
         self.index = None
         self.model = None
+        self.score_type = None
         # os.makedirs(cache+"/retrieval", exist_ok=True)
-        self.load(model=model)
+        self.load(model=model, score_type=score_type)
 
     @property
     def session(self) -> OfferDBSession:
@@ -46,25 +49,30 @@ class NeuralSearch(BaseSearch):
     def session(self, value: OfferDBSession) -> None:
         self._session = value
 
-    def load(self, model: str) -> None:
+    def load(self, model: str, score_type: str) -> None:
         model = model if model else RETRIVAL_MODELS[0]
+        self.score_type = score_type if score_type else SCORE_TYPES[0]
         self.retrieval_index_cache = os.path.join(
-            self.cache, "retrieval", f"{model.split('/')[-1]}.index"
+            self.cache,
+            "retrieval",
+            f"{model.split('/')[-1]}_{''.join([w[0] for w in score_type.split(' ')])}.index",
         )
         self.model = SentenceTransformer(model)
         self.model.to(DEVICE)
         if os.path.exists(self.retrieval_index_cache):
-            # print("Loading Faiss index from file...")
             self.index = faiss.read_index(self.retrieval_index_cache)
         else:
             self.index = self.create_index()
 
     def create_index(self):
         targets = self.session.get_targets()
-        text_embeddings = self.model.encode(targets)
-        index = faiss.IndexFlatL2(text_embeddings.shape[1])
+        embeddings = self.model.encode(targets)
+        if self.score_type == 'Cosine Similarity':
+            faiss.normalize_L2(embeddings)
+        index = faiss.IndexFlatL2(embeddings.shape[1])
         index.metric_type = faiss.METRIC_INNER_PRODUCT
-        index.add(text_embeddings)  # pylint: disable=no-value-for-parameter
+
+        index.add(embeddings)  # pylint: disable=no-value-for-parameter
         faiss.write_index(index, self.retrieval_index_cache)
 
         return index
@@ -72,7 +80,8 @@ class NeuralSearch(BaseSearch):
     def get_scores(self, query: str) -> DataFrame:
         # Calculate the embedding
         embedding = self.model.encode(query.lower()).reshape(1, -1)
-
+        if self.score_type == 'Cosine Similarity':
+            faiss.normalize_L2(embedding)
         # Calculate similarity between user input and each offer
         scores, indices = self.index.search(embedding, self.index.ntotal)
 
