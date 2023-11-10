@@ -107,6 +107,20 @@ Project report can be found [here](https://github.com/95anantsingh/search-app/bl
 
 <br>
 
+## 👩🏻‍💻 UML Diagrams
+
+The pacakge `core` has the main code of this app. UML diagrams are shown below.
+
+#### 1. Core Package
+
+![package](pages/images/packages.png)
+
+#### 2. Classes
+![classes](pages/images/classes.png)
+
+
+<br>
+
 ## 📧 Contact
 
 If you have any question, please email [`anant.singh@nyu.edu`](mailto:anant.singh@nyu.edu)

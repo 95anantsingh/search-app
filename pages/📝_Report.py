@@ -21,7 +21,7 @@ def img_to_bytes(img_path):
 
 def img_to_html(img_path, img_alt):
     img_format = img_path.split(".")[-1]
-    img_html = f'<div style="text-align: center;"><img src="data:{img_format.lower()};base64,{img_to_bytes(img_path)}" alt="{img_alt}" style="max-width: 85%;"></div><div style="text-align: left;"></div><br>'
+    img_html = f'<div style="text-align: center;"><img src="data:{img_format.lower()};base64,{img_to_bytes(img_path)}" alt="{img_alt}" style="max-width: 90%;"></div><div style="text-align: left;"></div><br>'
 
     return img_html
 
