@@ -1,7 +1,10 @@
+<!-- Header Start -->
 <div align="center">
-    <div style="font-size:3rem; font-weight:600">Offer Search App</div>
-    <div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 0.7rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div>
+
+# Offer Search App
+
 </div>
+<!-- Header End -->
 
 <div align="center">
 
@@ -89,7 +92,7 @@ Project report can be found [here](https://github.com/95anantsingh/search-app/bl
 | └─ raw                        | Raw data files                         |
 | notebooks                     | Jupyter Notebook files                 |
 | ├─ eval.ipynb                 | Evaluation notebook                    |
-| ├─ queries.ipynb              | Quer Generation notebook               |
+| ├─ queries.ipynb              | Query Generation notebook              |
 | └─ search_exp.ipynb           | Search experiment Notebook             |
 | vectors                       | Vector Database files                  |
 | ├─ bm25                       | BM25 model files                       |
@@ -100,10 +103,10 @@ Project report can be found [here](https://github.com/95anantsingh/search-app/bl
 | 🔍_Search.py                  | Streamlit App File                     |
 | env.yml                       | Environment configuration file         |
 | README.md                     | Repository README file                 |
-| requirements.txt              | Python package requirements             |
+| requirements.txt              | Python package requirements            |
 
 <br>
 
 ## 📧 Contact
 
-If you have any question, please email `anant.singh@nyu.edu`
+If you have any question, please email [`anant.singh@nyu.edu`](mailto:anant.singh@nyu.edu)

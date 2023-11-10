@@ -15,7 +15,7 @@ elif torch.cuda.is_available():
 else:
     DEVICE = torch.device("cpu")
 
-RETRIVAL_MODELS = [
+RETRIEVAL_MODELS = [
     "msmarco-distilbert-base-tas-b",
     "msmarco-distilbert-base-v4",
     "msmarco-MiniLM-L-6-v3",
@@ -35,7 +35,7 @@ class NeuralSearch(BaseSearch):
     A class for implementing neural search using pre-trained sentence embeddings.
 
     Args:
-    - model (str, optional): The name or identifier of the retrieval model to use. Defaults to the first model in RETRIVAL_MODELS.
+    - model (str, optional): The name or identifier of the retrieval model to use. Defaults to the first model in RETRIEVAL_MODELS.
     - score_type (str, optional): The type of similarity scoring to use. Defaults to "Dot Product".
     - session (OfferDBSession, optional): An optional OfferDBSession for database interaction. Defaults to None, creating a new session if not provided.
     - cache (str, optional): The path to the cache directory for storing retrieval indices. Defaults to "vectors/neural".
@@ -56,7 +56,7 @@ class NeuralSearch(BaseSearch):
 
     def __init__(
         self,
-        model: str = RETRIVAL_MODELS[0],
+        model: str = RETRIEVAL_MODELS[0],
         score_type: str = SCORE_TYPES[0],
         session: OfferDBSession | None = None,
         cache: str = "vectors/neural",
@@ -65,7 +65,7 @@ class NeuralSearch(BaseSearch):
         Initialize a NeuralSearch instance with the specified parameters.
 
         Args:
-        - model (str, optional): The name or identifier of the retrieval model to use. Defaults to the first model in RETRIVAL_MODELS.
+        - model (str, optional): The name or identifier of the retrieval model to use. Defaults to the first model in RETRIEVAL_MODELS.
         - score_type (str, optional): The type of similarity scoring to use. Defaults to "Dot Product".
         - session (OfferDBSession, optional): An optional OfferDBSession for database interaction. Defaults to None, creating a new session if not provided.
         - cache (str, optional): The path to the cache directory for storing retrieval indices. Defaults to "vectors/neural".
@@ -107,7 +107,7 @@ class NeuralSearch(BaseSearch):
         - model (str): The name or identifier of the retrieval model to use.
         - score_type (str): The type of similarity scoring to use.
         """
-        model = model if model else RETRIVAL_MODELS[0]
+        model = model if model else RETRIEVAL_MODELS[0]
         self.score_type = score_type if score_type else SCORE_TYPES[0]
         self.retrieval_index_cache = os.path.join(
             self.cache,

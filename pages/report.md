@@ -1,7 +1,12 @@
+<!-- Header Start -->
 <div align="center">
-    <div style="font-size:3rem; font-weight:600">Report</div>
-    <div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 2rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div>
+
+# Report
+
 </div>
+<!-- Header End -->
+
+<br>
 
 ## Outline
 
@@ -126,7 +131,6 @@ To measure the similarity between user input and offers, I employed two metrics:
     $$\text{Dot Product (A, B)} = \ A \cdot B$$
 
 1. **Cosine Similarity**:
-    <!-- - Cosine similarity is a commonly used metric for measuring the similarity between two vectors, and it is particularly effective for text data. It calculates the cosine of the angle between the vectors in a high-dimensional space. -->
     - Cosine similarity values range from -1 (completely dissimilar) to 1 (completely similar), with 0 indicating orthogonality (no similarity). It's a widely adopted metric for comparing the direction of vectors, making it well-suited for text similarity.
 
     $$\text{Cosine Similarity (A, B)} = \frac{A \cdot B}{\sqrt{A^2} \cdot \sqrt{B^2}}$$
@@ -300,11 +304,11 @@ I evaluated the results of Hybrid Search by combining neural models with the BM2
 
 | Mean Type          | Norm Type    | Score Type           | Score   |
 |--------------------|--------------|----------------------|---------|
-| **Arithmetic**     | **None**     | **Dot Product**      | **0.9444**  |
+| Arithmetic         | None         | Dot Product          | 0.9444  |
 | Arithmetic         | None         | Cosine Similarity    | 0.9384  |
 | Arithmetic         | L2           | Dot Product          | 0.9397  |
 | Arithmetic         | L2           | Cosine Similarity    | 0.9384  |
-| Arithmetic         | Min-Max      | Dot Product          | 0.9459  |
+| **Arithmetic**     | **Min-Max**  | **Dot Product**      | **0.9459** |
 | Arithmetic         | Min-Max      | Cosine Similarity    | 0.9341  |
 | Geometric          | None         | Dot Product          | 0.9057  |
 | Geometric          | None         | Cosine Similarity    | 0.9038  |
@@ -318,6 +322,10 @@ I evaluated the results of Hybrid Search by combining neural models with the BM2
 | Harmonic           | L2           | Cosine Similarity    | 0.9055  |
 | Harmonic           | Min-Max      | Dot Product          | 0.9127  |
 | Harmonic           | Min-Max      | Cosine Similarity    | 0.9054  |
+
+<br>
+
+> Results for all models can be found in `notebooks/eval.ipynb`.
 
 <br>
 
@@ -348,7 +356,7 @@ After extensive experimentation and evaluation, the following conclusions were d
 - When a query consists solely of keywords, BM25 and TF-IDF tend to outperform neural retrievers.
 - Queries that contain natural language and potentially include typos are better served by neural retrievers over BM25 and TF-IDF.
 - The optimal combination method for the search models was found to be arithmetic, which yielded the best results.
-- Normalizing the scores had a detrimental effect on performance, indicating that certain models inherently possess different weights or importance.
+- Noramlaizing the scores before comibing them resulted better performance.
 - The choice of scoring type proved crucial, with some models performing optimally with the scoring method they were initially trained on.
 
 <br>

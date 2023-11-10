@@ -40,6 +40,19 @@ def markdown_insert_images(markdown):
     return markdown
 
 
+# Function to replace the header content
+def replace_header(match):
+    original_header = match.group(0)
+    actual_heading = re.search(r"# (.*?)\n", original_header).group(1)
+    replacement = '<div align="center">\n'
+    replacement += (
+        f'    <div style="font-size:3rem; font-weight:600">{actual_heading}</div>\n'
+    )
+    replacement += '    <div color="#3d9df3" style="border-radius: 3px; border:none; background-color: rgb(61, 157, 243); width:100%; margin-top: 0.5rem; margin-bottom: 2rem; font-size:0.1rem; color:background-color: rgb(61, 157, 243);">.</div>\n'
+    replacement += "</div>\n"
+    return replacement
+
+
 def main() -> None:
     ####################
     # Config
@@ -53,6 +66,14 @@ def main() -> None:
 
     with open("./pages/report.md", "r", encoding="utf8") as file:
         page = file.read()
+
+    # Replace the header
+    page = re.sub(
+        r"<!-- Header Start -->(.*?)<!-- Header End -->",
+        replace_header,
+        page,
+        flags=re.DOTALL,
+    )
 
     page = markdown_insert_images(page)
 

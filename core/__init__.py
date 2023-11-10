@@ -18,5 +18,5 @@ from .data_processor import create_db
 from .offers_db import OfferDBSession, OffersTable
 from .tfidf import TFIDFSearch
 from .bm25 import BM25Search
-from .neural import NeuralSearch, RETRIVAL_MODELS, SCORE_TYPES
+from .neural import NeuralSearch, RETRIEVAL_MODELS, SCORE_TYPES
 from .hybrid import HybridSearch, MEAN_TYPES, NORM_TYPES

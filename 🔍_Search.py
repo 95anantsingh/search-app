@@ -4,7 +4,7 @@ from core import (
     BM25Search,
     NeuralSearch,
     HybridSearch,
-    RETRIVAL_MODELS,
+    RETRIEVAL_MODELS,
     MEAN_TYPES,
     NORM_TYPES,
     SCORE_TYPES,
@@ -50,7 +50,7 @@ def main():
                         st.subheader("Model")
                         model = st.radio(
                             "Model",
-                            RETRIVAL_MODELS,
+                            RETRIEVAL_MODELS,
                             label_visibility="collapsed",
                             horizontal=False,
                         )
@@ -66,7 +66,7 @@ def main():
                         st.subheader("Neural Model")
                         model = st.radio(
                             "Model",
-                            RETRIVAL_MODELS,
+                            RETRIEVAL_MODELS,
                             label_visibility="collapsed",
                             horizontal=False,
                         )
