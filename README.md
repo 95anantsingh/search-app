@@ -41,6 +41,7 @@
 1. Download NLTK Data
 
     ```bash
+    conda activate search
     python -m nltk.downloader punkt stopwords
     ```
 
